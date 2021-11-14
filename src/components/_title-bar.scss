@@ -1,0 +1,76 @@
+[class*="strikethrough-"] {
+  color: var(--color3);
+}
+
+[class*="children-"] {
+  [class*="tabBar-"] {
+    [class*="item-"] {
+      border-radius: 8px;
+    }
+  }
+  [class*="iconWrapper-"] {
+    [class*="icon-"] {
+      color: var(--interactive-hover);
+    }
+  }
+  [aria-label="Add Friend"] {
+    color: var(--text-alt)!important;
+    &:hover {
+      filter: brightness(0.9);
+    }
+  }
+}
+
+a[href="https://support.discord.com"] {
+  [class*="iconWrapper-"] {
+    svg {
+      color: var(--color5);
+    }
+    &:hover {
+      svg {
+        color: var(--color5);
+        filter: brightness(0.9);
+      }
+    }
+  }
+}
+
+[class*="toolbar-"] {
+  [class*="iconWrapper-"] {
+    span[class*="iconBadge-"] {
+      background-color: var(--color3);
+    }
+  }
+}
+
+section[class*="title-"] {
+  [class*="children-"] {
+    [class*="topic-"] {
+      color: rgba(230, 230, 230, 08);
+    }
+  }
+}
+
+[class*="inviteToolbar-"] {
+  [class*="divider-"] {
+    background-color: var(--text-muted);
+  }
+}
+
+[class*="toolbar-"] {
+  [class*="search-"] {
+    [class*="search-"] {
+      [class*="searchBar-"] {
+        border-radius: 8px;
+        border: 1px solid rgba(230, 230, 230, 0.03);
+        [class*="icon-"] {
+          [class*="iconContainer-"] {
+            svg {
+              color: var(--interactive-active);
+            }
+          }
+        }
+      }
+    }
+  }
+}
