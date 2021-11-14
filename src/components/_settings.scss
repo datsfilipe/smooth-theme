@@ -25,6 +25,10 @@
   }
 }
 
+.bd-controls>.bd-addon-button svg {
+  fill: var(--text-alt);
+}
+
 [class*="changelogNotice-"] {
   [class*="info-"] {
     [class*="colorStandard-"] {
