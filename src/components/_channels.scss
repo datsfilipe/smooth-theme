@@ -1,0 +1,50 @@
+.lowerBadge-29hYVK {
+  .numberBadge-2s8kKX {
+    font-family: var(--font-display);
+    color: var(--text-alt);
+    background-color: var(--color4)!important;
+  }
+}
+
+[class*="wrapper-"] {
+  &[aria-label*="Home"] {
+    [class*="childWrapper-"] {
+      background-color: rgba(230, 230, 230, 0.06);
+      color: var(--interactive-normal);
+    }
+    &[class*="selected-"] {
+      [class*="childWrapper-"] {
+        background-color: var(--interactive-normal);
+        color: var(--background-accent);
+      }
+    }
+    &:hover {
+      [class*="childWrapper-"] {
+        background-color: var(--interactive-normal);
+        color: var(--background-accent);
+      }
+    }
+  }
+}
+
+[class*="folderIconWrapper-"] {
+  background-color: rgba(230, 230, 230, 0.06)!important;
+}
+
+[class*="expandedFolderBackground-"] {
+  background-color: rgba(230, 230, 230, 0.06);
+  filter: brightness(0.8);
+}
+
+[id="bd-pub-li"] {
+  display: none;
+}
+
+[class*="circleIconButton-"] {
+  background-color: rgba(230, 230, 230, 0.06);
+  color: var(--interactive-normal);
+  &[class*="selected-"] {
+    color: var(--interactive-normal);
+    background-color: rgba(230, 230, 230, 0.06);
+  }
+}
