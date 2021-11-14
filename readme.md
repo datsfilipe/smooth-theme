@@ -1,0 +1,39 @@
+<h1 align="center">
+Black & White
+</h1>
+
+<p align="center">
+  <a href="https://opensource.org/licenses/BSD-3-Clause">
+    <img src="https://img.shields.io/github/license/datsfilipe/browser-home?color=%237159c1&logo=mit" alt="License">
+  </a>
+</p>
+
+# Installation
+
+Download the theme navigating to [here](#) and pressing `ctrl + s` or `cmd + s`.
+
+# Preview
+
+##### **Home**
+
+<p>
+  <img src="./assets/img/print-home-screen.png" alt="Home" width="800" />
+</p>
+
+##### **Server Lobby**
+
+<p>
+  <img src="./assets/img/print-server-hub.png" alt="Server Lobby" width="800" />
+</p>
+
+##### **Settings Screen**
+
+<p>
+  <img src="./assets/img/print-settings-screen.png" alt="Settings Screen" width="800" />
+</p>
+
+##### **Server Settings Screen**
+
+<p>
+  <img src="./assets/img/print-server-settings-screen.png" alt="Server Settings Screen" width="800" />
+</p>
