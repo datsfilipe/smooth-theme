@@ -364,11 +364,18 @@ label[for*="uid_210"] {
   color: var(--text-muted);
 }
 
-.shinyButton-3uFlM- {
-  &.marginTop16-2lS7Su {
+[class*="theme-dark"] {
+  .shinyButton-3uFlM- {
     &.sizeMedium-1AC_Sl {
       background-color: var(--color11)!important;
       color: var(--text-alt)!important;
+    }
+    &.sizeMedium-11AC_Sl {
+      background-color: var(--color11)!important;
+      color: var(--text-alt)!important;
+      &:hover {
+        background-color: var(--color11)!important;
+      }
     }
   }
 }
