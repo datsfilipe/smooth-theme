@@ -1,0 +1,294 @@
+[class*="sidebar-"] {
+  background: var(--background-spacing);
+  padding: 10px 10px 10px 10px;
+  section[class*="panels-"] {
+    margin-top: 10px;
+    border-radius: 12px;
+    &:hover {
+      [class*="subtext-"] {
+        color: hsla(240, 9%, 89%, 1);
+      }
+    }
+  }
+  [class*="container-"] {
+    border-radius: 12px;
+    [class*="animatedContainer-"] {
+      border-radius: 12px 12px 0 0;
+    }
+    [class*="headerChildren-"] {
+      color: var(--header-primary);
+    }
+  }
+}
+
+.scroller-RmtA4e {
+  border-radius: 0 0 12px 12px;
+}
+
+.chat-3bRxxu, .threadSidebar-1o3BTy {
+  background-color: var(--background-spacing);
+}
+
+[class*="container-2wlB3z"] {
+  height: calc(100% - 20px);
+  border-radius: 12px;
+  margin: 10px 10px 10px 0;
+  [class*="membersWrap-"] {
+    margin: 5px;
+    [class*="members-"] {
+      margin-bottom: 12px;
+    }
+  }
+}
+
+[class*="sidebar-"] [class*="layout-"] {
+  margin-right: 6px;
+  margin-left: 0px;
+  padding-left: 6px !important;
+  height: 36px;
+  margin-top: 4px;
+  margin-bottom: 4px;
+}
+
+[class*="privateChannels-"] {
+  border-radius: 12px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: transparent!important;
+  &:hover {
+    background-color: var(--scrollbar-auto-track)!important;
+  }
+}
+
+[class*="homeWrapperNormal-"] {
+  background-color: var(--background-spacing);
+  [class*="scroller-"] {
+    border: 1px solid var(--background-secondary);
+    background-color: var(--background-primary);
+    margin: 10px 10px 10px 0;
+    border-radius: 12px;
+  }
+}
+
+[class*="pageContent-"] {
+  background-color: var(--background-spacing);
+  [class*="stageSection-"] {
+    border: 1px solid var(--background-secondary);
+    background-color: var(--background-primary);
+    margin: 16px 16px 16px 10px;
+    border-radius: 12px;
+  }
+  [class*="nowPlayingSidebar-"] {
+    background-color: var(--background-spacing);
+    [class*="container-"] {
+      background: var(--background-secondary);
+      height: 90vh;
+      margin: 10px;
+      border-radius: 12px;
+    }
+    [class*="emptyCard-"] {
+      background: var(--background-secondary);
+    }
+  }
+}
+
+[class*="chatContent-"] {
+  background-color: var(--background-spacing);
+  [class*="messagesWrapper-"] {
+    padding: 4px;
+    [class*="scroller-"] {
+      background-color: var(--background-primary);
+      margin: 10px 10px 10px 0;
+      border: 1px solid rgba(230, 230, 230, 0.05);
+      border-radius: 12px!important;
+    }
+  }
+  [class*="form-"] {
+    &::before {
+      display: none;
+    }
+  }
+}
+
+[class*="notice-2X5hT5"] {
+  border-radius: 8px;
+  margin: 10px 10px 0 10px;
+}
+
+[class*="channelTextArea-"] {
+  background-color: transparent;
+  border-radius: 12px;
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: auto;
+  [class*="attachedBars-"] {
+    background-color: var(--background-secondary-alt);
+    border-bottom: 1px solid var(--line-highlight);
+    [class*="replyBar-"] {
+      background-color: var(--background-secondary-alt);
+    }
+  }
+  [class*="scrollableContainer-"] {
+    padding: 4px 0 4px 0;
+    border-radius: 12px;
+    background-color: var(--background-secondary-alt);
+    &[class*="hasConnectedBar-"] {
+      border-radius: 0px 0px 12px 12px;
+    }
+  }
+  &[class*="channelTextAreaDisabled-"] {
+    [class*="scrollableContainer-"] {
+      opacity: .8;
+    }
+  }
+}
+
+[class*="typing-"] {
+  grid-row: 1;
+  position: relative;
+  font-size: .9rem;
+  font-family: var(--font-display);
+  text-align: center;
+  margin: 6px 6px -4px 4px;
+  height: 14px;
+  left: 0;
+  color: var(--text-muted);
+}
+
+.dots-3Bkt3k.themed-IQiCm3 {
+  color: var(--text-muted);
+}
+
+.slowModeIcon-1BPDC_ {
+  g {
+    path {
+      fill: var(--text-muted);
+    }
+  }
+}
+
+.wrapper-39oAo3 {
+  border-radius: 12px;
+  width: 100%;
+  margin-bottom: 10px;
+  margin-top: 6px;
+}
+
+.form-2fGMdU {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto auto;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 0;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  >div {
+    [class*="wrapper-"] {
+      margin: 9px 0 0 0;
+      background-color: var(--background-secondary);
+    }
+  }
+  [aria-controls*="popout_8624"] {
+    grid-row: 2;
+  }
+  .cooldownWrapper-3joyFc {
+    color: var(--interactive-hover)!important;
+  }
+}
+
+section[class*="headerBar-"] {
+  background: var(--background-spacing);
+  padding: 0 10px 0 0;
+  [class*="children"] {
+    background-color: var(--background-secondary);
+    margin: 13px 10px 0 2px;
+    border-radius: 12px!important;
+    padding: .6rem;
+    &::after {
+      display: none;
+    }
+    [class*="toolbar-"] {
+      padding: .6rem;
+      background-color: var(--background-secondary);
+      margin: 13px 2px 0 0;
+      border-radius: 0 12px 12px 0;
+    }
+  }
+}
+
+[class*="base-"] {
+  [class*="content-"] {
+    section[class*="container-"] {
+      background: var(--background-spacing);
+      padding: 0 10px 0 0;
+      [class*="children"] {
+        background-color: var(--background-secondary-alt);
+        margin: 10px 0 0 0;
+        border-radius: 12px 0 0 12px;
+        padding: .6rem;
+        &::after {
+          display: none;
+        }
+      }
+      [class*="toolbar-"] {
+        padding: .6rem;
+        background-color: var(--background-secondary-alt);
+        margin: 10px 2px 0 0;
+        border-radius: 0 12px 12px 0;
+      }
+    }
+  }
+}
+
+[class*="nowPlayingColumn-"] {
+  background-color: transparent;
+  [class*="container-"] {
+    background: var(--background-secondary);
+    height: calc(100% - 20px);
+    margin: 10px;
+    border-radius: 12px;
+    [class*="emptyCard-"] {
+      background: transparent;
+    }
+  }
+}
+
+.scroller-2ZPeAD {
+  border: none;
+}
+
+.bg-h5JY_x {
+  background-color: transparent;
+}
+
+.app-2rEoOp {
+  background-color: var(--background-spacing);
+}
+
+.animatedContainer-1NSq4T {
+  background-color: transparent;
+}
+
+.header-2V-4Sw {
+  border-radius: 12px 12px 0 0;
+}
+
+[class*="app-"] {
+  [class*="layers-"] {
+    nav {
+      &[class*="wrapper-3NnKdC"] {
+        border-radius: 12px;
+        &[class*="guilds-"] {
+          margin: 10px 0 10px 10px;
+          >ul {
+            [class*="scroller-"] {
+              background: var(--background-secondary-alt);
+            }
+          }
+        }
+      }
+    }
+  }
+}
