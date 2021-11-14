@@ -81,6 +81,10 @@
   }
 }
 
+.replyBar-1YLQ2F {
+  border-bottom: 1px solid rgba(230, 230, 230, 0.06);
+}
+
 [class*="sprite-"] {
   filter: grayscale(50%)!important;
 }
@@ -192,7 +196,7 @@
     left: 10px;
   }
   &:active {
-    margin-bottom: 14px;
+    margin-bottom: 18px;
     padding: 2px;
     position: absolute;
   }
