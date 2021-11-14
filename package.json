@@ -1,0 +1,17 @@
+{
+  "name": "black-and-white",
+  "version": "0.8.0",
+  "author": "datsfilipe <datsfilipe@gmail.com>",
+  "description": "Simplicity in two colors, the best theme for you.",
+  "maintainers": [
+    "Filipe Lima <datsfilipe@gmail.com>"
+  ],
+  "scripts": {
+    "dev": "nodemon -e scss -x node-sass src/index.scss ~/.config/BetterDiscord/data/stable/custom.css --output-style compressed",
+    "build": "node-sass src/index.scss src/theme/source.css --output-style compressed"
+  },
+  "devDependencies": {
+    "node-sass": "^6.0.1",
+    "nodemon": "^2.0.12"
+  }
+}
