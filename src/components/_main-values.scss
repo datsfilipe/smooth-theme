@@ -1,0 +1,352 @@
+:root {
+  --font-primary: 'Inter', sans-serif;
+  --font-display: 'Open Sans', sans-serif;
+  --font-code: 'Source Code Pro', monospace;
+  --font-headline: 'Poppins', sans-serif;
+}
+
+[class*="theme-dark"], [class*="theme-light"] {
+  --header-primary: #ffffff;
+  --header-secondary: #e6e6e6;
+  --text-normal: #ffffff;
+  --text-muted: #909090;
+  --text-link: var(--color11);
+  --text-link-low-saturation: #e6e6e6;
+  --text-positive: var(--color11);
+  --text-warning: var(--color5);
+  --text-danger: var(--color3);
+  --text-brand: #ffffff;
+  --text-alt: #151515;
+  --interactive-normal: #ffffff;
+  --interactive-hover: #e6e6e6;
+  --interactive-active: #d1d1d1;
+  --interactive-muted: #909090;
+  --background-primary: #202020;
+  --background-secondary: #1b1b1b;
+  --background-secondary-alt: #191919;
+  --background-tertiary: #151515;
+  --background-accent: #202020;
+  --background-floating: #1b1b1b;
+  --background-mobile-primary: #202020;
+  --background-mobile-secondary: #1b1b1b;
+  --background-modifier-hover: rgba(230, 230, 230, 0.1);
+  --background-modifier-active: rgba(230, 230, 230, 0.7);
+  --background-modifier-selected: rgba(230, 230, 230,1);
+  --background-modifier-accent: rgba(230, 230, 230, 0.2);
+  --info-positive-text: #e6e6e6;
+  --info-warning-text: #e6e6e6;
+  --info-danger-text: #e6e6e6;
+  --info-help-background: #202020;
+  --info-help-foreground: #e6e6e6;
+  --info-help-text: #ffffff;
+  --status-warning-text: var(--color5);
+  --scrollbar-thin-thumb: #ffffff;
+  --scrollbar-thin-track: transparent;
+  --scrollbar-auto-thumb: #ffffff;
+  --scrollbar-auto-track: rgba(230, 230, 230, 0.06);
+  --scrollbar-auto-scrollbar-color-thumb: #ffffff;
+  --scrollbar-auto-scrollbar-color-track: transparent;
+  --elevation-stroke: 0 0 0 1px rgba(230, 230, 230, 0.06);
+  --elevation-low: rgba(230, 230, 230, 0.05);
+  --elevation-medium: 0 4px 4px rgba(230, 230, 230, 0.07);
+  --elevation-high: 0 8px 16px rgba(230, 230, 230, 0.09);
+  --logo-primary: #ffffff;
+  --control-brand-foreground: #e6e6e6;
+  --control-brand-foreground-new: #e6e6e6;
+  --background-mentioned: rgba(230, 230, 230,0.03);
+  --background-mentioned-hover: rgba(230, 230, 230,0.09);
+  --background-message-hover: rgba(230, 230, 230,0.03);
+  --channels-default: var(--color8);
+  --guild-header-text-shadow:  0 1px 1px rgba(230, 230, 230,0.04);
+  --channeltextarea-background: #1b1b1b;
+  --activity-card-background: #1b1b1b;
+  --textbox-markdown-syntax: #909090;
+  --deprecated-card-bg: #1b1b1b;
+  --deprecated-card-editable-bg: #151515;
+  --deprecated-store-bg: #1b1b1b;
+  --deprecated-quickswitcher-input-background: var(--color2);
+  --background-spacing: #252525;
+  --deprecated-quickswitcher-input-placeholder: ;
+  --deprecated-text-input-bg: #1b1b1b;
+  --deprecated-text-input-border: var(--color7);
+  --deprecated-text-input-border-hover: #191919;
+  --deprecated-text-input-border-disabled: #1b1b1b;
+  --deprecated-text-input-prefix: #909090;
+  --message-text-color: #e6e6e6;
+  --info-warning-foreground: #e6e6e6;
+
+  .wrapper-3WhCwL {
+    background: var(--brand-experiment-30a);
+    color: var(--brand-experiment-200);
+  }
+  .spoilerText-3p6IlD.hidden-HHr2R9 {
+    background-color: var(--text-muted);
+    &:hover {
+      background-color: var(--text-muted);
+    }
+  }
+  .subscribeTooltipWrapper-1JoUuw {
+    background-color: var(--background-tertiary);
+  }
+  [class*="searchBox-"] {
+    background-color: var(--background-tertiary);
+  }
+  [class*="colorStandard-2KCXvj"] {
+    &[class*="size16-1P40sf"] {
+      &[class*="checkboxText-20IXco"] {
+        background: transparent!important;
+      }
+    }
+  }
+  .streamPreview-2-WUWT {
+    background-color: var(--background-secondary);
+    border-radius: 12px;
+    border: 1px solid var(--text-muted);
+  }
+  .watchButton-2SbJEo {
+    border-color: var(--text-muted);
+    color: var(--text-brand);
+  }
+  div[class*="protip-3-"] {
+    h3 {
+      color: var(--text-muted)!important;
+    }
+    div[class*="colorStandard-"] {
+      color: var(--text-brand)!important;
+    }
+  }
+  .outer-1AjyKL.active-1xchHY, .outer-1AjyKL.interactive-3B9GmY:hover {
+    background-color: rgba(230, 230, 230, 0.06);
+  }
+  .addGamePopout-2RY8Ju {
+    background-color: var(--background-floating);
+  }
+  .lookFilled-1Gx00P.colorGrey-2DXtkV:disabled {
+    background-color: var(--color11)!important;
+    filter: brightness(0.4);
+  }
+  [class*="footer-"] {
+    background-color: var(--background-secondary);
+    border-color: var(--color6);
+  }
+  [class*="root-"] {
+    background-color: var(--background-secondary-alt);
+    [class*="container-"] {
+      background-color: var(--background-primary)!important;
+    }
+  }
+  [class*="bodyInnerWrapper-"] {
+    [class*="root-"] {
+      background-color: var(--background-secondary-alt)!important;
+    }
+  }
+  [class*="addButtonIcon-"] {
+    path {
+      fill: var(--color6);
+    }
+  }
+  [class*="actionButton-"] {
+    &[class*="highlight-"] {
+      background-color: var(--background-primary)
+    }
+  }
+  [class*="pageWrapper-"] {
+    background-color: var(--background-primary);
+  }
+  .bar-2Qqk5Z {
+    background: rgba(230, 230, 230, 0.06);
+  }
+  .userSettingsVoice-iwdUCU .previewOverlay-2O7_KC {
+    background-color: var(--background-floating);
+    border-color: var(--interactive-active);
+    border-radius: 8px;
+  }
+  .notDetected-33MY4s {
+    background-color: rgba(230, 230, 230, 0.06);
+    border-radius: 8px;
+  }
+  .nowPlaying-284llR {
+    background-color: var(--interactive-hover);
+    border-radius: 8px;
+    [class*="gameNameLastPlayed-"] {
+      input {
+        width: 60%;
+        font-family: var(--font-primary);
+        font-weight: bold;
+        color: var(--text-alt);
+      }
+      input:active {
+        background-color: rgba(230, 230, 230, 0.06);
+      }
+      input:hover {
+        background-color: rgba(230, 230, 230, 0.06);
+        opacity: 0.9;
+      }
+      div {
+        font-family: var(--font-headline);
+        letter-spacing: 1px;
+        line-height: 18px;
+        color: var(--text-alt);
+        opacity: 0.9;
+      }
+    }
+  }
+  .applicationCommandEducation-2jAJ0B {
+    display: none;
+  }
+  .gameNameInput-385LoS:hover, .gameNameInput-385LoS:focus {
+    background-color: rgba(230, 230, 230, 0.06);
+  }
+  [class*="keybindShortcut-"] {
+    color: var(--text-alt)!important;
+  }
+  [class*="codeRedemptionRedirect-"] {
+    background-color: var(--background-mentioned-hover);
+    color: var(--text-normal);
+  }
+  [class*="lookFilled-"] {
+    &[class*="colorPrimary-"] {
+      background-color: var(--color6);
+      &:hover {
+        background-color: var(--interactive-normal)!important;
+      }
+    }
+  }
+  [class*="defaultIndicator-"] {
+    font-size: .8rem;
+    padding: 3px;
+    font-family: var(--font-headline);
+    letter-spacing: 1px;
+    color: var(--text-alt);
+    background-color: var(--interactive-active);
+  }
+  [class*="lookFilled-"] {
+    border-radius: 8px;
+    &[class*="colorGrey-"] {
+      background-color: var(--interactive-normal);
+      &:hover {
+        background-color: var(--interactive-active)!important;
+        filter: brightness(0.9);
+      }
+    }
+  }
+  [class*="lookOutlined-"] {
+    border-radius: 6px;
+  }
+  button[class*="lookOutlined-"] {
+    &[class*="colorRed-"] {
+      color: var(--color3);
+      border-color: var(--color3);
+      &:hover {
+        border-color: var(--color4)!important;
+        color: var(--color4)!important;
+        filter: brightness(0.9);
+      }
+    }
+  }
+  button[class*="lookFilled-"] {
+    &[class*="colorRed-"] {
+      background-color: var(--color3);
+      &:hover {
+        background-color: var(--color4)!important;
+        filter: brightness(0.9);
+      }
+    }
+  }
+  .lookFilled-1Gx00P.colorBrand-3pXr91:disabled {
+    background-color: var(--color11);
+    color: var(--text-alt)!important;
+    &:hover {
+      background-color: var(--color11)!important;
+      filter: brightness(0.6);
+    }
+  }
+  [class*="lookInverted-"] {
+    &[class*="colorBrand-"] {
+      color: var(--text-normal);
+      background: var(--background-accent);
+      &:hover {
+        opacity: 0.9;
+      }
+    }
+  }
+  button[class*="lookFilled-"] {
+    &[class*="colorBrand-"] {
+      color: var(--text-alt)!important;
+      background-color: var(--color11);
+      &:hover {
+        background-color: var(--color11)!important;
+        filter: brightness(0.9);
+      }
+    }
+  }
+  [class*="lookFilled-"] [class*="colorGreen-"] {
+    background-color: var(--color3);
+  }
+}
+
+[class*="theme-dark"], [class*="theme-light"] {
+  --info-positive-background: var(--color11);
+  --info-positive-foreground: var(--color6);
+  --info-warning-background: var(--color5);
+  --info-warning-foreground: var(--color6);
+  --info-danger-background: var(--color3);
+  --info-danger-foreground: var(--color6);
+  --status-positive-background: var(--color11);
+  --status-positive-text: var(--color6);
+  --status-warning-background: var(--color5);
+  --status-danger-background: var(--color3);
+  --status-danger-text: var(--color6);
+  --focus-primary: var(--background-modifier-hover);
+}
+
+
+[data-popout-root], html {
+  --brand-experiment: #ffffff;
+  --brand-experiment-200: #151515;
+  --brand-experiment-560: var(--background-modifier-hover);
+  --brand-experiment-30a: #ffffff;
+  --brand-experiment-400: #909090;
+  --brand-experiment-600: var(--color3);
+  --brand-experiment-15a: #151515;
+  --brand-experiment-800: rgba(250,250,250,0.2);
+  --brand-experiment-05a: var(--background-modifier-hover);
+  --brand-experiment-10a: var(--background-modifier-hover);
+  --brand-experiment-100: #202020;
+  --brand-experiment-500: var(--background-modifier-hover);
+  --brand-experiment-160: #151515;
+  --brand-experiment-530: #ffffff;
+  --brand-experiment-360: var(--color3);
+
+  /* if you find something RED, report a issue in GitHub, that's a way for me to discover where these colors are being applied */
+  --brand-experiment-130: red;
+  --brand-experiment-230: red;
+  --brand-experiment-260: red;
+  --brand-experiment-300: red;
+  --brand-experiment-330: red;
+  --brand-experiment-430: red;
+  --brand-experiment-460: red;
+  --brand-experiment-630: red;
+  --brand-experiment-660: red;
+  --brand-experiment-700: red;
+  --brand-experiment-730: red;
+  --brand-experiment-760: red;
+  --brand-experiment-830: red;
+  --brand-experiment-860: red;
+  --brand-experiment-900: red;
+  --brand-experiment-20a: red;
+  --brand-experiment-25a: red;
+  --brand-experiment-35a: red;
+  --brand-experiment-40a: red;
+  --brand-experiment-45a: red;
+  --brand-experiment-50a: red;
+  --brand-experiment-55a: red;
+  --brand-experiment-60a: red;
+  --brand-experiment-65a: red;
+  --brand-experiment-70a: red;
+  --brand-experiment-75a: red;
+  --brand-experiment-80a: red;
+  --brand-experiment-85a: red;
+  --brand-experiment-90a: red;
+  --brand-experiment-95a: red;
+}
