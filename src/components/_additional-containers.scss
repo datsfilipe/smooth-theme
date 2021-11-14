@@ -172,14 +172,49 @@
     content: '';
     display: block;
     width: 100%;
-    height: 300px;
-    padding: 1px;
-    border-radius: 8px;
-    border: 1px solid rgba(230, 230, 230, 0.06);
-    background-image: url(https://images.unsplash.com/photo-1514451966516-6fa724a62afb?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1470&q=80);
-    background-position: center;
-    object-fit: cover;
+    height: 280px;
+    border-radius: 12px;
+    background-image: url(https://getwallpapers.com/wallpaper/full/b/d/5/253646.jpg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
   }
+}
+
+.headerContainer-356ZSf {
+  .headerImage-1vDSE3 {
+    display: none;
+  }
+  &::before {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 380px;
+    border-radius: 12px;
+    background-image: url(https://getwallpapers.com/wallpaper/full/b/d/5/253646.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .headerContent-WpYuS6 {
+    top: 20%;
+    bottom: unset;
+    .headerText-lI2ujL {
+      margin-bottom: 20px;
+      letter-spacing: 1px;
+      font-family: var(--font-headline);
+    }
+    .headerDescription-2XFueT {
+      color: #c0c0c0;
+      font-weight: 600;
+      letter-spacing: 1px;
+      font-family: var(--font-headline);
+    }
+  }
+}
+
+.colorHeaderSecondary-3Sp3Ft {
+  color: var(--text-muted);
 }
 
 .searchTitle-36D1cB {
