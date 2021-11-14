@@ -1,6 +1,6 @@
 /**
  * @name Black & White
- * @version 1.0.0
+ * @version 1.0.1
  * @description Black & White theme for discord, Simplicity in two colors, the best theme for you.
  * @author @dtsf#3763 (discord) / @datsfilipe (github)
  * @github: https://github.com/datsfilipe
@@ -10,5 +10,5 @@
 @import "https://datsfilipe.github.io/black-and-white-theme/src/theme/source.css";
 
 :root {
-  --version1: none;
+  --version1-0-1: none;
 }
