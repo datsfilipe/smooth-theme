@@ -1,0 +1,294 @@
+.member-3-YXUe {
+  position: relative;
+  transition: all .45s ease-Out;
+  [class*="layout-"] {
+    border-radius: 8px;
+    &::before {
+      content: '';
+      width: 224px;
+      height: 38px;
+      opacity: 0;
+      line-height: 18px;
+      border-radius: 8px;
+      background: var(--color9);
+      position: absolute;
+      transition: all .5s ease-Out;
+      margin: auto auto;
+      top: -1px;
+      right: 0;
+      bottom: -1px;
+      left: 0;
+      padding: 2px;
+    }
+  }
+  margin: 2px 0;
+}
+
+.membersGroup-v9BXpm {
+  margin-bottom: 8px;
+}
+
+[class*="peopleList-"] {
+  [class*="title-"] {
+    font-size: .9rem;
+    letter-spacing: 2px;
+    font-family: var(--font-headline);
+    background-color: transparent;
+    color: var(--header-primary);
+  }
+}
+
+[class*="stageSection-"] {
+  [class*="container-"] {
+    [class*="headerContainer-"] {
+      [class*="colorHeaderPrimary-"] {
+        color: var(--text-normal);
+        font-size: 2rem;
+        margin: 10px 10px 10px 0;
+      }
+    }
+    [class*="container-"] {
+      background-color: var(--background-secondary-alt);
+      [role*="button"] {
+        >[class*="icon-"] {
+          path {
+            fill: var(--color11);
+            &:hover {
+              opacity: 0.9;
+            }
+          }
+        }
+      }
+      [class*="content-"] {
+        [class*="header-"] {
+          color: var(--text-normal)!important;
+          &:hover {
+            color: var(--interactive-hover)!important;
+          }
+        }
+        [class*="colorStandard-"] {
+          color: rgba(230, 230, 230, 0.7);
+          &:hover {
+            filter: brightness(0.9);
+          }
+        }
+      }
+      [class*="colorHeaderPrimary-"] {
+        color: var(--text-normal);
+        &:hover {
+          color: rgba(230, 230, 230, 0.7);
+        }
+      }
+      [class*="colorHeaderSecondary-"] {
+        &:hover {
+          color: rgba(230, 230, 230, 0.7);
+        }
+      }
+      [class*="icon-"] {
+        svg {
+          path {
+            fill: var(--text-normal);
+          }
+        }
+        &:hover {
+          svg {
+            path {
+              fill: rgba(230, 230, 230, 0.7);
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.tabBody-3YRQ8W {
+  &::before {
+    display: none;
+  }
+}
+
+.theme-dark .container-1D34oG {
+  background-color: transparent;
+}
+
+[class*="addButton-"] {
+  color: var(--text-alt);
+}
+
+.item-3HknzM {
+  &[aria-controls="add_friend-tab"] {
+    background-color: var(--color11)!important;
+    &:hover {
+      filter: brightness(0.9);
+    }
+  }
+}
+
+.nameAndDecorators-5FJ2dg {
+  .name-uJV0GL {
+    height: 22px;
+    margin: auto 0;
+  }
+}
+
+.connectedAccountName-E1KzaT {
+  line-height: 20px;
+}
+
+// add selection animation
+.clickable-1JJAn8.container-2Pjhx-:active, .highlighted-1gWxXa.container-2Pjhx-, .selected-aXhQR6.container-2Pjhx- {
+  [class*="layout-"] {
+    position: relative;
+    -webkit-box-shadow: 0 0 3px rgba(230, 230, 230, 0.6);
+    box-shadow: 0 0 3px rgba(230, 230, 230, 0.6);
+    &::before {
+      animation: radiusMemberComponent 350ms;
+      animation-iteration-count: 1;
+    }
+    [class*="content-"] {
+      [class*="nameAndDecorators-"] {
+        [class*="name-"] {
+          color: var(--color2);
+          [class*="roleColor-"] {
+            color: var(--color2)!important;
+          }
+        }
+      }
+      [class*="subText-"] {
+        [class*="activity-"] {
+          color: var(--color2);
+        }
+      }
+    }
+  }
+}
+
+.searchHeader-2I26nG {
+  .headerImage-3X1tyY {
+    display: none;
+  }
+  &::before {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 300px;
+    padding: 1px;
+    border-radius: 8px;
+    border: 1px solid rgba(230, 230, 230, 0.06);
+    background-image: url(https://images.unsplash.com/photo-1514451966516-6fa724a62afb?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1470&q=80);
+    background-position: center;
+    object-fit: cover;
+  }
+}
+
+.searchTitle-36D1cB {
+  color: var(--text-normal);
+}
+
+.tagLight-1S7anq {
+  background-color: var(--interactive-hover);
+  color: var(--text-alt);
+  border-radius: 8px;
+  &:hover {
+    background-color: var(--interactive-active);
+    color: var(--text-alt);
+  }
+}
+
+.card-3DjzTQ {
+  border-radius: 8px;
+  height: 260px;
+  .cardHeader-Int16m {
+    height: 45px;
+    .splash-3N0nhD {
+      display: none;
+    }
+  }
+}
+
+.description-2QALGo {
+  color: var(--text-muted);
+}
+
+.footer-2jdoRS {
+  border-top: 1px solid rgba(230, 230, 230, 0.06)!important;
+  border-left: 1px solid rgba(230, 230, 230, 0.06)!important;
+  border-right: 1px solid rgba(230, 230, 230, 0.06)!important;
+  border-radius: 8px 8px 0 0;
+}
+
+.flowerStarContainer-3zDVtj {
+  .flowerStar-1GeTsn {
+    path {
+      fill: var(--color11);
+    }
+  }
+  .childContainer-1wxZNh {
+    .icon-1ihkOt {
+      color: var(--text-alt);
+    }
+  }
+}
+
+.search-1iTphC .searchBox-2_mAlO {
+  border-radius: 8px;
+}
+
+.search-1iTphC .searchBox-2_mAlO .searchBoxInput-K6mkng {
+  color: var(--text-normal);
+}
+
+.search-1iTphC .searchBox-2_mAlO:focus, .search-1iTphC .searchBox-2_mAlO:focus-within {
+  -webkit-box-shadow: 0 0 0 1px #202020,0 0 0 2px #c0c0c0,0 0 0 3px #c0c0c0;
+  box-shadow: 0 0 0 1px #202020,0 0 0 2px #c0c0c0,0 0 0 3px #c0c0c0;
+  border-color: transparent;
+}
+
+.pageWrapper-1PgVDX {
+  border-left: 1px solid rgba(230, 230, 230, 0.04);
+}
+
+.searchBarComponent-32dTOx {
+  border-radius: 8px!important;
+}
+
+.wrapper-35wsBm {
+  border-radius: 8px;
+}
+
+.text-3MU_QQ {
+  color: var(--text-muted);
+}
+
+.input-2VB9rf {
+  border-radius: 12px;
+  border: 1px solid rgba(230, 230, 230, 0.06);
+  box-shadow: var(--elevation-medium);
+}
+
+.result-oB0z-- {
+  border-radius: 8px;
+  margin: 0 2px;
+}
+
+.result-oB0z--[aria-selected=true], .result-oB0z-[aria-selected=true] {
+  -webkit-box-shadow: 0 0 3px rgba(230, 230, 230, 0.6);
+  box-shadow: 0 0 3px rgba(230, 230, 230, 0.6);
+  .contentDefault-16dKSY, .contentUnread-3gTHvA {
+    color: var(--text-alt);
+    .iconContainer-3UxHn2 {
+      .icon-30q1Or {
+        color: var(--text-alt);
+      }
+    }
+    .name-2NBmhj {
+      .note-S--UP5 {
+        color: rgba(0,0,0, 0.59);
+      }
+    }
+    .misc-1CT3G7 {
+      color: var(--text-alt);
+    }
+  }
+}
