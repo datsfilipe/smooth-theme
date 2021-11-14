@@ -1,0 +1,131 @@
+/*
+* css snippet - Setting's icons
+* by: DevilBro#4401
+*/
+@import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/SettingsIcons.css);
+
+/*
+* css snippet - Warn theme updates
+* by:
+*/
+#app-mount .app-2rEoOp::before {
+  content: "Your version of Black & Theme is outdated. Please download the newest version from: <>";
+  display: var(--version0-8, block);
+  background-color: var(--color3);
+  color: var(--text-alt);
+  font-size: 14px;
+  line-height: 36px;
+  font-weight: 500;
+  text-align: center;
+  z-index: 101;
+}
+
+/*
+* css snippet - Disable Discord laggy settings animations
+* by: Tropical#4355
+*/
+.layer-3QrUeG {
+  transform: none !important;
+  opacity: 1 !important;
+}
+
+.layers-3iHuyZ>.layer-3QrUeG.animating-rRxada *,
+.layers-3iHuyZ>.layer-3QrUeG.animating-rRxada {
+  pointer-events: auto !important;
+  will-change: unset;
+}
+
+.animating-rRxada.stop-animations {
+  z-index: 100 !important;
+}
+
+/*
+* css snippet - Make settings/deafen/mute buttons animated
+* by: Xyhlo#9766
+*/
+.button-14-BFJ:hover .contents-18-Yxp {
+  animation: UserModalButtons 0.5s normal ease;
+}
+.container-3baos1 .noWrap-3jynv6 {
+  width: 100px;
+  opacity: 1;
+}
+.button-14-BFJ {
+  transition: 0.2s;
+}
+.button-14-BFJ:hover {
+  padding-bottom: 0px;
+  transition: 0.2;
+  background-color: var(--background-modifier-hover)!important;
+}
+@keyframes UserModalButtons {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-5px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+[class*="standardSidebarView-"] {
+  [class*="sidebarRegion-"] {
+    [class*="sidebar-"] {
+      background-color: transparent;
+    }
+  }
+}
+
+/*
+* Snippet by christian#1111
+* Remove CreArts Modal Blur
+*/
+.backdrop-1wrmKB::before, .backdropWithLayer-3_uhz4::before {backdrop-filter: none;}
+
+/*
+* css snippet - revert roles design
+* by: Ashtrath#9079
+*/
+.role-2irmRk{
+  background: transparent;
+  border: 1px solid;
+  border-radius: 11px;
+}
+.roleCircle-3xAZ1j {
+  margin-left: 0;
+}
+.addButton-pcyyf6.role-2irmRk {
+  border-color: #4f545c;
+}
+.addButtonIcon-1NMJ8u {
+  width: 10px;
+  height: 10px;
+}
+
+/*
+* css snippet - Hide the cursor when the video controls are hidden
+* by: DoggyBootsy#3442
+*/
+.wrapperControlsHidden-35Gtol {
+  cursor: none;
+}
+
+/*
+* css snippet - fix oversized channel icon on embeds
+* by: Hekky#6869
+*/
+.topic-TCb_qw > .wrapper-3WhCwL > .channelIcon-1MN1lz,
+.embedFooterText-28V_Wb > .wrapper-3WhCwL > .channelIcon-1MN1lz {
+  width: calc(1.05rem * 1.05 / 1.3);
+  height: 1.05rem;
+}
+
+/*
+* css snippet - Hide "DISCORD" text in top left corner
+* by: Tropical#4355
+*/
+.wordmarkWindows-1v0lYD {
+  display: none;
+}
