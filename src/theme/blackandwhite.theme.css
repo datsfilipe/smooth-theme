@@ -7,7 +7,7 @@
  * @website https://datsfilipe.github.io/black-and-white-theme/
 */
 
-@import "";
+@import "https://datsfilipe.github.io/black-and-white-theme/src/theme/source.css";
 
 :root {
   --version0-8: none;

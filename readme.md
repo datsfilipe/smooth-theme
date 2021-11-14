@@ -10,7 +10,7 @@ Black & White
 
 # Installation
 
-Download the theme navigating to [here](#) and pressing `ctrl + s` or `cmd + s`.
+Download the theme navigating to [here](https://raw.githubusercontent.com/datsfilipe/black-and-white-theme/main/src/theme/blackandwhite.theme.css) and pressing `ctrl + s` or `cmd + s`.
 
 # Preview
 
