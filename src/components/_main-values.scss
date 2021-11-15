@@ -165,6 +165,14 @@
     background-color: rgba(230, 230, 230, 0.06);
     border-radius: 8px;
   }
+  .wrapper-3WhCwL {
+    &.mention {
+      background-color: var(--brand-experiment-30a);
+      color: var(--text-alt);
+      border-radius: 8px;
+      filter: brightness(.8);
+    }
+  }
   .nowPlaying-284llR {
     background-color: var(--interactive-hover);
     border-radius: 8px;
@@ -199,6 +207,14 @@
   }
   [class*="keybindShortcut-"] {
     color: var(--text-alt)!important;
+    span {
+      background-color: var(--interactive-normal);
+    }
+  }
+  [type*="button"] {
+    &[class*="button-"] {
+      border-radius: 8px;
+    }
   }
   [class*="codeRedemptionRedirect-"] {
     background-color: var(--background-mentioned-hover);
