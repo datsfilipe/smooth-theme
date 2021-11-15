@@ -462,6 +462,10 @@ label[for*="uid_210"] {
   border-radius: 8px;
 }
 
+.accountProfileCard-1XCH88, .profileBannerPreview-gaX5MP {
+  border-radius: 12px;
+}
+
 .root-3-B5F3 {
   &.flex-1O1GKY {
     &.wrap-ZIn9Iy {
@@ -531,6 +535,47 @@ label[for*="uid_210"] {
       }
     }
   }
+}
+
+.container-3auIfb {
+  background-color: rgba(230, 230, 230, 0.2)!important;
+  svg {
+    rect {
+      fill: var(--background-accent)!important;
+    }
+    &[style="left: -3px;"] {
+      svg {
+        path {
+          fill: var(--color3)!important;
+        }
+      }
+    }
+  }
+}
+
+.searchContainer-383_ld {
+  .container-cMG81i {
+    border-radius: 8px;
+  }
+}
+
+[class*="theme-dark"] [class*="root-"], [class*="theme-light"] [class*="root-"] {
+  .control-2BBjec {
+    .container-3auIfb {
+      background-color: rgba(230,230,230,0.2) !important;
+    }
+  }
+  .container-2_Tvc_ {
+    background-color: transparent!important;
+  }
+}
+
+.container-_phMUq {
+  border-radius: 8px;
+}
+
+.titleContainer-2CXtJo {
+  background-color: transparent;
 }
 
 [class*="checkboxWrapper-"] {
