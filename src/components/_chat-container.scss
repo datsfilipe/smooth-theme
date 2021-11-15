@@ -37,7 +37,24 @@
     &[class*="mention"] {
       &[class*="interactive"] {
         background-color: var(--brand-experiment-30a);
-        border-radius: 6px;
+        border-radius: 8px;
+        color: var(--text-alt);
+        filter: brightness(.8);
+        &:hover {
+          filter: brightness(.7);
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+}
+
+[class*="mention"] {
+  &[class*="wrapper-3WhCwL"] {
+    &.roleMention-2Bj0ju {
+      border-radius: 8px;
+      &[class*="interactive"] {
+        background-color: var(--brand-experiment-30a);
         color: var(--text-alt);
         filter: brightness(.8);
         &:hover {
