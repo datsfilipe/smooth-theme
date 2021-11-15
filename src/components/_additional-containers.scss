@@ -136,6 +136,60 @@
   line-height: 20px;
 }
 
+.notice-3bPHh- {
+  border-radius: 8px;
+  margin: 10px 10px 0 10px;
+}
+
+.subtext-24R4-w {
+  color: var(--text-muted);
+}
+
+.voiceUser-1K6Xox {
+  .content-1Wq3SX {
+    border-radius: 8px;
+  }
+}
+
+.listDefault-3ir5aS .clickable-1lCRLF.selected-3t3Csj .username-3KYl0N, .usernameSpeaking-RmltQx {
+  color: var(--text-alt);
+}
+
+.row-3GRgeK {
+  &.item-PXvHYJ {
+    &::after {
+      display: none;
+    }
+    .roleName-2IkRdr {
+      color: var(--text-normal)!important;
+    }
+    &.selected-3s45Ha {
+      .roleName-2IkRdr {
+        color: var(--text-alt)!important;
+      }
+    }
+  }
+}
+
+.headerContainer-1_MTZL {
+  .partyMembers-3pB2CJ {
+    background-color: transparent!important;
+    margin: 0!important;
+    border: none!important;
+    border-radius: 0!important;
+  }
+}
+
+.categoryPill-34fszg.selected-1dONk0 .categoryLabel-2G3r2V {
+  color: var(--text-alt);
+}
+
+.search-1iTphC {
+  .searchBox-3Y2Vi7 {
+    border-radius: 8px;
+  }
+}
+
 // add selection animation
 .clickable-1JJAn8.container-2Pjhx-:active, .highlighted-1gWxXa.container-2Pjhx-, .selected-aXhQR6.container-2Pjhx- {
   [class*="layout-"] {
@@ -161,6 +215,31 @@
         }
       }
     }
+  }
+}
+
+.membershipDialog-rVL-t_, .premiumInlineNotice-159eYs {
+  border-radius: 8px;
+}
+
+.profileBannerPreview-gaX5MP {
+  box-shadow: var(--elevation-medium);
+}
+
+#emoji-picker-tab-panel {
+  .searchBar-5di9mG {
+    border-radius: 8px;
+  }
+  .bodyWrapper-3G0FZZ, .categoryList-2Kzf65 {
+    border-top: 1px solid rgba(230, 230, 230, 0.06);
+  }
+}
+
+.intro-325xRx {
+  font-family: var(--font-headline);
+  .colorStandard-2KCXvj {
+    font-size: 1.3rem;
+    color: var(--text-muted);
   }
 }
 
