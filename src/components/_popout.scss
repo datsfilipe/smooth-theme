@@ -25,7 +25,16 @@
   }
 }
 
+[id*="popout_"] {
+  div {
+    .messagesPopoutWrap-1MQ1bW, .messageGroupWrapper-o-Zw7G {
+      border-radius: 8px;
+    }
+  }
+}
+
 [class*="userPopout-"] {
+  border-radius: 12px;
   [class*="body-"] {
     [class*="bodyInnerWrapper-"] {
       [class*="root-"] {
@@ -45,6 +54,29 @@
         }
       }
     }
+  }
+}
+
+.container-cMG81i {
+  height: 30px;
+  display: flex;
+  align-items: center;
+}
+
+.input-cIJ7To, .container-cMG81i {
+  border-radius: 8px;
+}
+
+[class*="theme-dark"] [class*="bodyInnerWrapper-"] .root-3-B5F3, [class*="theme-light"] [class*="bodyInnerWrapper-"] .root-3-B5F3 {
+  background-color: transparent!important;
+}
+
+.textarea-2r0oV8 {
+  &::placeholder {
+    color: var(--text-muted);
+  }
+  &::-moz-placeholder {
+    color: var(--text-muted);
   }
 }
 
