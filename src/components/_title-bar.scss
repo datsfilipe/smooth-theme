@@ -20,6 +20,29 @@
     }
   }
 }
+ 
+[class*="tabBar-"] {
+  .tab-ck0077, .tab-PQvTH4 {
+    color: var(--text-normal)!important;
+  }
+  .tab-ck0077:hover, .tab-PQvTH4:hover {
+    color: var(--text-alt)!important;
+  }
+}
+
+.header-2-Imhb {
+  &.header-ykumBX {
+    border-bottom: 1px solid rgba(230, 230, 230, 0.06);
+  }
+}
+
+[id*="popout"] {
+  [class*="container-"] {
+    .resultsGroup-r_nuzN::before {
+      border-color: rgba(230, 230, 230, 0.06)!important;
+    }
+  }
+}
 
 a[href="https://support.discord.com"] {
   [class*="iconWrapper-"] {
