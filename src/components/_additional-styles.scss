@@ -151,6 +151,35 @@
   }
 }
 
+.lookFilled-1Gx00P.colorGreen-29iAKY:disabled {
+  background-color: var(--color12);
+  opacity: 0.9;
+  &:hover {
+    background-color: var(--color12)!important;
+  }
+}
+
+[class*="theme-dark"], [class*="theme-light"] {
+  .lookFilled-1Gx00P.colorRed-1TFJan:disabled {
+    background-color: var(--color3)!important;
+    opacity: 0.6;
+    &:hover {
+      background-color: var(--color3)!important;
+      filter: none;
+    }
+  }
+}
+
+.warningCircleIcon-3R0DLw {
+  path {
+    fill: var(--color5);
+  }
+}
+
+.menu-3sdvDG {
+  border-radius: 8px;
+}
+
 .listDefault-3ir5aS .clickable-1lCRLF.selected-3t3Csj .username-3KYl0N, .usernameSpeaking-RmltQx {
   color: var(--text-alt);
 }
