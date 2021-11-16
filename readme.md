@@ -37,3 +37,6 @@ Download the theme navigating to [here](https://raw.githubusercontent.com/datsfi
 <p>
   <img src="./assets/img/print-server-settings-screen.png" alt="Server Settings Screen" width="800" />
 </p>
+
+## More
+Inspired by the [Zorin GTK theme](https://github.com/ZorinOS/zorin-desktop-themes).
