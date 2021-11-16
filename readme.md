@@ -3,7 +3,7 @@ Black & White - BetterDiscord Theme
 </h1>
 
 <p align="center">
-  <a href="https://opensource.org/licenses/BSD-3-Clause">
+  <a href="https://github.com/datsfilipe/black-and-white-theme/blob/main/LICENSE">
     <img src="https://img.shields.io/github/license/datsfilipe/browser-home?color=%237159c1&logo=mit" alt="License">
   </a>
 </p>
