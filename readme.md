@@ -1,5 +1,5 @@
 <h1 align="center">
-Black & White
+Black & White - BetterDiscord Theme
 </h1>
 
 <p align="center">
