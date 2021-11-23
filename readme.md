@@ -39,4 +39,6 @@ Download the theme navigating to [here](https://raw.githubusercontent.com/datsfi
 </p>
 
 ##### **More**
+Use with [Discolored](https://github.com/NYRI4/Discolored) theme and let app zoom in ***100***.
+
 Inspired by the [Zorin GTK theme](https://github.com/ZorinOS/zorin-desktop-themes).
