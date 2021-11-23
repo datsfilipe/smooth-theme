@@ -98,6 +98,118 @@
       }
     }
   }
+  [class*="layerContainer-"] {
+    .badgeList-1R1WgZ {
+      &[class*="container-"] {
+        background-color: transparent!important;
+      }
+    }
+  }
+  [class*="perksModal-"] {
+    background-color: var(--background-primary);
+  }
+  .ctaBar-2nFzdG {
+    border-radius: 12px;
+    border: 1px solid rgba(230, 230, 230, 0.06);
+  }
+  .tierMarkerBackground-3q29am {
+    background-color: #383838;
+  }
+  .barBackground-2EEiLw {
+    background-color: #383838;
+  }
+  .barForeground-3KglC8 {
+    background-color: var(--color11);
+  }
+  .tierMarkerAccomplished-2MiXeg {
+    background: var(--color11)!important;
+  }
+  .currentTierIcon-2gcTCn {
+    color: var(--background-secondary);
+  }
+  .tierUnlocked-3mPMcg {
+    color: #000000;
+  }
+  .tierHeaderUnlocked-3QAU1o {
+    background-image: linear-gradient(90deg,hsl(160,calc(var(--saturation-factor, 1)*50%),25.5%),var(--color11));
+  }
+  .listRow-1iDGel {
+    border-radius: 8px;
+  }
+  .root-3QyAh1 {
+    .body-r6_QPy {
+      .listScroller-3GmIYj {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: repeat(auto-fill, minmax(50px, 1fr));;
+      }
+    }
+  }
+  [id*="popout"] {
+    .contentWithMedia-3YF06_, .contentNoMedia-1yP2hn {
+      border: 1px solid var(--text-brand);
+    }
+    .content-1nP7fx {
+      background-color: var(--background-primary);
+    }
+    .popoutRoot-2_6ixn.right-1r4pvL.arrowAlignmentTop-1OMEr_:before {
+      border-right-color: var(--text-brand);
+    }
+    .titleCenter-2bwbDI, .titleLeft-2erkAr {
+      &.title-eQ0ZMf {
+        margin-top: 2px;
+        color: var(--text-normal);
+      }
+      .voiceChannelsTitle-3UxkpI {
+        margin-top: 40px;
+      }
+    }
+  }
+  [class*="headerTag"], .nameTag-ECvD8P,.userTag-1PLzkC {
+    font-size: 18px;
+  }
+  .countryCode-2TeNMX, .plusSign-15Cgdh {
+    color: var(--text-alt)!important;
+  }
+  .phoneField-38N1bJ .phoneFieldExpand-2DzY5G {
+    stroke: var(--text-alt)!important;
+  }
+  .popoutList-T9CKZQ {
+    border-radius: 8px;
+    background-color: var(--background-primary);
+  }
+  .cardWarning-2yPNAa { .warning-1WIX3i { color: var(--text-alt) }}
+  .popoutListEmpty-voOEBJ {
+    font-size: 16px;
+  }
+  .field-1HUseB {
+    &.fieldSpacer-wgewFh {
+      .constrainedRow-2GB6Ki {
+        div {
+          div {
+            .colorHeaderPrimary-26Jzh- {
+              &.size16-1P40sf {
+                font-size: 14px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  .colorNotification-GG3eAb {
+    color: var(--text-alt);
+  }
+  .button-2DhvE9 {
+    border-color: var(--text-alt);
+  }
+  .avatarUploaderInner-3UNxY3>* {
+    color: var(--text-normal);
+  }
+  .button-2DhvE9:hover {
+    background-color: var(--background-accent);
+    border-color: rgba(230, 230, 230, 0.06);
+  }
   .streamPreview-2-WUWT {
     background-color: var(--background-secondary);
     border-radius: 12px;
