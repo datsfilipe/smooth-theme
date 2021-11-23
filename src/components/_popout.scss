@@ -143,6 +143,11 @@
 }
 
 [id*="popout"] {
+  .headerTop-3vNv-a {
+    [class*="profileBadges-"] {
+      background-color: transparent;
+    }
+  }
   [class*="body-"] {
     [class*="customStatus-"] {
       color: var(--interactive-active);
