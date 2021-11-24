@@ -142,10 +142,11 @@
 [class*="typing-"] {
   grid-row: 1;
   position: relative;
-  font-size: .9rem;
+  font-size: 13px;
+  padding: 3px;
   font-family: var(--font-display);
   text-align: center;
-  margin: 6px 6px -4px 4px;
+  margin: 2px 3px -6px 0;
   height: 14px;
   left: 0;
   color: var(--text-muted);
