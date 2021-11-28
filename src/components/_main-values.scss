@@ -146,6 +146,54 @@
       }
     }
   }
+  .warningIcon-3rQ5yJ {
+    color: var(--color5);
+  }
+  .headerWrapper-3NUKsd {
+    .container-1r6BKw {
+      .children-19S4PO {
+        .container-x-SnoF {
+          background-color: transparent!important;
+        }
+      }
+    }
+  }
+  .wrapper-2qzCYF.chatSidebarOpen-2u0Ygq, .wrapper-2qzCYF.fullScreen-1tMzXY, .wrapper-2qzCYF.noChat-18KtBD {
+    background-color: transparent;
+  }
+  button[class*="controlButton-"] {
+    &[class*="centerButton-"] {
+      &[class*="red-33-Lnk"] {
+        border-radius: 50%;
+      }
+    }
+  }  
+  .colorable-1bkp8v.red-33-Lnk {
+    background: var(--color4);
+    &:hover {
+      background: var(--color4);
+      filter: brightness(.9);
+    }
+  }
+  .colorable-1bkp8v.red-33-Lnk, .colorable-1bkp8v.red-33-Lnk .centerIcon-2G6o-T {
+    color: var(--text-alt);
+  }
+  .connection-3KRENF, .voiceUsers-YsH5Db {
+    .colorBrand-13pXr91 {
+      &[aria-label="Disconnect"] {
+        color: var(--color3);
+      }
+    }
+  }
+  .activityPanel-28dQGo {
+    .body-GmmuPm {
+      .actions-aUdUfC {
+        button[aria-label="Stop Streaming"] {
+          color: var(--color3);
+        }
+      }
+    }
+  }
   .listRow-1iDGel {
     border-radius: 8px;
   }
