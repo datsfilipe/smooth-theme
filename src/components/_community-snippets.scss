@@ -62,6 +62,12 @@
 .item-3HknzM[aria-controls="pending-tab"] .numberBadge-2s8kKX { display: none; }
 
 /*
+* Remove CreArts Modal Blur
+* by: christian#1111
+*/
+.backdrop-1wrmKB::before, .backdropWithLayer-3_uhz4::before {backdrop-filter: none;}
+
+/*
 * css snippet - Make settings/deafen/mute buttons animated
 * by: Xyhlo#9766
 */
