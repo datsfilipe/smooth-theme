@@ -40,6 +40,16 @@
 }
 
 /*
+* Fix Channel Icon Oversized at Embed Messages
+* by: Hekky#6869
+*/
+.topic-TCb_qw > .wrapper-3WhCwL > .channelIcon-1MN1lz,
+.embedFooterText-28V_Wb > .wrapper-3WhCwL > .channelIcon-1MN1lz {
+    width: calc(1.05rem * 1.05 / 1.3);
+    height: 1.05rem;
+}
+
+/*
 * css snippet - Make settings/deafen/mute buttons animated
 * by: Xyhlo#9766
 */
