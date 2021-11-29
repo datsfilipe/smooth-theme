@@ -1,6 +1,6 @@
 [class*="sidebar-"] {
-  background: var(--background-spacing);
-  padding: 10px 10px 10px 10px;
+  background: transparent;
+  margin: 10px 10px 10px 10px;
   section[class*="panels-"] {
     margin-top: 10px;
     border-radius: 12px;
@@ -39,9 +39,6 @@
   margin: 10px 10px 10px 0;
   [class*="membersWrap-"] {
     margin: 5px;
-    [class*="members-"] {
-      margin-bottom: 12px;
-    }
   }
 }
 
