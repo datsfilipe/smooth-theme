@@ -68,6 +68,12 @@
 .backdrop-1wrmKB::before, .backdropWithLayer-3_uhz4::before {backdrop-filter: none;}
 
 /*
+* Remove Role Icons From Chat Messages
+* by: Qb#5942
+*/
+.message-2qnXI6 .roleIcon-1_1CJy { display: none; }
+
+/*
 * css snippet - Make settings/deafen/mute buttons animated
 * by: Xyhlo#9766
 */
