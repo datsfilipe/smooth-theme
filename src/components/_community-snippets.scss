@@ -29,8 +29,8 @@
   opacity: 1 !important;
 }
 
-.layers-3iHuyZ>.layer-3QrUeG.animating-rRxada *,
-.layers-3iHuyZ>.layer-3QrUeG.animating-rRxada {
+.layers-3iHuyZ > .layer-3QrUeG.animating-rRxada *,
+.layers-3iHuyZ > .layer-3QrUeG.animating-rRxada {
   pointer-events: auto !important;
   will-change: unset;
 }
@@ -45,8 +45,8 @@
 */
 .topic-TCb_qw > .wrapper-3WhCwL > .channelIcon-1MN1lz,
 .embedFooterText-28V_Wb > .wrapper-3WhCwL > .channelIcon-1MN1lz {
-    width: calc(1.05rem * 1.05 / 1.3);
-    height: 1.05rem;
+  width: calc(1.05rem * 1.05 / 1.3);
+  height: 1.05rem;
 }
 
 /*
@@ -54,18 +54,29 @@
 * by: Hekky#6869
 */
 /* Hide badge on home */
-.tutorialContainer-2sGCg9 .lowerBadge-29hYVK { display: none; }
-.tutorialContainer-2sGCg9 defs rect { transform: translate(50px, 50px); }
+.tutorialContainer-2sGCg9 .lowerBadge-29hYVK {
+  display: none;
+}
+.tutorialContainer-2sGCg9 defs rect {
+  transform: translate(50px, 50px);
+}
 /* Hide badge on friends tab in dms */
-.channel-2QD9_O[href="/channels/@me"] .numberBadge-2s8kKX { display: none; }
+.channel-2QD9_O[href="/channels/@me"] .numberBadge-2s8kKX {
+  display: none;
+}
 /* Hide badge in pending tab in friends tab */
-.item-3HknzM[aria-controls="pending-tab"] .numberBadge-2s8kKX { display: none; }
+.item-3HknzM[aria-controls="pending-tab"] .numberBadge-2s8kKX {
+  display: none;
+}
 
 /*
 * Remove CreArts Modal Blur
 * by: christian#1111
 */
-.backdrop-1wrmKB::before, .backdropWithLayer-3_uhz4::before {backdrop-filter: none;}
+.backdrop-1wrmKB::before,
+.backdropWithLayer-3_uhz4::before {
+  backdrop-filter: none;
+}
 
 /*
 * Remove Role Icons From Chat Messages
