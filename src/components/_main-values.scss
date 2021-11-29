@@ -40,9 +40,9 @@
   --info-help-foreground: #e6e6e6;
   --info-help-text: #ffffff;
   --status-warning-text: var(--color5);
-  --scrollbar-thin-thumb: #ffffff;
+  --scrollbar-thin-thumb: rgba(255,255,255,0.6);
   --scrollbar-thin-track: transparent;
-  --scrollbar-auto-thumb: #ffffff;
+  --scrollbar-auto-thumb: rgba(255,255,255,0.2);
   --scrollbar-auto-track: rgba(230, 230, 230, 0.06);
   --scrollbar-auto-scrollbar-color-thumb: #ffffff;
   --scrollbar-auto-scrollbar-color-track: transparent;
@@ -156,6 +156,11 @@
           background-color: transparent!important;
         }
       }
+    }
+  }
+  ::-webkit-scrollbar-thumb {
+    &:active {
+      background-color: rgba(255,255,255,0.5);
     }
   }
   .wrapper-2qzCYF.chatSidebarOpen-2u0Ygq, .wrapper-2qzCYF.fullScreen-1tMzXY, .wrapper-2qzCYF.noChat-18KtBD {
