@@ -3,6 +3,8 @@
   --font-display: 'Open Sans', sans-serif;
   --font-code: 'Source Code Pro', monospace;
   --font-headline: 'Poppins', sans-serif;
+
+  @import url('https://xhylo.github.io/WinMacbuttons/winmacbuttonssc.css');
 }
 
 [class*="theme-dark"], [class*="theme-light"] {
@@ -196,7 +198,7 @@
         border-radius: 50%;
       }
     }
-  }  
+  }
   .colorable-1bkp8v.red-33-Lnk {
     background: var(--color4);
     &:hover {
