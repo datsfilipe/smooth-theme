@@ -142,6 +142,12 @@
   color: var(--text-normal);
 }
 
+.menu-3sdvDG {
+  &[id*="status-picker"] {
+    box-shadow: 0 0 0 1px rgba(255,255,255,0.06);
+  }
+}
+
 [id*="popout"] {
   .headerTop-3vNv-a {
     [class*="profileBadges-"] {
