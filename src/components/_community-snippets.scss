@@ -50,6 +50,18 @@
 }
 
 /*
+* Hide Friend Request Badge
+* by: Hekky#6869
+*/
+/* Hide badge on home */
+.tutorialContainer-2sGCg9 .lowerBadge-29hYVK { display: none; }
+.tutorialContainer-2sGCg9 defs rect { transform: translate(50px, 50px); }
+/* Hide badge on friends tab in dms */
+.channel-2QD9_O[href="/channels/@me"] .numberBadge-2s8kKX { display: none; }
+/* Hide badge in pending tab in friends tab */
+.item-3HknzM[aria-controls="pending-tab"] .numberBadge-2s8kKX { display: none; }
+
+/*
 * css snippet - Make settings/deafen/mute buttons animated
 * by: Xyhlo#9766
 */
