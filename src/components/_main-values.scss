@@ -183,6 +183,10 @@
   .channel-2QD9_O {
     max-width: unset;
   }
+  // when showing various new messages, the resizer shows up very often and disappear, cause of this i will remove it from now 
+  ::-webkit-resizer {
+    display: none;
+  }
   .wrapper-2qzCYF.chatSidebarOpen-2u0Ygq, .wrapper-2qzCYF.fullScreen-1tMzXY, .wrapper-2qzCYF.noChat-18KtBD {
     background-color: transparent;
   }
