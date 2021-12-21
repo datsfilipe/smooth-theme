@@ -5,7 +5,7 @@
   --font-headline: 'Poppins', sans-serif;
 }
 
-[class*="theme-dark"], [class*="theme-light"] {
+.theme-dark, .theme-light {
   --header-primary: #ffffff;
   --header-secondary: #e6e6e6;
   --text-normal: #ffffff;
@@ -75,6 +75,45 @@
   --message-text-color: #e6e6e6;
   --info-warning-foreground: #e6e6e6;
 
+  .datePicker--XZbmJ .datePickerHint-3Q1Udw .hintValue-29ny8Z {
+    border-radius: 6px;
+    color: var(--text-alt)!important;
+    &:hover {
+      color: var(--text-alt)!important;
+      background-color: var(--brand-experiment)!important;
+      filter: brightness(.8);
+    }
+  }
+
+  .calendarPicker-2yf6Ci {
+    .react-datepicker {
+      background-color: var(--background-accent);
+    }
+
+    .react-datepicker__header {
+      background-color: var(--background-accent);
+    }
+
+    .react-datepicker__month {
+      background-color: var(--background-accent);
+    }
+
+    .react-datepicker__day:hover {
+      background-color: var(--deprecated-text-input-prefix);
+      color: var(--text-alt);
+    }
+  }
+  
+  .bar-3S3dlZ {
+    &.background-3xPPFc {
+      color: #ff73fa;
+      opacity: 0.3;
+    }
+  }
+  .tierInProgress-3mBoXq {
+    background-color: #ff73fa;
+    opacity: 0.3;
+  }
   .wrapper-3WhCwL {
     background: var(--brand-experiment-30a);
     color: var(--brand-experiment-200);
@@ -91,9 +130,9 @@
   [class*="searchBox-"] {
     background-color: var(--background-tertiary);
   }
-  [class*="colorStandard-2KCXvj"] {
-    &[class*="size16-1P40sf"] {
-      &[class*="checkboxText-20IXco"] {
+  .colorStandard-2KCXvj {
+    &.size16-1P40sf {
+      &.checkboxText-20IXco {
         background: transparent!important;
       }
     }
@@ -133,6 +172,96 @@
   .tierHeaderUnlocked-3QAU1o {
     background-image: linear-gradient(90deg,hsl(160,calc(var(--saturation-factor, 1)*50%),25.5%),var(--color11));
   }
+  .progressBarContainer-DLPbha {
+    .progressBar-UDQ4AC {
+      background: linear-gradient(90deg,hsl(160,calc(var(--saturation-factor, 1)*50%),25.5%),var(--color11));
+    }
+  }
+  .modalContent-3FEGI5 {
+    .optionBox-1b4n4P {
+      .contentCircle-2uR76y {
+        background-color: var(--background-floating);
+        border: 1px solid rgba(230, 230, 230, 0.06);
+      }
+    }
+  }
+  .warningIcon-3rQ5yJ {
+    color: var(--color5);
+  }
+  .headerWrapper-3NUKsd {
+    .container-1r6BKw {
+      .children-19S4PO {
+        .container-x-SnoF {
+          background-color: transparent!important;
+        }
+      }
+    }
+  }
+  ::-webkit-scrollbar-thumb {
+    &:active {
+      background-color: rgba(255,255,255,0.5);
+    }
+  }
+  .replyBar-1YLQ2F {
+    .actions-NlfMQc {
+      .closeButton-37O8QC {
+        color: var(--color3);
+        &:hover {
+          color: var(--color4);
+        }
+      }
+    }
+  }
+  .container-3baos1 {
+    .nameTag-3uD-yy {
+      .subtext-3CDbHg {
+        color: var(--text-muted);
+      }
+    }
+  }
+  .channel-2QD9_O {
+    max-width: unset;
+  }
+  // when showing various new messages, the resizer shows up very often and disappear, cause of this i will remove it from now 
+  ::-webkit-resizer {
+    display: none;
+  }
+  .wrapper-2qzCYF.chatSidebarOpen-2u0Ygq, .wrapper-2qzCYF.fullScreen-1tMzXY, .wrapper-2qzCYF.noChat-18KtBD {
+    background-color: transparent;
+  }
+  button[class*="controlButton-"] {
+    &[class*="centerButton-"] {
+      &.red-33-Lnk {
+        border-radius: 50%;
+      }
+    }
+  }
+  .colorable-1bkp8v.red-33-Lnk {
+    background: var(--color4);
+    &:hover {
+      background: var(--color4);
+      filter: brightness(.9);
+    }
+  }
+  .colorable-1bkp8v.red-33-Lnk, .colorable-1bkp8v.red-33-Lnk .centerIcon-2G6o-T {
+    color: var(--text-alt);
+  }
+  .connection-3KRENF, .voiceUsers-YsH5Db {
+    .colorBrand-13pXr91 {
+      &[aria-label="Disconnect"] {
+        color: var(--color3);
+      }
+    }
+  }
+  .activityPanel-28dQGo {
+    .body-GmmuPm {
+      .actions-aUdUfC {
+        button[aria-label="Stop Streaming"] {
+          color: var(--color3);
+        }
+      }
+    }
+  }
   .listRow-1iDGel {
     border-radius: 8px;
   }
@@ -145,7 +274,7 @@
       }
     }
   }
-  [id*="popout"] {
+  #popout {
     .contentWithMedia-3YF06_, .contentNoMedia-1yP2hn {
       border: 1px solid var(--text-brand);
     }
@@ -233,11 +362,7 @@
   .addGamePopout-2RY8Ju {
     background-color: var(--background-floating);
   }
-  .lookFilled-1Gx00P.colorGrey-2DXtkV:disabled {
-    background-color: var(--color11)!important;
-    filter: brightness(0.4);
-  }
-  [class*="footer-"] {
+  .footer-2gL1pp {
     background-color: var(--background-secondary);
     border-color: var(--color6);
   }
@@ -324,7 +449,7 @@
     }
   }
   [type*="button"] {
-    &[class*="button-"] {
+    &.button-38aScr {
       border-radius: 8px;
     }
   }
@@ -332,14 +457,198 @@
     background-color: var(--background-mentioned-hover);
     color: var(--text-normal);
   }
-  [class*="lookFilled-"] {
-    &[class*="colorPrimary-"] {
+
+  // lookFilled buttons
+  .flexChild-faoVW3 {
+    .lookFilled-1Gx00P {
+      background-color: transparent;
+      color: var(--text-normal);
+    }
+    .lookFilled-1Gx00P:hover {
+      background-color: rgba(230, 230, 230, 0.06);
+    }
+  }
+
+  .lookFilled-1Gx00P {
+    color: var(--text-alt)!important;
+
+    &[class*="select-"] {
+      color: var(--text-normal)!important;
+      svg[aria-hidden="false"] {
+        path {
+          fill: var(--text-normal)!important;
+        }
+      }
+      &:hover {
+        background-color: rgba(230, 230, 230, 0.06)!important;
+        span[class*="value"] {
+          svg {
+            path {
+              fill: var(--text-normal);
+            }
+          }
+        }
+        [class*="icons-"] {
+          svg {
+            path {
+              fill: var(--text-normal);
+            }
+          }
+        }
+      }
+    }
+
+    &:hover {
+      background-color: var(--brand-experiment);
+      opacity: 0.9;
+    }
+    &[class*="select-"] {
+      color: var(--text-normal)!important;
+      svg[aria-hidden="false"] {
+        path {
+          fill: var(--interactive-normal)!important;
+        }
+      }
+      &:hover {
+        background-color: var(--background-modifier-hover)!important;
+        span[class*="value"] {
+          svg {
+            path {
+              fill: var(--interactive-normal);
+            }
+          }
+        }
+        [class*="icons-"] {
+          svg {
+            path {
+              fill: var(--interactive-normal);
+            }
+          }
+        }
+      }
+    }
+
+    &.colorPrimary-3b3xI6 {
       background-color: var(--color6);
       &:hover {
-        background-color: var(--interactive-normal)!important;
+        background-color: var(--interactive-normal);
+      }
+    }
+
+    &.colorBrand-3pXr91 {
+      color: var(--text-alt);
+      background-color: var(--color11);
+      &:hover {
+        background-color: var(--color11);
+        filter: brightness(0.9);
+      }
+      &:disabled {
+        background-color: var(--color11);
+        color: var(--text-alt);
+        &:hover {
+          background-color: var(--color11);
+          filter: brightness(0.6);
+        }
+      }
+    }
+
+    &.colorGrey-2DXtkV {
+      background-color: var(--interactive-normal);
+      &:hover {
+        background-color: var(--interactive-active);
+        filter: brightness(0.9);
+      }
+      &:disabled {
+        background-color: var(--color11)!important;
+        filter: brightness(0.4);
+      }
+    }
+
+    &.colorWhite-rEQuAQ {
+      background-color: var(--color11);
+      [class*="contents-"] {
+        color: var(--text-alt);
+      }
+      &:hover {
+        background-color: var(--color11);
+        filter: brightness(0.9);
+        [class*="contents-"] {
+          color: var(--text-alt);
+        }
+      }
+    }
+
+    &.colorGreen-29iAKY {
+      background-color: var(--color11);
+      &:disabled {
+        background-color: var(--color12);
+        opacity: 0.9;
+        &:hover {
+          background-color: var(--color12);
+        }
+      }
+    }
+
+    &.colorRed-1TFJan {
+      background-color: var(--color3);
+      &:hover {
+        background-color: var(--color4);
+        filter: brightness(0.9);
+      }
+      &:disabled {
+        background-color: var(--color3);
+        opacity: 0.6;
+        &:hover {
+          background-color: var(--color3);
+          filter: none;
+        }
       }
     }
   }
+
+  .searchBox-2U8-yR {
+    background-color: transparent;
+  }
+
+  .addMemberRow-3-w-9X.selectedRow-1QP7qb {
+    div {
+      color: var(--text-alt);
+    }
+  }
+  .addMemberRow-3-w-9X {
+    border-radius: 6px;
+    padding: 0.65rem 1rem;
+  }
+
+  // lookOutlined buttons
+  .lookOutlined-3sRXeN {
+    &.colorRed-1TFJan {
+      color: var(--color3);
+      border-color: var(--color3);
+      &:hover {
+        border-color: var(--color4);
+        color: var(--color4);
+        filter: brightness(0.9);
+      }
+    }
+
+    &.colorPrimary-3b3xI6 {
+      color: var(--color11);
+      border-color: var(--color11);
+      &:hover {
+        filter: brightness(0.8);
+      }
+    }
+
+    &.colorBrand-3pXr91 {
+      color: var(--color11);
+      border-color: var(--color11);
+      &:hover {
+        filter: brightness(0.8);
+      }
+    }
+  }
+
   [class*="defaultIndicator-"] {
     font-size: .8rem;
     padding: 3px;
@@ -347,47 +656,6 @@
     letter-spacing: 1px;
     color: var(--text-alt);
     background-color: var(--interactive-active);
-  }
-  [class*="lookFilled-"] {
-    border-radius: 8px;
-    &[class*="colorGrey-"] {
-      background-color: var(--interactive-normal);
-      &:hover {
-        background-color: var(--interactive-active)!important;
-        filter: brightness(0.9);
-      }
-    }
-  }
-  [class*="lookOutlined-"] {
-    border-radius: 6px;
-  }
-  button[class*="lookOutlined-"] {
-    &[class*="colorRed-"] {
-      color: var(--color3);
-      border-color: var(--color3);
-      &:hover {
-        border-color: var(--color4)!important;
-        color: var(--color4)!important;
-        filter: brightness(0.9);
-      }
-    }
-  }
-  button[class*="lookFilled-"] {
-    &[class*="colorRed-"] {
-      background-color: var(--color3);
-      &:hover {
-        background-color: var(--color4)!important;
-        filter: brightness(0.9);
-      }
-    }
-  }
-  .lookFilled-1Gx00P.colorBrand-3pXr91:disabled {
-    background-color: var(--color11);
-    color: var(--text-alt)!important;
-    &:hover {
-      background-color: var(--color11)!important;
-      filter: brightness(0.6);
-    }
   }
   [class*="lookInverted-"] {
     &[class*="colorBrand-"] {
@@ -397,19 +665,6 @@
         opacity: 0.9;
       }
     }
-  }
-  button[class*="lookFilled-"] {
-    &[class*="colorBrand-"] {
-      color: var(--text-alt)!important;
-      background-color: var(--color11);
-      &:hover {
-        background-color: var(--color11)!important;
-        filter: brightness(0.9);
-      }
-    }
-  }
-  [class*="lookFilled-"] [class*="colorGreen-"] {
-    background-color: var(--color3);
   }
 }
 

@@ -30,9 +30,9 @@
   font-family: var(--font-display);
 }
 
-[class*="nowPlayingColumn-"], [class*="nowPlayingSidebar-"] {
-  [class*="container-"] {
-    [class*="header-"] {
+.nowPlayingColumn-2sl4cE, [class*="nowPlayingSidebar-"] {
+  .container-lRFx4q {
+    .header-2SF4Nh {
       color: var(--text-normal);
     }
     [class*="emptyCard-"] {
@@ -76,8 +76,8 @@
   }
 }
 
-[class*="unreadTop-"] {
-  [class*="unreadBar-"] {
+.unreadTop-3rAB3r {
+  .unreadBar-3t3sYc {
     background-color: var(--color3);
     color: var(--text-alt);
   }

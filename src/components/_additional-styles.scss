@@ -1,7 +1,7 @@
 .member-3-YXUe {
   position: relative;
   transition: all .45s ease-Out;
-  [class*="layout-"] {
+  .layout-2DM8Md {
     border-radius: 8px;
     &::before {
       content: '';
@@ -28,8 +28,8 @@
   margin-bottom: 8px;
 }
 
-[class*="peopleList-"] {
-  [class*="title-"] {
+.peopleList-3c4jOR {
+  .title-30qZAO {
     font-size: .9rem;
     letter-spacing: 2px;
     font-family: var(--font-headline);
@@ -38,6 +38,7 @@
   }
 }
 
+// stage section
 [class*="stageSection-"] {
   [class*="container-"] {
     [class*="headerContainer-"] {
@@ -148,25 +149,6 @@
 .voiceUser-1K6Xox {
   .content-1Wq3SX {
     border-radius: 8px;
-  }
-}
-
-.lookFilled-1Gx00P.colorGreen-29iAKY:disabled {
-  background-color: var(--color12);
-  opacity: 0.9;
-  &:hover {
-    background-color: var(--color12)!important;
-  }
-}
-
-[class*="theme-dark"], [class*="theme-light"] {
-  .lookFilled-1Gx00P.colorRed-1TFJan:disabled {
-    background-color: var(--color3)!important;
-    opacity: 0.6;
-    &:hover {
-      background-color: var(--color3)!important;
-      filter: none;
-    }
   }
 }
 

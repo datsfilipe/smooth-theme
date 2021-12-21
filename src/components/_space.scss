@@ -1,21 +1,22 @@
-[class*="sidebar-"] {
-  background: var(--background-spacing);
-  padding: 10px 10px 10px 10px;
-  section[class*="panels-"] {
+// sidebar
+.sidebar-2K8pFh {
+  background: transparent;
+  margin: 10px 10px 10px 10px;
+  .panels-j1Uci_ {
     margin-top: 10px;
     border-radius: 12px;
     &:hover {
-      [class*="subtext-"] {
+      .subtext-3CDbHg {
         color: hsla(240, 9%, 89%, 1);
       }
     }
   }
-  [class*="container-"] {
+  .container-3w7J-x {
     border-radius: 12px;
-    [class*="animatedContainer-"] {
+    .animatedContainer-1NSq4T {
       border-radius: 12px 12px 0 0;
     }
-    [class*="headerChildren-"] {
+    .headerChildren-u4cpg9 {
       color: var(--header-primary);
     }
   }
@@ -29,7 +30,11 @@
   background-color: var(--background-spacing);
 }
 
-[class*="container-2wlB3z"] {
+.threadSidebar-1o3BTy {
+  margin-left: 0;
+}
+
+.container-2wlB3z {
   height: calc(100% - 20px);
   border-radius: 12px;
   margin: 10px 10px 10px 0;
@@ -39,15 +44,6 @@
       margin-bottom: 12px;
     }
   }
-}
-
-[class*="sidebar-"] [class*="layout-"] {
-  margin-right: 6px;
-  margin-left: 0px;
-  padding-left: 6px !important;
-  height: 36px;
-  margin-top: 4px;
-  margin-bottom: 4px;
 }
 
 [class*="privateChannels-"] {
@@ -61,10 +57,10 @@
   }
 }
 
-[class*="homeWrapperNormal-"] {
+.homeWrapperNormal-2KSUEa {
   background-color: var(--background-spacing);
-  [class*="scroller-"] {
-    border: 1px solid var(--background-secondary);
+  .scroller-9moviB {
+    border: 1px solid rgba(230, 230, 230, 0.06);
     background-color: var(--background-primary);
     margin: 10px 10px 10px 0;
     border-radius: 12px;
@@ -81,65 +77,120 @@
   }
   [class*="nowPlayingSidebar-"] {
     background-color: var(--background-spacing);
-    [class*="container-"] {
+    .container-lRFx4q {
       background: var(--background-secondary);
       height: 90vh;
       margin: 10px;
       border-radius: 12px;
     }
-    [class*="emptyCard-"] {
+    .emptyCard-1RJw8n {
       background: var(--background-secondary);
     }
   }
 }
 
-[class*="chatContent-"] {
+.chatContent-a9vAAp {
   background-color: var(--background-spacing);
-  [class*="messagesWrapper-"] {
+  .messagesWrapper-1sRNjr {
     padding: 4px;
-    [class*="scroller-"] {
+    .scroller-2LSbBU {
       background-color: var(--background-primary);
       margin: 10px 10px 10px 0;
       border: 1px solid rgba(230, 230, 230, 0.05);
       border-radius: 12px!important;
     }
   }
-  [class*="form-"] {
+  .form-2fGMdU {
     &::before {
       display: none;
     }
   }
 }
 
-[class*="channelTextArea-"] {
+.channelTextArea-rNsIhG {
   background-color: transparent;
   border-radius: 12px;
   width: 100%;
   margin-top: 10px;
   margin-bottom: auto;
-  [class*="attachedBars-"] {
+  .attachedBars-tZDmyV {
     background-color: var(--background-secondary-alt);
     border-bottom: 1px solid var(--line-highlight);
-    [class*="replyBar-"] {
+    .replyBar-1YLQ2F {
       background-color: var(--background-secondary-alt);
     }
   }
-  [class*="scrollableContainer-"] {
+  .scrollableContainer-2NUZem {
     padding: 4px 0 4px 0;
     border-radius: 12px;
     background-color: var(--background-secondary-alt);
-    &[class*="hasConnectedBar-"] {
+    &.hasConnectedBar-1MrFne {
       border-radius: 0px 0px 12px 12px;
     }
   }
-  &[class*="channelTextAreaDisabled-"] {
-    [class*="scrollableContainer-"] {
+  .channelTextAreaDisabled-8rmlrp {
+    .scrollableContainer-2NUZem {
       opacity: .8;
     }
   }
 }
 
-[class*="typing-"] {
+.sidebar-2K8pFh {
+  resize: horizontal;
+  min-width: 190px;
+  max-width: 340px;
+}
+
+.membersWrap-2h-GB4, .searchResultsWrap-3-pOjs {
+  margin: 10px 10px 10px 0;
+  border-radius: 12px;
+}
+
+.container-2wlB3z {
+  .membersWrap-2h-GB4 {
+    margin: 0;
+    border: none;
+    border-radius: 0;
+  }
+}
+
+.members-1998pB {
+  border-radius: 12px;
+}
+
+.callContainer-36WRfH {
+  margin: 10px 10px 10px 0;
+  border-radius: 12px;
+  background: transparent!important;
+}
+
+.topControls-KKImPZ {
+  .headerWrapper-3NUKsd {
+    margin: 10px 0 0 0;
+    .container-1r6BKw {
+      padding: 0!important;
+      background: transparent!important;
+    }
+  }
+}
+
+.members-1998pB {
+  padding-left: 9px;
+}
+
+.qualityIndicatorLowQuality-3VS_Sh {
+  color: var(--text-alt);
+}
+
+.searchResultsWrap-3-pOjs {
+  resize: horizontal;
+  border: 1px solid rgba(255,255,255, 0.06);
+  min-width: 310px;
+  max-width: 418px;
+  direction: rtl;
+}
+
+.typing-2GQL18 {
   grid-row: 1;
   position: relative;
   font-size: .9rem;
@@ -196,7 +247,7 @@
 section[class*="headerBar-"] {
   background: var(--background-spacing);
   padding: 0 10px 0 0;
-  [class*="children"] {
+  .children-19S4PO {
     background-color: var(--background-secondary);
     margin: 13px 10px 0 2px;
     border-radius: 12px!important;
@@ -204,7 +255,7 @@ section[class*="headerBar-"] {
     &::after {
       display: none;
     }
-    [class*="toolbar-"] {
+    .toolbar-1t6TWx {
       padding: .6rem;
       background-color: var(--background-secondary);
       margin: 13px 2px 0 0;
@@ -213,12 +264,12 @@ section[class*="headerBar-"] {
   }
 }
 
-[class*="base-"] {
-  [class*="content-"] {
-    section[class*="container-"] {
+.base-3dtUhz {
+  .content-98HsJk {
+    .container-1r6BKw {
       background: var(--background-spacing);
       padding: 0 10px 0 0;
-      [class*="children"] {
+      .children-19S4PO {
         background-color: var(--background-secondary-alt);
         margin: 10px 0 0 0;
         border-radius: 12px 0 0 12px;
@@ -227,7 +278,7 @@ section[class*="headerBar-"] {
           display: none;
         }
       }
-      [class*="toolbar-"] {
+      .toolbar-1t6TWx {
         padding: .6rem;
         background-color: var(--background-secondary-alt);
         margin: 10px 2px 0 0;
@@ -237,14 +288,14 @@ section[class*="headerBar-"] {
   }
 }
 
-[class*="nowPlayingColumn-"] {
+.nowPlayingColumn-2sl4cE {
   background-color: transparent;
-  [class*="container-"] {
+  .container-lRFx4q {
     background: var(--background-secondary);
     height: calc(100% - 20px);
     margin: 10px;
     border-radius: 12px;
-    [class*="emptyCard-"] {
+    .emptyCard-1RJw8n {
       background: transparent;
     }
   }
@@ -270,15 +321,15 @@ section[class*="headerBar-"] {
   border-radius: 12px 12px 0 0;
 }
 
-[class*="app-"] {
+.app-2rEoOp {
   [class*="layers-"] {
     nav {
-      &[class*="wrapper-3NnKdC"] {
+      &.wrapper-3NnKdC {
         border-radius: 12px;
         &[class*="guilds-"] {
           margin: 10px 0 10px 10px;
           >ul {
-            [class*="scroller-"] {
+            .scroller-1Bvpku {
               background: var(--background-secondary-alt);
             }
           }

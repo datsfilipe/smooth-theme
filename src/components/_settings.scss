@@ -1,4 +1,4 @@
-[class*="bd-setting-header"] {
+.bd-setting-title {
   label {
     font-family: var(--font-headline);
     color: var(--text-normal);
@@ -7,7 +7,7 @@
     }
   }
 }
-[class*="bd-setting-note"] {
+.bd-setting-note {
   color: var(--text-muted);
 }
 [class*="marginTop20-"] {
@@ -72,12 +72,8 @@ label[for*="uid_210"] {
   }
 }
 
-.lookOutlined-3sRXeN.colorBrand-3pXr91 {
-  color: var(--color11);
-  border-color: var(--color11);
-  &:hover {
-    filter: brightness(0.8);
-  }
+.card-3AyPWq {
+  border-radius: 8px;
 }
 
 .item-26Dhrx {
@@ -93,8 +89,8 @@ label[for*="uid_210"] {
   background-color: var(--background-tertiary);
 }
 
-[class*="connection-"] {
-  [class*="connectionHeader-"] {
+.connection-1fbD7X {
+  .connectionHeader-2MDqhu {
     border-bottom: 1px solid rgba(230, 230, 230, 0.06);
   }
 }
@@ -162,46 +158,20 @@ label[for*="uid_210"] {
   }
 }
 
-[class*="flexChild-"] {
-  [class*="lookFilled-"] {
-    background-color: transparent;
-    color: var(--text-normal)!important;
-  }
-  [class*="lookFilled-"]:hover {
-    background-color: rgba(230, 230, 230, 0.06)!important;
-  }
-}
-[class*="lookFilled-"] {
-  &[class*="colorWhite-"] {
-    background-color: var(--color11);
-    [class*="contents-"] {
-      color: var(--text-alt);
-    }
-    &:hover {
-      background-color: var(--color11)!important;
-      filter: brightness(0.9);
-      [class*="contents-"] {
-        color: var(--text-alt);
-      }
-    }
-  }
-}
-
-[class*="tier-"] {
-  [class*="tierHeaderLocked-"] {
+.tiers-3eUU7I {
+  .tierHeaderLocked-3S508x {
     background-color: var(--background-secondary);
     color: var(--text-normal);
   }
-  [class*="tierHeader-"] {
+  .tierHeader-l2pbOh {
     background-color: var(--background-secondary);
     color: var(--text-normal);
   }
-  [class*="tierBody-"] {
-    background-color: var(--background-accent);
+  .tierBody-3aUxuc {
+    background-color: var(--background-modifier-hover);
     color: var(--text-normal);
   }
 }
-
 
 [class*="customContainer-"] {
   [class*="customScroller-"] {
@@ -210,38 +180,6 @@ label[for*="uid_210"] {
         [class*="container-"] {
           background-color: var(--background-tertiary);
           color: var(--text-normal);
-        }
-      }
-    }
-  }
-}
-
-[class*="children-"] {
-  div {
-    [class*="lookFilled-"] {
-      &[class*="select-"] {
-        color: var(--text-normal)!important;
-        svg[aria-hidden="false"] {
-          path {
-            fill: var(--text-normal)!important;
-          }
-        }
-        &:hover {
-          background-color: rgba(230, 230, 230, 0.06)!important;
-          span[class*="value"] {
-            svg {
-              path {
-                fill: var(--text-normal);
-              }
-            }
-          }
-          [class*="icons-"] {
-            svg {
-              path {
-                fill: var(--text-normal);
-              }
-            }
-          }
         }
       }
     }
@@ -328,8 +266,7 @@ label[for*="uid_210"] {
     [class*="icon-"] {
       color: var(--interactive-active);
     }
-  }
-}
+  }}
 
 [class*="warning-"] {
   border-radius: 8px;
@@ -350,21 +287,11 @@ label[for*="uid_210"] {
   border-radius: 8px;
 }
 
-.theme-dark, .theme-light {
-  .lookOutlined-3sRXeN.colorPrimary-3b3xI6 {
-    color: var(--color11);
-    border-color: var(--color11);
-    &:hover {
-      filter: brightness(0.8);
-    }
-  }
-}
-
 .description-3_Ncsb {
   color: var(--text-muted);
 }
 
-[class*="theme-dark"] {
+.theme-dark {
   .shinyButton-3uFlM- {
     &.sizeMedium-1AC_Sl {
       background-color: var(--color11)!important;
@@ -448,16 +375,6 @@ label[for*="uid_210"] {
   border-radius: 8px;
 }
 
-[class*="theme-dark"], [class*="theme-light"] {
-  [class*="lookFilled-"] {
-    &[class*="colorGrey-"] {
-      &[class*="button-38qaLQ"] {
-        color: var(--text-alt)!important;
-      } 
-    }
-  }
-}
-
 .textArea-1Lj-Ns, .inputDefault-_djjkz, .previewContainer-1KQDJS {
   border-radius: 8px;
 }
@@ -480,7 +397,7 @@ label[for*="uid_210"] {
   }
 }
 
-[class*="keybindShortcut-"] span {
+.keybindShortcut-1BD6Z1 span {
   background-color: var(--interactive-normal);
   border: 1px solid rgba(230, 230, 230, 0.06);
   color: var(--text-alt)!important;
@@ -559,7 +476,7 @@ label[for*="uid_210"] {
   }
 }
 
-[class*="theme-dark"] [class*="root-"], [class*="theme-light"] [class*="root-"] {
+.theme-dark [class*="root-"], .theme-light [class*="root-"] {
   .control-2BBjec {
     .container-3auIfb {
       background-color: rgba(230,230,230,0.2) !important;
@@ -578,9 +495,9 @@ label[for*="uid_210"] {
   background-color: transparent;
 }
 
-[class*="checkboxWrapper-"] {
-  &[class*="checked"] {
-    [class*="checkbox"] {
+.checkboxWrapper-SkhIWG {
+  &.checked-3_4uQ9 {
+    .checkbox-1ix_J3 {
       background-color: var(--color11)!important;
       border-color: var(--color11)!important;
       svg {
@@ -592,8 +509,24 @@ label[for*="uid_210"] {
   }
 }
 
-[class*="bd-switch"] {
-  [class*="bd-switch-body"] {
+.addMemberRow-3-w-9X.selectedRow-1QP7qb {
+  .checkboxWrapper-SkhIWG {
+    &.checked-3_4uQ9 {
+      .checkbox-1ix_J3 {
+        background-color: var(--color9)!important;
+        border-color: var(--color9)!important;
+        svg {
+          path {
+            fill: var(--color6);
+          }
+        }
+      }
+    }
+  }
+}
+
+.bd-switch {
+  .bd-switch-body {
     background-color: rgba(230, 230, 230, 0.2)!important;
     svg {
       rect {
@@ -606,8 +539,8 @@ label[for*="uid_210"] {
       }
     }
   }
-  &[class*="bd-switch-checked"] {
-    [class*="bd-switch-symbol"] {
+  &.bd-switch-checked {
+    .bd-switch-symbol {
       path {
         fill: var(--color11)!important;
       }
@@ -615,22 +548,13 @@ label[for*="uid_210"] {
   }
 }
 
-[class*="sidebar-"] {
-  [class*="side-"] {
-    [class*="header-"] {
+.sidebar-CFHs9e {
+  .side-8zPYf6 {
+    .header-2RyJ0Y {
       font-size: 0.9rem;
       letter-spacing: 1px;
       font-family: var(--font-headline);
       color: var(--color6);
-    }
-  }
-}
-
-[class*="userInfo-"] {
-  button[class*="lookFilled-"][class*="colorBrand-"] {
-    background-color: var(--interactive-hover);
-    &:hover {
-      background-color: var(--interactive-normal)!important;
     }
   }
 }
@@ -676,21 +600,7 @@ label[for*="uid_210"] {
   }
 }
 
-[class*="userInfo-"] {
-  .button-38aScr {
-    &.lookFilled-1Gx00P {
-      &.colorBrand-3pXr91 {
-        background-color: var(--color11)!important;
-        &:hover {
-          background-color: var(--color11)!important;
-          filter: brightness(0.9);
-        }
-      }
-    }
-  }
-}
-
-[class*="theme-light"] {
+.theme-light {
   .inviteRow-2L02ae:hover {
     background-color: rgba(230, 230, 230, 0.08);
   }
