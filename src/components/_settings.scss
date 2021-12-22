@@ -341,7 +341,7 @@ label[for*="uid_210"] {
   border-radius: 8px;
   background-color: var(--background-accent);
   &:hover {
-    background-color: var(--background-accent)!important;
+    background-color: var(--background-accent);
     filter: brightness(0.9);
     opacity: 1!important;
   }

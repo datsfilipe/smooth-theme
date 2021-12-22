@@ -158,10 +158,20 @@
   border-radius: 12px;
 }
 
+// fix screen recorder not showing part 2
 .callContainer-36WRfH {
   margin: 10px 10px 10px 0;
   border-radius: 12px;
-  background: transparent!important;
+  background: var(--background-secondary);
+  [class*="root-"] {
+    background-color: unset;
+  }
+  .inner-2O5YO7 {
+    margin: 18px;
+  }
+  .background-ujHpbY {
+    background-color: var(--background-modifier-accent)!important;
+  }
 }
 
 .topControls-KKImPZ {

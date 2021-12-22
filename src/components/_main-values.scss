@@ -65,7 +65,7 @@
   --deprecated-card-editable-bg: #151515;
   --deprecated-store-bg: #1b1b1b;
   --deprecated-quickswitcher-input-background: var(--color2);
-  --background-spacing: #252525;
+  --background-spacing: #272727;
   --deprecated-quickswitcher-input-placeholder: ;
   --deprecated-text-input-bg: #1b1b1b;
   --deprecated-text-input-border: var(--color7);
@@ -74,6 +74,16 @@
   --deprecated-text-input-prefix: #909090;
   --message-text-color: #e6e6e6;
   --info-warning-foreground: #e6e6e6;
+
+  // fix username goes black in calls
+  .listDefault-3ir5aS .clickable-1lCRLF.selected-3t3Csj .username-3KYl0N, .usernameSpeaking-RmltQx {
+    color: var(--channels-default);
+  }
+
+  // usernames bolder in chat
+  .username-1A8OIy {
+    font-weight: 700;
+  }
 
   .datePicker--XZbmJ .datePickerHint-3Q1Udw .hintValue-29ny8Z {
     border-radius: 6px;
@@ -146,6 +156,13 @@
   }
   [class*="perksModal-"] {
     background-color: var(--background-primary);
+  }
+  .tabBar-1kuXvJ .tab-ck0077.active-1MbGPa {
+    background-color: var(--background-modifier-selected);
+  }
+  .wrapper-232cHJ.badge-2l0o8g {
+    background-color: var(--color4);
+    color: var(--text-alt);
   }
   .ctaBar-2nFzdG {
     border-radius: 12px;
@@ -356,6 +373,11 @@
       color: var(--text-brand)!important;
     }
   }
+  .colorDefault-2K3EoJ:active {
+    .subtext-13Lvrj {
+      color: var(--text-alt);
+    }
+  }
   .outer-1AjyKL.active-1xchHY, .outer-1AjyKL.interactive-3B9GmY:hover {
     background-color: rgba(230, 230, 230, 0.06);
   }
@@ -369,8 +391,12 @@
   [class*="root-"] {
     background-color: var(--background-secondary-alt);
     [class*="container-"] {
-      background-color: var(--background-primary)!important;
+      background-color: var(--background-primary);
     }
+  }
+  // fix screen recorder not showing
+  .container-1PWn_0 {
+    background-color: unset!important;
   }
   [class*="bodyInnerWrapper-"] {
     [class*="root-"] {
@@ -436,6 +462,50 @@
       }
     }
   }
+  .gameWrapper-1jIQAX {
+    .icon-3Oovq9 {
+      color: var(--text-alt);
+    }
+  }
+
+  .settingsGroup-2NaPKC {
+    .group-2dAfBy {
+      .selectorButton-EEUWed {
+        border-radius: 6px;
+        .selectorTextSelected-1ymya_ {
+          color: var(--text-alt);
+        }
+        &:hover {
+          .colorStandard-2KCXvj {
+            color: var(--text-alt);
+          }
+        }
+      }
+      .selectorButtonPremiumRequired-mKMbIu:hover {
+        div {
+          div {
+            .colorStandard-2KCXvj {
+              color: var(--text-normal);
+            }
+          }
+        }
+      }
+    }
+  }
+  .footer-C1KpS6 {
+    .controls-T0w-Wc {
+      .button-coQXfM {
+        color: var(--text-alt);
+        border-radius: 6px;
+        &:hover {
+          filter: brightness(.9);
+        }
+      }
+    }
+  }
+  .bd-button {
+    border-radius: 6px;
+  }
   .applicationCommandEducation-2jAJ0B {
     display: none;
   }
@@ -446,6 +516,11 @@
     color: var(--text-alt)!important;
     span {
       background-color: var(--interactive-normal);
+      svg {
+        g {
+          fill: var(--text-alt)!important;
+        }
+      }
     }
   }
   [type*="button"] {
@@ -456,6 +531,21 @@
   [class*="codeRedemptionRedirect-"] {
     background-color: var(--background-mentioned-hover);
     color: var(--text-normal);
+  }
+
+  // dm remove and block user buttons
+  .container-1fnzfI {
+    .lookFilled-1Gx00P {
+      &.colorPrimary-3b3xI6 {
+        &.action-26D6fg {
+          background-color: var(--color3);
+          transition: background-color 0.2s;
+          &:hover {
+            background-color: var(--color4);
+          }
+        }
+      }
+    }
   }
 
   // lookFilled buttons
@@ -470,7 +560,12 @@
   }
 
   .lookFilled-1Gx00P {
-    color: var(--text-alt)!important;
+    border-radius: 8px;
+    color: var(--text-alt);
+    transition: all 0.2s;
+    &.colorPrimary-3b3xI6 {
+      color: var(--text-alt);
+    }
 
     &[class*="select-"] {
       color: var(--text-normal)!important;
@@ -531,7 +626,8 @@
     &.colorPrimary-3b3xI6 {
       background-color: var(--color6);
       &:hover {
-        background-color: var(--interactive-normal);
+        background-color: var(--color6);
+        filter: brightness(0.9);
       }
     }
 
@@ -542,25 +638,29 @@
         background-color: var(--color11);
         filter: brightness(0.9);
       }
-      &:disabled {
+      &:disabled, &.fauxDisabled-2ik0Vw {
+        cursor: not-allowed;
         background-color: var(--color11);
         color: var(--text-alt);
+        opacity: 0.6;
         &:hover {
           background-color: var(--color11);
-          filter: brightness(0.6);
+          opacity: 0.6;
+          filter: none;
         }
       }
     }
 
     &.colorGrey-2DXtkV {
+      color: var(--text-alt);
       background-color: var(--interactive-normal);
       &:hover {
-        background-color: var(--interactive-active);
+        background-color: var(--interactive-normal);
         filter: brightness(0.9);
       }
       &:disabled {
         background-color: var(--color11)!important;
-        filter: brightness(0.4);
+        filter: brightness(0.7);
       }
     }
 
@@ -581,10 +681,12 @@
     &.colorGreen-29iAKY {
       background-color: var(--color11);
       &:disabled {
-        background-color: var(--color12);
-        opacity: 0.9;
+        opacity: 0.5;
+        color: var(--text-alt);
+        background-color: var(--color11);
         &:hover {
-          background-color: var(--color12);
+          opacity: 0.5;
+          background-color: var(--color11);
         }
       }
     }
@@ -625,6 +727,7 @@
     &.colorRed-1TFJan {
       color: var(--color3);
       border-color: var(--color3);
+      transition: all 0.2s;
       &:hover {
         border-color: var(--color4);
         color: var(--color4);
@@ -635,6 +738,7 @@
     &.colorPrimary-3b3xI6 {
       color: var(--color11);
       border-color: var(--color11);
+      transition: filter 0.2s;
       &:hover {
         filter: brightness(0.8);
       }
@@ -643,6 +747,7 @@
     &.colorBrand-3pXr91 {
       color: var(--color11);
       border-color: var(--color11);
+      transition: filter 0.2s;
       &:hover {
         filter: brightness(0.8);
       }
@@ -661,8 +766,9 @@
     &[class*="colorBrand-"] {
       color: var(--text-normal);
       background: var(--background-accent);
+      transition: filter 0.2s;
       &:hover {
-        opacity: 0.9;
+        filter: brightness(.9);
       }
     }
   }

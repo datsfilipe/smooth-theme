@@ -200,6 +200,35 @@
   padding: 6px 14px!important;
 }
 
+.channelAttachmentArea-3ziOpb {
+  max-height: 100px;
+  .upload-3Dkqd6 {
+    min-width: 80px;
+    min-height: 80px;
+    max-width: 950px;
+    max-height: 950px;
+    .icon-HQGNTD {
+      background-size: contain;
+    }
+  }
+}
+
+[class*="messagesErrorBar-"] {
+  margin-bottom: 18px;
+  padding: 2px;
+  position: absolute;
+  border-radius: 12px;
+  background-color: var(--color3);
+  .barButtonBase-2uLO1z {
+    color: var(--text-alt);
+  }
+  &:active {
+    margin-bottom: 18px;
+    padding: 2px;
+    position: absolute;
+  }
+}
+
 code.inline {
   background: var(--background-modifier-accent);
   color: var(--message-text-color);

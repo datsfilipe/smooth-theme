@@ -41,6 +41,26 @@
         background-color: transparent;
       }
     }
+    .customStatus-oN4ZZY {
+      color: var(--color8);
+    }
+    .aboutMeSection-1Fw5Ia {
+      .aboutMeBody-3GuvKk {
+        color: var(--interactive-active);
+      }
+    }
+    .contentImagesUserPopout-1vLdRA {
+      h3 {
+        font-weight: 700;
+      }
+      div {
+        span {
+          a {
+            color: var(--color8);
+          }
+        }
+      }
+    }
     .timeBarUserPopout-AWPFf2 {
       .bar-3urHkF {
         background-color: rgba(230, 230, 230, 0.06);
@@ -163,19 +183,6 @@
       font-family: var(--font-headline);
       letter-spacing: 1px;
       color: var(--text-normal)!important;
-    }
-    [class*="bodyNormal-"] {
-      [class*="contentImagesUserPopout-"] {
-        h3 {
-          color: var(--white)!important;
-        }
-        div {
-          color: var(--interactive-active);;
-          a {
-            color: var(--interactive-active);;
-          }
-        }
-      }
     }
   }
 }
