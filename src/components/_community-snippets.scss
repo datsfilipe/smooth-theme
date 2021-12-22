@@ -134,7 +134,7 @@
   -o-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
 }
-// this is an addition 
+// this is an addition
 .container-3baos1 .noWrap-3jynv6 {
   width: auto !important;
 }
@@ -156,7 +156,7 @@
 .button-14-BFJ:hover {
   padding-bottom: 0px;
   transition: 0.2;
-  background-color: var(--background-modifier-hover)!important;
+  background-color: var(--background-modifier-hover) !important;
 }
 @keyframes UserModalButtons {
   0% {
@@ -179,16 +179,10 @@
 }
 
 /*
-* Snippet by christian#1111
-* Remove CreArts Modal Blur
-*/
-.backdrop-1wrmKB::before, .backdropWithLayer-3_uhz4::before {backdrop-filter: none;}
-
-/*
 * css snippet - revert roles design
 * by: Ashtrath#9079
 */
-.role-2irmRk{
+.role-2irmRk {
   background: transparent;
   border: 1px solid;
   border-radius: 11px;

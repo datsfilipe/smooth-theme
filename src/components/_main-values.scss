@@ -82,7 +82,7 @@
 
   // usernames bolder in chat
   .username-1A8OIy {
-    font-weight: 700;
+    font-weight: 500;
   }
 
   .datePicker--XZbmJ .datePickerHint-3Q1Udw .hintValue-29ny8Z {
@@ -462,6 +462,10 @@
       }
     }
   }
+  .colorDanger-4gmAY0 {
+    color: var(--text-alt);
+  }
+
   .gameWrapper-1jIQAX {
     .icon-3Oovq9 {
       color: var(--text-alt);
@@ -523,14 +527,22 @@
       }
     }
   }
-  [type*="button"] {
-    &.button-38aScr {
-      border-radius: 8px;
-    }
-  }
   [class*="codeRedemptionRedirect-"] {
     background-color: var(--background-mentioned-hover);
     color: var(--text-normal);
+  }
+
+  // fix dm call select region not styled
+  .quickSelectPopout-X1hvgV {
+    background: var(--background-accent);
+  }
+
+  // fix green border getting cut in dm calls
+  .participant-1lOCsd {
+    .wrapper-2QE8vf {
+      width: 75px!important;
+      height: 75px!important;
+    }
   }
 
   // dm remove and block user buttons

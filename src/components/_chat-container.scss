@@ -87,9 +87,12 @@
   div {
     color: var(--text-alt);
   }
-  button {
+  .button-2DhvE9, .button-2PWmas, .button-38aScr {
+    border-radius: 8px;
     color: var(--text-alt);
     &:hover {
+      border: 1px solid var(--text-alt);
+      color: var(--text-alt);
       background-color: var(--color4);
     }
   }
