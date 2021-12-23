@@ -1,17 +1,21 @@
+/**
+ * @Sidebar Component
+*/
+
 [class*="wrapper-"] {
   [class*="childWrapper-"] {
-    &[class*="acronym-2mOFsV"] {
+    &.acronym-2mOFsV {
       &:hover {
         color: var(--text-alt)!important;
       }
     }
-    &[class*="acronym-2mOFsV"] {
+    &.acronym-2mOFsV {
       color: var(--text-normal)!important;
     }
   }
   &[class*="selected-"] {
     [class*="childWrapper-"] {
-      &[class*="acronym-2mOFsV"] {
+      &.acronym-2mOFsV {
         color: var(--text-alt)!important;
       }
     }
