@@ -14,6 +14,8 @@ Download the theme navigating to [here](https://raw.githubusercontent.com/datsfi
 
 # Preview
 
+*By the way, the the title bar in that preview is from system !*
+
 <p>
   <img src="https://imgur.com/YvoRJEI.gif" alt="Preview Smooth Theme" width="800" />
 </p>
