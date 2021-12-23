@@ -8,7 +8,21 @@
 */
 
 @import "https://datsfilipe.github.io/smooth-theme/src/theme/source.css";
+/** 
+ * DON'T EDIT ANYTHING ABOVE !!!
+*/
+
+
+/* Comment out the import to remove the spaces the theme adds to Discord */
+/* @import ""; */
 
 :root {
+  /* You can uncomment the variable you want to change here, if it's available */
+  /* --text-link: ; */
+
+
+  /**
+   *  DON'T EDIT ANYTHING BELOW !!!
+  */
   --version1-2-0: none;
 }
