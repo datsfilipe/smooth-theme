@@ -1,3 +1,7 @@
+/**
+ * @Channels Bar Component
+ */
+
 .lowerBadge-29hYVK {
   .numberBadge-2s8kKX {
     font-family: var(--font-display);
@@ -6,20 +10,20 @@
   }
 }
 
-[class*="wrapper-"] {
+.wrapper-1BJsBx {
   &[aria-label*="Home"] {
-    [class*="childWrapper-"] {
+    .childWrapper-anI2G9 {
       background-color: rgba(230, 230, 230, 0.06);
       color: var(--interactive-normal);
     }
-    &[class*="selected-"] {
-      [class*="childWrapper-"] {
+    &.selected-bZ3Lue {
+      .childWrapper-anI2G9 {
         background-color: var(--interactive-normal);
         color: var(--background-accent);
       }
     }
     &:hover {
-      [class*="childWrapper-"] {
+      .childWrapper-anI2G9 {
         background-color: var(--interactive-normal);
         color: var(--background-accent);
       }
@@ -27,23 +31,23 @@
   }
 }
 
-[class*="folderIconWrapper-"] {
+.folderIconWrapper-1Ml_1q {
   background-color: rgba(230, 230, 230, 0.06)!important;
 }
 
-[class*="expandedFolderBackground-"] {
+.expandedFolderBackground-3ZDF05 {
   background-color: rgba(230, 230, 230, 0.06);
   filter: brightness(0.8);
 }
 
-[id="bd-pub-li"] {
+#bd-pub-li {
   display: none;
 }
 
-[class*="circleIconButton-"] {
+.circleIconButton-hZmpE8 {
   background-color: rgba(230, 230, 230, 0.06);
   color: var(--interactive-normal);
-  &[class*="selected-"] {
+  &.selected-3mFF3I {
     color: var(--interactive-normal);
     background-color: rgba(230, 230, 230, 0.06);
   }

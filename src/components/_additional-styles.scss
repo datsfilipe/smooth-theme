@@ -1,7 +1,777 @@
+/**
+ * @Additional Styles Component
+*/
+
+// Main Section
+.theme-dark, .theme-light {
+  // fix username goes black in calls
+  .listDefault-3ir5aS .clickable-1lCRLF.selected-3t3Csj .username-3KYl0N, .usernameSpeaking-RmltQx {
+    color: var(--channels-default);
+  }
+
+  // usernames bolder in chat
+  .username-1A8OIy {
+    font-weight: 500;
+  }
+
+  .datePicker--XZbmJ .datePickerHint-3Q1Udw .hintValue-29ny8Z {
+    border-radius: 6px;
+    color: var(--text-alt)!important;
+    &:hover {
+      color: var(--text-alt)!important;
+      background-color: var(--brand-experiment)!important;
+      filter: brightness(.8);
+    }
+  }
+
+  .calendarPicker-2yf6Ci {
+    .react-datepicker {
+      background-color: var(--background-accent);
+    }
+
+    .react-datepicker__header {
+      background-color: var(--background-accent);
+    }
+
+    .react-datepicker__month {
+      background-color: var(--background-accent);
+    }
+
+    .react-datepicker__day:hover {
+      background-color: var(--deprecated-text-input-prefix);
+      color: var(--text-alt);
+    }
+  }
+  
+  .bar-3S3dlZ {
+    &.background-3xPPFc {
+      color: #ff73fa;
+      opacity: 0.3;
+    }
+  }
+  .tierInProgress-3mBoXq {
+    background-color: #ff73fa;
+    opacity: 0.3;
+  }
+  .wrapper-3WhCwL {
+    background: var(--brand-experiment-30a);
+    color: var(--brand-experiment-200);
+  }
+  .searchBar-3dMhjb {
+    background-color: transparent;
+    transition: width .3s;
+    .icon-38sknP {
+      .iconContainer-O4O2CN {
+        svg {
+          transition: color .3s;
+          color: var(--interactive-normal);
+        }
+      }
+    }
+  }
+  .focused-31_ccS .searchBar-3dMhjb, .open-6_Y_aH .searchBar-3dMhjb {
+    .icon-38sknP {
+      .iconContainer-O4O2CN {
+        svg {
+          color: var(--interactive-active);
+        }
+      }
+    }
+  }
+  .spoilerText-3p6IlD.hidden-HHr2R9 {
+    background-color: var(--text-muted);
+    &:hover {
+      background-color: var(--text-muted);
+    }
+  }
+  .subscribeTooltipWrapper-1JoUuw {
+    background-color: var(--background-tertiary);
+  }
+  [class*="searchBox-"] {
+    background-color: var(--background-tertiary);
+  }
+  .colorStandard-2KCXvj {
+    &.size16-1P40sf {
+      &.checkboxText-20IXco {
+        background: transparent!important;
+      }
+    }
+  }
+  [class*="layerContainer-"] {
+    .badgeList-1R1WgZ {
+      &[class*="container-"] {
+        background-color: transparent!important;
+      }
+    }
+  }
+  [class*="perksModal-"] {
+    background-color: var(--background-primary);
+  }
+  .tabBar-1kuXvJ .tab-ck0077.active-1MbGPa {
+    background-color: var(--background-modifier-selected);
+  }
+  .wrapper-232cHJ.badge-2l0o8g {
+    background-color: var(--color4);
+    color: var(--text-alt);
+  }
+  .ctaBar-2nFzdG {
+    border-radius: 12px;
+    border: 1px solid rgba(230, 230, 230, 0.06);
+  }
+  .tierMarkerBackground-3q29am {
+    background-color: #383838;
+  }
+  .barBackground-2EEiLw {
+    background-color: #383838;
+  }
+  .barForeground-3KglC8 {
+    background-color: var(--color11);
+  }
+  .tierMarkerAccomplished-2MiXeg {
+    background: var(--color11)!important;
+  }
+  .currentTierIcon-2gcTCn {
+    color: var(--background-secondary);
+  }
+  .tierUnlocked-3mPMcg {
+    color: #000000;
+  }
+  .tierHeaderUnlocked-3QAU1o {
+    background-image: linear-gradient(90deg,hsl(160,calc(var(--saturation-factor, 1)*50%),25.5%),var(--color11));
+  }
+  .progressBarContainer-DLPbha {
+    .progressBar-UDQ4AC {
+      background: linear-gradient(90deg,hsl(160,calc(var(--saturation-factor, 1)*50%),25.5%),var(--color11));
+    }
+  }
+  .modalContent-3FEGI5 {
+    .optionBox-1b4n4P {
+      .contentCircle-2uR76y {
+        background-color: var(--background-floating);
+        border: 1px solid rgba(230, 230, 230, 0.06);
+      }
+    }
+  }
+  .warningIcon-3rQ5yJ {
+    color: var(--color5);
+  }
+  .headerWrapper-3NUKsd {
+    .container-1r6BKw {
+      .children-19S4PO {
+        .container-x-SnoF {
+          background-color: transparent!important;
+        }
+      }
+    }
+  }
+  ::-webkit-scrollbar-thumb {
+    &:active {
+      background-color: rgba(255,255,255,0.5);
+    }
+  }
+  .replyBar-1YLQ2F {
+    .actions-NlfMQc {
+      .closeButton-37O8QC {
+        color: var(--color3);
+        &:hover {
+          color: var(--color4);
+        }
+      }
+    }
+  }
+  .container-3baos1 {
+    .nameTag-3uD-yy {
+      .subtext-3CDbHg {
+        color: var(--text-muted);
+      }
+    }
+  }
+  .channel-2QD9_O {
+    max-width: unset;
+  }
+  // when showing various new messages, the resizer shows up very often and disappear, cause of this i will remove it from now 
+  ::-webkit-resizer {
+    display: none;
+  }
+  .wrapper-2qzCYF.chatSidebarOpen-2u0Ygq, .wrapper-2qzCYF.fullScreen-1tMzXY, .wrapper-2qzCYF.noChat-18KtBD {
+    background-color: transparent;
+  }
+  button[class*="controlButton-"] {
+    &[class*="centerButton-"] {
+      &.red-33-Lnk {
+        border-radius: 50%;
+      }
+    }
+  }
+  .colorable-1bkp8v.red-33-Lnk {
+    background: var(--color4);
+    &:hover {
+      background: var(--color4);
+      filter: brightness(.9);
+    }
+  }
+  .colorable-1bkp8v.red-33-Lnk, .colorable-1bkp8v.red-33-Lnk .centerIcon-2G6o-T {
+    color: var(--text-alt);
+  }
+  .connection-3KRENF, .voiceUsers-YsH5Db {
+    .colorBrand-13pXr91 {
+      &[aria-label="Disconnect"] {
+        color: var(--color3);
+      }
+    }
+  }
+  .activityPanel-28dQGo {
+    .body-GmmuPm {
+      .actions-aUdUfC {
+        button[aria-label="Stop Streaming"] {
+          color: var(--color3);
+        }
+      }
+    }
+  }
+  .listRow-1iDGel {
+    border-radius: 8px;
+  }
+  .root-3QyAh1 {
+    .body-r6_QPy {
+      .listScroller-3GmIYj {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: repeat(auto-fill, 50px);
+        // little update to style a bit better the activities tab
+        .activityProfile-2bJRaP {
+          .bodyNormal-2D39hT {
+            display: grid;
+            grid-template-rows: repeat(auto-fill, minmax(50px, 1fr));
+            gap: 3px;
+            padding-bottom: 20px;
+            .assets-VMAukC {
+              img {
+                max-height: 50px;
+              }
+            }
+            .content-3JfFJh {
+              margin: 3px 0;
+              .textRow-19NEd_ {
+                font-size: .8rem;
+              }
+              .detailsWrap-22pigg {
+                color: var(--text-muted);
+              }
+            }
+            .buttonsWrapper-2spIeK {
+              margin: 0;
+              .buttonSize-AQY2mE {
+                width: 100%;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  #popout {
+    .contentWithMedia-3YF06_, .contentNoMedia-1yP2hn {
+      border: 1px solid var(--text-brand);
+    }
+    .content-1nP7fx {
+      background-color: var(--background-primary);
+    }
+    .popoutRoot-2_6ixn.right-1r4pvL.arrowAlignmentTop-1OMEr_:before {
+      border-right-color: var(--text-brand);
+    }
+    .titleCenter-2bwbDI, .titleLeft-2erkAr {
+      &.title-eQ0ZMf {
+        margin-top: 2px;
+        color: var(--text-normal);
+      }
+      .voiceChannelsTitle-3UxkpI {
+        margin-top: 40px;
+      }
+    }
+  }
+  [class*="headerTag"], .nameTag-ECvD8P,.userTag-1PLzkC {
+    font-size: 18px;
+  }
+  .countryCode-2TeNMX, .plusSign-15Cgdh {
+    color: var(--text-alt)!important;
+  }
+  .phoneField-38N1bJ .phoneFieldExpand-2DzY5G {
+    stroke: var(--text-alt)!important;
+  }
+  .popoutList-T9CKZQ {
+    border-radius: 8px;
+    background-color: var(--background-primary);
+  }
+  .cardWarning-2yPNAa { .warning-1WIX3i { color: var(--text-alt) }}
+  .popoutListEmpty-voOEBJ {
+    font-size: 16px;
+  }
+  .field-1HUseB {
+    &.fieldSpacer-wgewFh {
+      .constrainedRow-2GB6Ki {
+        div {
+          div {
+            .colorHeaderPrimary-26Jzh- {
+              &.size16-1P40sf {
+                font-size: 14px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  .colorNotification-GG3eAb {
+    color: var(--text-alt);
+  }
+  .button-2DhvE9 {
+    border-color: var(--text-alt);
+  }
+  .avatarUploaderInner-3UNxY3>* {
+    color: var(--text-normal);
+  }
+  .button-2DhvE9:hover {
+    background-color: var(--background-accent);
+    border-color: rgba(230, 230, 230, 0.06);
+  }
+  .streamPreview-2-WUWT {
+    background-color: var(--background-secondary);
+    border-radius: 12px;
+    border: 1px solid var(--text-muted);
+  }
+  .watchButton-2SbJEo {
+    border-color: var(--text-muted);
+    color: var(--text-brand);
+  }
+  div[class*="protip-3-"] {
+    h3 {
+      color: var(--text-muted)!important;
+    }
+    div[class*="colorStandard-"] {
+      color: var(--text-brand)!important;
+    }
+  }
+  .colorDefault-2K3EoJ:active {
+    .subtext-13Lvrj {
+      color: var(--text-alt);
+    }
+  }
+  .outer-1AjyKL.active-1xchHY, .outer-1AjyKL.interactive-3B9GmY:hover {
+    background-color: rgba(230, 230, 230, 0.06);
+  }
+  .addGamePopout-2RY8Ju {
+    background-color: var(--background-floating);
+  }
+  .footer-2gL1pp {
+    background-color: var(--background-secondary);
+    border-color: var(--color6);
+  }
+  [class*="root-"] {
+    background-color: var(--background-secondary-alt);
+    [class*="container-"] {
+      background-color: var(--background-primary);
+    }
+  }
+  // fix screen recorder not showing
+  .container-1PWn_0 {
+    background-color: unset!important;
+  }
+  [class*="bodyInnerWrapper-"] {
+    [class*="root-"] {
+      background-color: var(--background-secondary-alt)!important;
+    }
+  }
+  [class*="addButtonIcon-"] {
+    path {
+      fill: var(--color6);
+    }
+  }
+  [class*="actionButton-"] {
+    &[class*="highlight-"] {
+      background-color: var(--background-primary)
+    }
+  }
+  [class*="pageWrapper-"] {
+    background-color: var(--background-primary);
+  }
+  .bar-2Qqk5Z {
+    background: rgba(230, 230, 230, 0.06);
+  }
+  .userSettingsVoice-iwdUCU .previewOverlay-2O7_KC {
+    background-color: var(--background-floating);
+    border-color: var(--interactive-active);
+    border-radius: 8px;
+  }
+  .notDetected-33MY4s {
+    background-color: rgba(230, 230, 230, 0.06);
+    border-radius: 8px;
+  }
+  .wrapper-3WhCwL {
+    &.mention {
+      background-color: var(--brand-experiment-30a);
+      color: var(--text-alt);
+      border-radius: 4px;
+      filter: brightness(.8);
+    }
+  }
+  .nowPlaying-284llR {
+    background-color: var(--interactive-hover);
+    border-radius: 8px;
+    [class*="gameNameLastPlayed-"] {
+      input {
+        width: 60%;
+        font-family: var(--font-primary);
+        font-weight: bold;
+        color: var(--text-alt);
+      }
+      input:active {
+        background-color: rgba(230, 230, 230, 0.06);
+      }
+      input:hover {
+        background-color: rgba(230, 230, 230, 0.06);
+        opacity: 0.9;
+      }
+      div {
+        font-family: var(--font-headline);
+        letter-spacing: 1px;
+        line-height: 18px;
+        color: var(--text-alt);
+        opacity: 0.9;
+      }
+    }
+  }
+  .colorDanger-4gmAY0 {
+    color: var(--text-alt);
+  }
+
+  .gameWrapper-1jIQAX {
+    .icon-3Oovq9 {
+      color: var(--text-alt);
+    }
+  }
+
+  .settingsGroup-2NaPKC {
+    .group-2dAfBy {
+      .selectorButton-EEUWed {
+        border-radius: 6px;
+        .selectorTextSelected-1ymya_ {
+          color: var(--text-alt);
+        }
+        &:hover {
+          .colorStandard-2KCXvj {
+            color: var(--text-alt);
+          }
+        }
+      }
+      .selectorButtonPremiumRequired-mKMbIu:hover {
+        div {
+          div {
+            .colorStandard-2KCXvj {
+              color: var(--text-normal);
+            }
+          }
+        }
+      }
+    }
+  }
+  .footer-C1KpS6 {
+    .controls-T0w-Wc {
+      .button-coQXfM {
+        color: var(--text-alt);
+        border-radius: 6px;
+        &:hover {
+          filter: brightness(.9);
+        }
+      }
+    }
+  }
+  .bd-button {
+    border-radius: 6px;
+  }
+  .applicationCommandEducation-2jAJ0B {
+    display: none;
+  }
+  .gameNameInput-385LoS:hover, .gameNameInput-385LoS:focus {
+    background-color: rgba(230, 230, 230, 0.06);
+  }
+  [class*="keybindShortcut-"] {
+    color: var(--text-alt)!important;
+    span {
+      background-color: var(--interactive-normal);
+      svg {
+        g {
+          fill: var(--text-alt)!important;
+        }
+      }
+    }
+  }
+  [class*="codeRedemptionRedirect-"] {
+    background-color: var(--background-mentioned-hover);
+    color: var(--text-normal);
+  }
+
+  // fix dm call select region not styled
+  .quickSelectPopout-X1hvgV {
+    background: var(--background-accent);
+  }
+
+  // fix green border getting cut in dm calls
+  .participant-1lOCsd {
+    .wrapper-2QE8vf {
+      width: 75px!important;
+      height: 75px!important;
+    }
+  }
+
+  // dm remove and block user buttons
+  .container-1fnzfI {
+    .lookFilled-1Gx00P {
+      &.colorPrimary-3b3xI6 {
+        &.action-26D6fg {
+          background-color: var(--color3);
+          transition: background-color 0.2s;
+          &:hover {
+            background-color: var(--color4);
+          }
+        }
+      }
+    }
+  }
+
+  // lookFilled buttons
+  .flexChild-faoVW3 {
+    .lookFilled-1Gx00P {
+      background-color: transparent;
+      color: var(--text-normal);
+    }
+    .lookFilled-1Gx00P:hover {
+      background-color: rgba(230, 230, 230, 0.06);
+    }
+  }
+
+  .lookFilled-1Gx00P {
+    border-radius: 8px;
+    color: var(--text-alt);
+    transition: all 0.2s;
+    &.colorPrimary-3b3xI6 {
+      color: var(--text-alt);
+    }
+
+    &[class*="select-"] {
+      color: var(--text-normal)!important;
+      svg[aria-hidden="false"] {
+        path {
+          fill: var(--text-normal)!important;
+        }
+      }
+      &:hover {
+        background-color: rgba(230, 230, 230, 0.06)!important;
+        span[class*="value"] {
+          svg {
+            path {
+              fill: var(--text-normal);
+            }
+          }
+        }
+        [class*="icons-"] {
+          svg {
+            path {
+              fill: var(--text-normal);
+            }
+          }
+        }
+      }
+    }
+
+    &:hover {
+      background-color: var(--brand-experiment);
+      opacity: 0.9;
+    }
+    &[class*="select-"] {
+      color: var(--text-normal)!important;
+      svg[aria-hidden="false"] {
+        path {
+          fill: var(--interactive-normal)!important;
+        }
+      }
+      &:hover {
+        background-color: var(--background-modifier-hover)!important;
+        span[class*="value"] {
+          svg {
+            path {
+              fill: var(--interactive-normal);
+            }
+          }
+        }
+        [class*="icons-"] {
+          svg {
+            path {
+              fill: var(--interactive-normal);
+            }
+          }
+        }
+      }
+    }
+
+    &.colorPrimary-3b3xI6 {
+      background-color: var(--color6);
+      &:hover {
+        background-color: var(--color6);
+        filter: brightness(0.9);
+      }
+    }
+
+    &.colorBrand-3pXr91 {
+      color: var(--text-alt);
+      background-color: var(--color11);
+      &:hover {
+        background-color: var(--color11);
+        filter: brightness(0.9);
+      }
+      &:disabled, &.fauxDisabled-2ik0Vw {
+        cursor: not-allowed;
+        background-color: var(--color11);
+        color: var(--text-alt);
+        opacity: 0.6;
+        &:hover {
+          background-color: var(--color11);
+          opacity: 0.6;
+          filter: none;
+        }
+      }
+    }
+
+    &.colorGrey-2DXtkV {
+      color: var(--text-alt);
+      background-color: var(--interactive-normal);
+      &:hover {
+        background-color: var(--interactive-normal);
+        filter: brightness(0.9);
+      }
+      &:disabled {
+        background-color: var(--color11)!important;
+        filter: brightness(0.7);
+      }
+    }
+
+    &.colorWhite-rEQuAQ {
+      background-color: var(--color11);
+      [class*="contents-"] {
+        color: var(--text-alt);
+      }
+      &:hover {
+        background-color: var(--color11);
+        filter: brightness(0.9);
+        [class*="contents-"] {
+          color: var(--text-alt);
+        }
+      }
+    }
+
+    &.colorGreen-29iAKY {
+      color: var(--text-alt);
+      background-color: var(--color11);
+      &:disabled {
+        opacity: 0.5;
+        color: var(--text-alt);
+        background-color: var(--color11);
+        &:hover {
+          opacity: 0.5;
+          background-color: var(--color11);
+        }
+      }
+    }
+
+    &.colorRed-1TFJan {
+      background-color: var(--color3);
+      &:hover {
+        background-color: var(--color4);
+        filter: brightness(0.9);
+      }
+      &:disabled {
+        background-color: var(--color3);
+        opacity: 0.6;
+        &:hover {
+          background-color: var(--color3);
+          filter: none;
+        }
+      }
+    }
+  }
+
+  .searchBox-2U8-yR {
+    background-color: transparent;
+  }
+
+  .addMemberRow-3-w-9X.selectedRow-1QP7qb {
+    div {
+      color: var(--text-alt);
+    }
+  }
+  .addMemberRow-3-w-9X {
+    border-radius: 6px;
+    padding: 0.65rem 1rem;
+  }
+
+  // lookOutlined buttons
+  .lookOutlined-3sRXeN {
+    border-radius: 8px;
+    &.colorRed-1TFJan {
+      color: var(--color3);
+      border-color: var(--color3);
+      transition: all 0.2s;
+      &:hover {
+        border-color: var(--color4);
+        color: var(--color4);
+        filter: brightness(0.9);
+      }
+    }
+
+    &.colorPrimary-3b3xI6 {
+      color: var(--color11);
+      border-color: var(--color11);
+      transition: filter 0.2s;
+      &:hover {
+        filter: brightness(0.9);
+      }
+    }
+
+    &.colorBrand-3pXr91 {
+      color: var(--color11);
+      border-color: var(--color11);
+      transition: filter 0.2s;
+      &:hover {
+        filter: brightness(0.9);
+      }
+    }
+  }
+
+  [class*="defaultIndicator-"] {
+    font-size: .8rem;
+    padding: 3px;
+    font-family: var(--font-headline);
+    letter-spacing: 1px;
+    color: var(--text-alt);
+    background-color: var(--interactive-active);
+  }
+  [class*="lookInverted-"] {
+    &[class*="colorBrand-"] {
+      color: var(--text-normal);
+      background: var(--background-accent);
+      transition: filter 0.2s;
+      &:hover {
+        filter: brightness(.9);
+      }
+    }
+  }
+}
+
+// Secondary Section
 .member-3-YXUe {
   position: relative;
   transition: all .45s ease-Out;
-  [class*="layout-"] {
+  .layout-2DM8Md {
     border-radius: 8px;
     &::before {
       content: '';
@@ -28,77 +798,13 @@
   margin-bottom: 8px;
 }
 
-[class*="peopleList-"] {
-  [class*="title-"] {
+.peopleList-3c4jOR {
+  .title-30qZAO {
     font-size: .9rem;
     letter-spacing: 2px;
     font-family: var(--font-headline);
     background-color: transparent;
     color: var(--header-primary);
-  }
-}
-
-[class*="stageSection-"] {
-  [class*="container-"] {
-    [class*="headerContainer-"] {
-      [class*="colorHeaderPrimary-"] {
-        color: var(--text-normal);
-        font-size: 2rem;
-        margin: 10px 10px 10px 0;
-      }
-    }
-    [class*="container-"] {
-      background-color: var(--background-secondary-alt);
-      [role*="button"] {
-        >[class*="icon-"] {
-          path {
-            fill: var(--color11);
-            &:hover {
-              opacity: 0.9;
-            }
-          }
-        }
-      }
-      [class*="content-"] {
-        [class*="header-"] {
-          color: var(--text-normal)!important;
-          &:hover {
-            color: var(--interactive-hover)!important;
-          }
-        }
-        [class*="colorStandard-"] {
-          color: rgba(230, 230, 230, 0.7);
-          &:hover {
-            filter: brightness(0.9);
-          }
-        }
-      }
-      [class*="colorHeaderPrimary-"] {
-        color: var(--text-normal);
-        &:hover {
-          color: rgba(230, 230, 230, 0.7);
-        }
-      }
-      [class*="colorHeaderSecondary-"] {
-        &:hover {
-          color: rgba(230, 230, 230, 0.7);
-        }
-      }
-      [class*="icon-"] {
-        svg {
-          path {
-            fill: var(--text-normal);
-          }
-        }
-        &:hover {
-          svg {
-            path {
-              fill: rgba(230, 230, 230, 0.7);
-            }
-          }
-        }
-      }
-    }
   }
 }
 
@@ -148,25 +854,6 @@
 .voiceUser-1K6Xox {
   .content-1Wq3SX {
     border-radius: 8px;
-  }
-}
-
-.lookFilled-1Gx00P.colorGreen-29iAKY:disabled {
-  background-color: var(--color12);
-  opacity: 0.9;
-  &:hover {
-    background-color: var(--color12)!important;
-  }
-}
-
-[class*="theme-dark"], [class*="theme-light"] {
-  .lookFilled-1Gx00P.colorRed-1TFJan:disabled {
-    background-color: var(--color3)!important;
-    opacity: 0.6;
-    &:hover {
-      background-color: var(--color3)!important;
-      filter: none;
-    }
   }
 }
 

@@ -1,3 +1,7 @@
+/**
+ * @Popout Component
+*/
+
 [class*="backButton-"] {
   color: var(--text-normal);
 }
@@ -33,18 +37,38 @@
   }
 }
 
-[class*="userPopout-"] {
+.userPopout-xaxa6l {
   border-radius: 12px;
-  [class*="body-"] {
-    [class*="bodyInnerWrapper-"] {
-      [class*="root-"] {
+  .body-3HBlXn {
+    .bodyInnerWrapper-26fQXj {
+      .root-3-B5F3 {
         background-color: transparent;
       }
     }
-    [class*="timeBarUserPopout-"] {
-      [class*="bar-"] {
+    .customStatus-oN4ZZY {
+      color: var(--color8);
+    }
+    .aboutMeSection-1Fw5Ia {
+      .aboutMeBody-3GuvKk {
+        color: var(--interactive-active);
+      }
+    }
+    .contentImagesUserPopout-1vLdRA {
+      h3 {
+        font-weight: 700;
+      }
+      div {
+        span {
+          a {
+            color: var(--color8);
+          }
+        }
+      }
+    }
+    .timeBarUserPopout-AWPFf2 {
+      .bar-3urHkF {
         background-color: rgba(230, 230, 230, 0.06);
-        [class*="barInner-"] {
+        .barInner-3NDaY_ {
           background-color: var(--interactive-normal);
         }
       }
@@ -67,7 +91,7 @@
   border-radius: 8px;
 }
 
-[class*="theme-dark"] [class*="bodyInnerWrapper-"] .root-3-B5F3, [class*="theme-light"] [class*="bodyInnerWrapper-"] .root-3-B5F3 {
+.theme-dark [class*="bodyInnerWrapper-"] .root-3-B5F3, .theme-light [class*="bodyInnerWrapper-"] .root-3-B5F3 {
   background-color: transparent!important;
 }
 
@@ -148,7 +172,7 @@
   }
 }
 
-[id*="popout"] {
+#popout {
   .headerTop-3vNv-a {
     [class*="profileBadges-"] {
       background-color: transparent;
@@ -163,19 +187,6 @@
       font-family: var(--font-headline);
       letter-spacing: 1px;
       color: var(--text-normal)!important;
-    }
-    [class*="bodyNormal-"] {
-      [class*="contentImagesUserPopout-"] {
-        h3 {
-          color: var(--white)!important;
-        }
-        div {
-          color: var(--interactive-active);;
-          a {
-            color: var(--interactive-active);;
-          }
-        }
-      }
     }
   }
 }
@@ -207,7 +218,6 @@
     }
   }
 }
-
 
 [class*="DraftEditor-root"] {
   [class*="searchAnswer-"] {

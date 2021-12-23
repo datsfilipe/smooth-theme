@@ -1,0 +1,146 @@
+/**
+ * @Main
+*/
+
+:root {
+  --font-primary: 'Inter', sans-serif;
+  --font-display: 'Open Sans', sans-serif;
+  --font-code: 'Source Code Pro', monospace;
+  --font-headline: 'Poppins', sans-serif;
+}
+
+.theme-dark, .theme-light {
+  --header-primary: #ffffff;
+  --header-secondary: #e6e6e6;
+  --text-normal: #ffffff;
+  --text-muted: #909090;
+  --text-link: var(--color11);
+  --text-link-low-saturation: #e6e6e6;
+  --text-positive: var(--color11);
+  --text-warning: var(--color5);
+  --text-danger: var(--color3);
+  --text-brand: #ffffff;
+  --text-alt: #151515;
+  --interactive-normal: #ffffff;
+  --interactive-hover: #e6e6e6;
+  --interactive-active: #d1d1d1;
+  --interactive-muted: #909090;
+  --background-primary: #202020;
+  --background-secondary: #1b1b1b;
+  --background-secondary-alt: #191919;
+  --background-tertiary: #151515;
+  --background-accent: #202020;
+  --background-floating: #1b1b1b;
+  --background-mobile-primary: #202020;
+  --background-mobile-secondary: #1b1b1b;
+  --background-modifier-hover: rgba(230, 230, 230, 0.1);
+  --background-modifier-active: rgba(230, 230, 230, 0.7);
+  --background-modifier-selected: rgba(230, 230, 230,1);
+  --background-modifier-accent: rgba(230, 230, 230, 0.2);
+  --info-positive-text: #e6e6e6;
+  --info-warning-text: #e6e6e6;
+  --info-danger-text: #e6e6e6;
+  --info-help-background: #202020;
+  --info-help-foreground: #e6e6e6;
+  --info-help-text: #ffffff;
+  --status-warning-text: var(--color5);
+  --scrollbar-thin-thumb: #ffffff;
+  --scrollbar-thin-track: transparent;
+  --scrollbar-auto-thumb: #ffffff;
+  --scrollbar-auto-track: rgba(230, 230, 230, 0.06);
+  --scrollbar-auto-scrollbar-color-thumb: #ffffff;
+  --scrollbar-auto-scrollbar-color-track: transparent;
+  --elevation-stroke: 0 0 0 1px rgba(230, 230, 230, 0.06);
+  --elevation-low: rgba(230, 230, 230, 0.05);
+  --elevation-medium: 0 4px 4px rgba(230, 230, 230, 0.07);
+  --elevation-high: 0 8px 16px rgba(230, 230, 230, 0.09);
+  --logo-primary: #ffffff;
+  --control-brand-foreground: #e6e6e6;
+  --control-brand-foreground-new: #e6e6e6;
+  --background-mentioned: rgba(230, 230, 230,0.03);
+  --background-mentioned-hover: rgba(230, 230, 230,0.09);
+  --background-message-hover: rgba(230, 230, 230,0.03);
+  --channels-default: var(--color8);
+  --guild-header-text-shadow:  0 1px 1px rgba(230, 230, 230,0.04);
+  --channeltextarea-background: #191919;
+  --activity-card-background: #1b1b1b;
+  --textbox-markdown-syntax: #909090;
+  --deprecated-card-bg: #1b1b1b;
+  --deprecated-card-editable-bg: #151515;
+  --deprecated-store-bg: #1b1b1b;
+  --deprecated-quickswitcher-input-background: var(--color2);
+  --background-spacing: #272727;
+  --deprecated-quickswitcher-input-placeholder: ;
+  --deprecated-text-input-bg: #1b1b1b;
+  --deprecated-text-input-border: var(--color7);
+  --deprecated-text-input-border-hover: #191919;
+  --deprecated-text-input-border-disabled: #1b1b1b;
+  --deprecated-text-input-prefix: #909090;
+  --message-text-color: #e6e6e6;
+  --info-warning-foreground: #e6e6e6;
+
+  // replacing values that was already for both
+  --info-positive-background: var(--color11);
+  --info-positive-foreground: var(--color6);
+  --info-warning-background: var(--color5);
+  --info-warning-foreground: var(--color6);
+  --info-danger-background: var(--color3);
+  --info-danger-foreground: var(--color6);
+  --status-positive-background: var(--color11);
+  --status-positive-text: var(--color6);
+  --status-warning-background: var(--color5);
+  --status-danger-background: var(--color3);
+  --status-danger-text: var(--color6);
+  --focus-primary: var(--background-modifier-hover);
+}
+
+
+[data-popout-root], html {
+  --brand-experiment: #ffffff;
+  --brand-experiment-200: #151515;
+  --brand-experiment-560: var(--background-modifier-hover);
+  --brand-experiment-30a: #ffffff;
+  --brand-experiment-400: #909090;
+  --brand-experiment-600: var(--color3);
+  --brand-experiment-15a: #151515;
+  --brand-experiment-800: rgba(250,250,250,0.2);
+  --brand-experiment-05a: var(--background-modifier-hover);
+  --brand-experiment-10a: var(--background-modifier-hover);
+  --brand-experiment-100: #202020;
+  --brand-experiment-500: var(--background-modifier-hover);
+  --brand-experiment-160: #151515;
+  --brand-experiment-530: #ffffff;
+  --brand-experiment-360: var(--color3);
+
+  /* if you find something RED, report a issue in GitHub, that's a way for me to discover where these colors are being applied */
+  --brand-experiment-130: red;
+  --brand-experiment-230: red;
+  --brand-experiment-260: red;
+  --brand-experiment-300: red;
+  --brand-experiment-330: red;
+  --brand-experiment-430: red;
+  --brand-experiment-460: red;
+  --brand-experiment-630: red;
+  --brand-experiment-660: red;
+  --brand-experiment-700: red;
+  --brand-experiment-730: red;
+  --brand-experiment-760: red;
+  --brand-experiment-830: red;
+  --brand-experiment-860: red;
+  --brand-experiment-900: red;
+  --brand-experiment-20a: red;
+  --brand-experiment-25a: red;
+  --brand-experiment-35a: red;
+  --brand-experiment-40a: red;
+  --brand-experiment-45a: red;
+  --brand-experiment-50a: red;
+  --brand-experiment-55a: red;
+  --brand-experiment-60a: red;
+  --brand-experiment-65a: red;
+  --brand-experiment-70a: red;
+  --brand-experiment-75a: red;
+  --brand-experiment-80a: red;
+  --brand-experiment-85a: red;
+  --brand-experiment-90a: red;
+  --brand-experiment-95a: red;
+}

@@ -1,33 +1,79 @@
-[class*="strikethrough-"] {
-  color: var(--color3);
+/**
+ * @Titlebar Component 
+*/
+
+.base-3dtUhz {
+  .content-98HsJk, .title-3qD0b- {
+    .container-1r6BKw {
+      border-bottom: 1px solid rgba(230, 230, 230, 0.06);
+      .children-19S4PO {
+        .topic-TCb_qw {
+          color: var(--color7);
+        }
+        &::after {
+          display: none;
+        }
+        // home section
+        .tabBar-ZmDY9v {
+          .item-3HknzM {
+            border-radius: 8px;
+          }
+          .tab-ck0077, .tab-PQvTH4 {
+            color: var(--text-normal)!important;
+          }
+          .tab-ck0077:hover, .tab-PQvTH4:hover {
+            color: var(--text-alt)!important;
+          }
+        }
+        .iconWrapper-2OrFZ1 {
+          .icon-22AiRD {
+            color: var(--interactive-hover);
+          }
+        }
+        [aria-label="Add Friend"] {
+          color: var(--text-alt)!important;
+          &:hover {
+            filter: brightness(0.9);
+          }
+        }
+      }
+      .toolbar-1t6TWx {
+        .iconWrapper-2OrFZ1 {
+          span.iconBadge-qZ4Ksk {
+            background-color: var(--color3);
+          }
+        }
+        .anchor-3Z-8Bb {
+          .iconWrapper-2OrFZ1 {
+            svg {
+              color: var(--color5);
+            }
+            &:hover {
+              svg {
+                color: var(--color5);
+                filter: brightness(0.9);
+              }
+            }
+          }
+        }
+      }
+    }
+  }
 }
 
-[class*="children-"] {
-  [class*="tabBar-"] {
-    [class*="item-"] {
-      border-radius: 8px;
-    }
-  }
-  [class*="iconWrapper-"] {
-    [class*="icon-"] {
-      color: var(--interactive-hover);
-    }
-  }
-  [aria-label="Add Friend"] {
-    color: var(--text-alt)!important;
-    &:hover {
-      filter: brightness(0.9);
-    }
+// remove titlebar if it's in nitro section
+.headerBar-1YYOfi {
+  &.container-1r6BKw {
+    display: none;
   }
 }
- 
-[class*="tabBar-"] {
-  .tab-ck0077, .tab-PQvTH4 {
-    color: var(--text-normal)!important;
-  }
-  .tab-ck0077:hover, .tab-PQvTH4:hover {
-    color: var(--text-alt)!important;
-  }
+
+/**
+ * no organization
+ */
+
+[class*="strikethrough-"] {
+  color: var(--color3);
 }
 
 .header-2-Imhb {
@@ -44,56 +90,8 @@
   }
 }
 
-a[href="https://support.discord.com"] {
-  [class*="iconWrapper-"] {
-    svg {
-      color: var(--color5);
-    }
-    &:hover {
-      svg {
-        color: var(--color5);
-        filter: brightness(0.9);
-      }
-    }
-  }
-}
-
-[class*="toolbar-"] {
-  [class*="iconWrapper-"] {
-    span[class*="iconBadge-"] {
-      background-color: var(--color3);
-    }
-  }
-}
-
-section[class*="title-"] {
-  [class*="children-"] {
-    [class*="topic-"] {
-      color: rgba(230, 230, 230, 08);
-    }
-  }
-}
-
 [class*="inviteToolbar-"] {
   [class*="divider-"] {
     background-color: var(--text-muted);
-  }
-}
-
-[class*="toolbar-"] {
-  [class*="search-"] {
-    [class*="search-"] {
-      [class*="searchBar-"] {
-        border-radius: 8px;
-        border: 1px solid rgba(230, 230, 230, 0.03);
-        [class*="icon-"] {
-          [class*="iconContainer-"] {
-            svg {
-              color: var(--interactive-active);
-            }
-          }
-        }
-      }
-    }
   }
 }
