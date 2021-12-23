@@ -14,31 +14,6 @@ Download the theme navigating to [here](https://raw.githubusercontent.com/datsfi
 
 # Preview
 
-##### **Home**
-
 <p>
-  <img src="./assets/img/print-home-screen.png" alt="Home" width="800" />
+  <img src="" alt="Preview Smooth Theme" width="800" />
 </p>
-
-##### **Server Lobby**
-
-<p>
-  <img src="./assets/img/print-server-hub.png" alt="Server Lobby" width="800" />
-</p>
-
-##### **Settings Screen**
-
-<p>
-  <img src="./assets/img/print-settings-screen.png" alt="Settings Screen" width="800" />
-</p>
-
-##### **Server Settings Screen**
-
-<p>
-  <img src="./assets/img/print-server-settings-screen.png" alt="Server Settings Screen" width="800" />
-</p>
-
-##### **More**
-Use with [Discolored](https://github.com/NYRI4/Discolored) theme and let app zoom in ***100***.
-
-Inspired by the [Zorin GTK theme](https://github.com/ZorinOS/zorin-desktop-themes).
