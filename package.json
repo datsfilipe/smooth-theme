@@ -9,6 +9,7 @@
   "license": "",
   "scripts": {
     "dev": "nodemon -e scss -x node-sass src/index.scss ~/.config/BetterDiscord/data/stable/custom.css --output-style compressed",
+    "build-space-component": "node-sass src/components/_space.scss src/theme/spacing.css --output-style compressed",
     "build": "node-sass src/index.scss src/theme/source.css --output-style compressed"
   },
   "devDependencies": {
