@@ -14,7 +14,7 @@
 
 
 /* Comment out the import to remove the spaces the theme adds to Discord */
-/* @import ""; */
+@import "https://datsfilipe.github.io/smooth-theme/src/theme/spacing.css";
 
 :root {
   /* You can uncomment the variable you want to change here, if it's available */
