@@ -45,29 +45,13 @@
   }
 }
 
-
+// typing section
 .typing-2GQL18 {
   grid-row: 1;
   position: relative;
-  font-size: .9rem;
-  font-family: var(--font-display);
-  text-align: center;
   margin: 6px 6px -4px 4px;
   height: 14px;
   left: 0;
-  color: var(--text-muted);
-}
-
-.dots-3Bkt3k.themed-IQiCm3 {
-  color: var(--text-muted);
-}
-
-.slowModeIcon-1BPDC_ {
-  g {
-    path {
-      fill: var(--text-muted);
-    }
-  }
 }
 
 // space titlebar
@@ -176,16 +160,23 @@
   }
 } 
 
-.scroller-RmtA4e {
-  border-radius: 0 0 12px 12px;
+// thread sidebar
+.threadSidebar-1o3BTy {
+  margin-left: 0;
+  border-radius: 0;
+  border-left: none;
 }
-
+.chat-3bRxxu.threadSidebarOpen-vdkwIh {
+  border-radius: 0;
+}
 .chat-3bRxxu, .threadSidebar-1o3BTy {
   background-color: var(--background-spacing);
 }
 
-.threadSidebar-1o3BTy {
-  margin-left: 0;
+// don't know
+
+.scroller-RmtA4e {
+  border-radius: 0 0 12px 12px;
 }
 
 .container-2wlB3z {
@@ -376,5 +367,20 @@
         }
       }
     }
+  }
+}
+
+// other chat
+.chat-15Vmww {
+  .chatHeaderBar-4vZS1x {
+    margin: 10px 10px 0 0;
+    border-radius: 6px;
+  }
+}
+
+.chatContent-a9vAAp {
+  .chatHeaderBar-4vZS1x {
+    margin: 10px 10px 0 0;
+    border-radius: 6px;
   }
 }
