@@ -61,6 +61,26 @@
   }
 }
 
+// unread pill
+.tabBar-1kuXvJ {
+  &.topPill-30KHOu {
+    .tab-ck0077 {
+      &.selected-3s45Ha {
+        &[tabindex="0"] {
+          color: var(--text-muted);
+        }
+      }
+      &:hover {
+        &.selected-3s45Ha {
+          &[tabindex="0"] {
+            color: var(--text-alt);
+          }
+        }
+      }
+    }
+  }
+}
+
 // remove titlebar if it's in nitro section
 .headerBar-1YYOfi {
   &.container-1r6BKw {
