@@ -8,12 +8,11 @@
   ],
   "license": "",
   "scripts": {
-    "dev": "nodemon -e scss -x node-sass src/index.scss ~/.config/BetterDiscord/data/stable/custom.css --output-style compressed",
-    "build-space-component": "node-sass src/components/_space.scss src/theme/spacing.css --output-style compressed",
-    "build": "node-sass src/index.scss src/theme/source.css --output-style compressed"
+    "dev": "",
+    "build": ""
   },
-  "devDependencies": {
-    "node-sass": "^6.0.1",
-    "nodemon": "^2.0.12"
+  "devDependencies": {},
+  "dependencies": {
+    "sass": "^1.48.0"
   }
 }
