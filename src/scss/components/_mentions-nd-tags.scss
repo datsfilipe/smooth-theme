@@ -1,0 +1,21 @@
+@use '../abstracts/measurements' as ms;
+@use '../abstracts/theme-colors' as tc;
+@use '../abstracts/general-colors' as gc;
+
+.mention, .px-MnE_OR.botTag-7aX5WZ, .botTagRegular-kpctgU {
+  border-radius: ms.$mention-border-radius;
+}
+
+.mention {
+  transition: filter 0.3s;
+}
+
+.mention.interactive:hover {
+  color: tc.$text-alt;
+  filter: brightness(0.8);
+}
+
+.px-MnE_OR.botTag-7aX5WZ, .botTagRegular-kpctgU {
+  color: tc.$text-alt;
+  background-color: gc.$color3;
+}

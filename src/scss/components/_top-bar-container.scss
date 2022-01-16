@@ -1,0 +1,18 @@
+@use '../abstracts/theme-colors' as tc;
+@use '../abstracts/general-colors' as gc;
+
+.container-ZMc96U.themed-Hp1KC_ {
+  background: tc.$background-secondary;
+
+  .searchBar-zdmu7v {
+    background-color: unset;
+  }
+
+  a.anchor-1MIwyf div svg {
+    color: gc.$color5;
+  }
+
+  .children-3xh0VB::after {
+    display: none;
+  }
+}

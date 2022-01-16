@@ -1,0 +1,18 @@
+@use './theme-colors' as tc;
+@use './general-colors' as gc;
+
+$brand-experiment: #ffffff;
+$brand-experiment-200: #151515;
+$brand-experiment-560: tc.$background-modifier-hover;
+$brand-experiment-30a: #ffffff;
+$brand-experiment-400: #909090;
+$brand-experiment-600: gc.$color3;
+$brand-experiment-15a: #151515;
+$brand-experiment-800: rgba(250,250,250,0.2);
+$brand-experiment-05a: tc.$background-modifier-hover;
+$brand-experiment-10a: tc.$background-modifier-hover;
+$brand-experiment-100: #202020;
+$brand-experiment-500: tc.$background-modifier-hover;
+$brand-experiment-160: #151515;
+$brand-experiment-530: #ffffff;
+$brand-experiment-360: gc.$color11;

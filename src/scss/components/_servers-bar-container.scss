@@ -1,0 +1,14 @@
+@use '../abstracts/theme-colors' as tc;
+@use '../abstracts/general-colors' as gc;
+
+.guilds-2JjMmN {
+  .lowerBadge-3WTshO div {
+    color: tc.$text-alt;
+    background-color: gc.$color4!important;
+  }
+
+  // replace standard items color
+  .wrapper-3kah-n.selected-1Drb7Z .childWrapper-1j_1ub, .wrapper-3kah-n:hover .childWrapper-1j_1ub {
+    color: tc.$text-alt;
+  }
+}

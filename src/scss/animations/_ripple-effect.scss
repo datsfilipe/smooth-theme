@@ -1,0 +1,36 @@
+// ripple effect for channels
+@mixin ripple-animation-for-channels {  
+  @keyframes ripple-effect-for-channels {
+    0% {
+      width:0;
+      height:0;
+      margin-top: 0;
+      margin-left: 0;
+      opacity: 0;
+    }
+    100% {
+      width:230px;
+      height:230px;
+      margin-top:-120px;
+      margin-left:-115px;
+      opacity: 0.5;
+    }
+  }
+
+  @-webkit-keyframes ripple-effect-for-channels {
+    0% {
+      width:0;
+      height:0;
+      margin-top: 0;
+      margin-left: 0;
+      opacity: 0;
+    }
+    100% {
+      width:220px;
+      height:220px;
+      margin-top:-110px;
+      margin-left:-110px;
+      opacity: 0.5;
+    }
+  }
+}

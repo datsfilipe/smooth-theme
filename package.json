@@ -8,8 +8,8 @@
   ],
   "license": "",
   "scripts": {
-    "dev": "",
-    "build": ""
+    "dev": "sass --watch src/scss:/home/dtsf/.config/BetterDiscord/data/stable/",
+    "build": "sass --watch src/scss:src/output"
   },
   "devDependencies": {},
   "dependencies": {

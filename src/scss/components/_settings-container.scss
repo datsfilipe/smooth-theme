@@ -1,0 +1,32 @@
+@use '../abstracts/measurements' as ms;
+
+.contentRegion-3HkfJJ {
+  // close button
+  .closeButton-PCZcma {
+    border: none;
+    position: relative;
+    transition: all 0.3s;
+
+    &:hover {
+      background-color: unset;
+
+      top: -2px;
+    }
+  }
+  .keybind-13vtq8 {
+    display: none;
+  }
+
+
+  .inputDefault-3FGxgL, .select-1Ia3hD, .item-2idW98, .searchContainer-16qhPt .container-2oNtJn {
+    border-radius: ms.$select-border-radius;
+  }
+
+  .select-1Ia3hD.open-1FRZsK {
+    border-radius: ms.$select-border-radius ms.$select-border-radius 0 0;
+  }
+
+  .popout-1KHNAq {
+    border-radius: 0 0 ms.$select-border-radius ms.$select-border-radius;
+  }
+}

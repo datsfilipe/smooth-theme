@@ -1,0 +1,48 @@
+@use '../abstracts/theme-colors' as tc;
+@use '../abstracts/general-colors' as gc;
+@use '../abstracts/brand-experiment-colors' as bec;
+@use '../abstracts/measurements' as ms;
+
+.messagesWrapper-RpOMA3 {
+  ol {
+    li .message-2CShn3 {
+      .repliedMessage-3Z6XBG {
+        &::before { border-color: tc.$background-modifier-accent }
+      }
+
+      .embedWrapper-1MtIDg, .container-2sjPya .wrapper-1HIH0j {
+        border-radius: ms.$embed-border-radius;
+      }
+
+      .reaction-2A2y9y.reactionMe-3I9gFK .reactionCount-1zkLcN {
+        color: tc.$text-normal;
+      }
+    }
+
+    // new messages divider
+    div.divider-IqmEqJ[id="---new-messages-bar"] {
+      border-color: gc.$color3;
+
+      .content-3spvdd, .unreadPillCapStroke-1nE1Q8 {
+        color: gc.$color3;
+      }
+
+      .unreadPill-3nEWYM {
+        color: tc.$text-alt;
+        background-color: gc.$color3;
+
+        svg path {
+          fill: gc.$color3;
+        }
+      }
+    }
+  }
+
+  .newMessagesBar-1hF-9G *, .jumpToPresentBar-1cEnH0 * {
+    color: tc.$text-alt;
+  }
+
+  .jumpToPresentBar-1cEnH0 {
+    background-color: bec.$brand-experiment;
+  }
+}

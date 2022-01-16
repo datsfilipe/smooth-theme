@@ -1,0 +1,38 @@
+@use '../abstracts/theme-colors' as tc;
+@use '../abstracts/general-colors' as gc;
+@use '../abstracts/brand-experiment-colors' as bec;
+
+// message options menu
+#popout_3642 {
+  .menu-1QACrS {
+    .item-1OdjEX {
+      border-radius: 4px;
+    }
+
+    .colorDanger-3n-KnP.focused-3qFvc8 {
+      background-color: gc.$color4;
+      color: tc.$text-alt;
+    }
+
+    .colorDanger-3n-KnP:active:not(.hideInteraction-2jPGL_) {
+      background-color: gc.$color4;
+      color: tc.$text-alt;
+    }
+  }
+}
+
+// server options popout
+#popout_3529 {
+  .item-1OdjEX {
+    border-radius: 4px;
+
+    .newBadge-1bHewI {
+      color: tc.$text-alt;
+      background-color: gc.$color3!important;
+    }
+  }
+
+  .item-1OdjEX:active:not(.hideInteraction-2jPGL_) {
+    background-color: tc.$background-modifier-accent;
+  }
+}
