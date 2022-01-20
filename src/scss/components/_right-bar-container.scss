@@ -1,0 +1,45 @@
+@use '../abstracts/measurements' as ms;
+@use '../abstracts/theme-colors' as tc;
+@use '../animations/ripple-effect' as anim;
+
+.container-2o3qEW .membersWrap-3NUR2t {
+  .layout-1qmrhw {
+    position: relative;
+    overflow: hidden;
+    border-radius: 8px 6px 6px 8px;
+
+    .layout-1qmrhw .content-1U25dZ * {
+      transition: color 0.2s;
+    }
+  }
+
+  .layout-1qmrhw::after {
+    border-radius: 50%;
+    background-color: rgba(55,55,55, 0.6);
+    content:'';
+    position: absolute;
+    top: 50%; left: 50%;
+    width:0; height:0;
+    transition: all 0.5s ease-out;
+    opacity:0;
+  }
+
+  .member-2gU6Ar.selected-1-Z6gm {
+    .layout-1qmrhw::after {
+      width:230px;
+      height:230px;
+      animation: ripple-effect-for-channels 0.350s;
+      animation-iteration-count: 1;
+    }
+
+    .layout-1qmrhw .content-1U25dZ * {
+      color: tc.$text-alt;
+    }
+  }
+
+  .member-2gU6Ar:active {
+    .layout-1qmrhw .content-1U25dZ * {
+      color: tc.$text-muted;
+    }
+  }
+}

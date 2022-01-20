@@ -69,6 +69,17 @@ button {
     filter: brightness(0.8);
   }
 
+  // colorWhite
+  .lookFilled-yCfaCM.colorWhite-1H92hK, .lookFilled-yCfaCM.colorWhite-1H92hK * {
+    color: tc.$text-alt;
+    background-color: gc.$color7;
+    transition: filter 0.3s;
+  }
+
+  .lookFilled-yCfaCM.colorWhite-1H92hK:active {
+    filter: brightness(0.8);
+  }
+
   /**----------------
    * lookInverted ones
   -----------------*/

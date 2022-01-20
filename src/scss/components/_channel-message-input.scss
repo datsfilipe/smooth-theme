@@ -1,0 +1,50 @@
+@use '../abstracts/theme-colors' as tc;
+
+.form-3gdLxP {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto auto;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 0;
+  margin-right: 10px;
+  margin-bottom: 10px;
+
+  // spacing channel input
+  .channelTextArea-1FufC0.channelTextArea-1VQBuV {
+    background-color: transparent;
+    border-radius: 16px;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: auto;
+    .attachedBars-2BCP3l {
+      background-color: tc.$background-secondary-alt;
+      border-bottom: tc.$dark-border;
+    }
+    .scrollableContainer-15eg7h {
+      padding: 4px 0 4px 0;
+      border-radius: 16px;
+      &.hasConnectedBar-1vN2JH {
+        border-radius: 0px 0px 12px 12px;
+      }
+    }
+  }
+  
+  .applicationCommandEducation-1stoia {
+    display: none;
+  }
+}
+
+// remove tips below channel input message
+.form-3gdLxP::before { 
+  display: none;
+}
+
+// typing section
+.typing-2GQL18 {
+  grid-row: 1;
+  position: relative;
+  margin: 6px 6px -4px 4px;
+  height: 14px;
+  left: 0;
+}

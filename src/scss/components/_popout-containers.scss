@@ -1,5 +1,6 @@
 @use '../abstracts/theme-colors' as tc;
 @use '../abstracts/general-colors' as gc;
+@use '../abstracts/measurements' as ms;
 @use '../abstracts/brand-experiment-colors' as bec;
 
 // message options menu
@@ -35,4 +36,14 @@
   .item-1OdjEX:active:not(.hideInteraction-2jPGL_) {
     background-color: tc.$background-modifier-accent;
   }
+}
+
+// replace standard root background color
+.theme-dark .root-g14mjS {
+  background-color: tc.$background-primary;
+}
+
+// // user profile
+[role="dialog"][aria-label="User Profile Modal"] .root-8LYsGj {
+  border-radius: ms.$dialogs-nd-popus-border-radius;
 }

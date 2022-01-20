@@ -1,8 +1,8 @@
 @use '../abstracts/theme-colors' as tc;
 @use '../abstracts/general-colors' as gc;
 
-.container-ZMc96U.themed-Hp1KC_ {
-  background: tc.$background-secondary;
+.title-31SJ6t, .container-ZMc96U.themed-Hp1KC_ {
+  background: transparent;
 
   .searchBar-zdmu7v {
     background-color: unset;
@@ -13,6 +13,88 @@
   }
 
   .children-3xh0VB::after {
-    display: none;
+    background: -webkit-gradient(linear,left top,right top,from(rgba(54,57,63,0)),to(tc.$background-secondary));
+    background: linear-gradient(90deg, rgba(54,57,63,0) 0, tc.$background-secondary);
   }
+}
+
+// spacing topbar
+.container-ZMc96U {
+  // top-bar in channels
+  &.title-31SJ6t {
+    position: relative;
+    border: none;
+    padding: 0;
+    margin-top: 10px;
+
+    .children-3xh0VB {
+      background: tc.$background-secondary;
+      padding: 10px;
+      margin: 10px 0 10px 0;
+      border-radius: 12px 0 0 12px;
+    }
+
+    .toolbar-3_r2xA {
+      background: transparent;
+      margin: 10px 10px 10px 0;
+      border-radius: 0 12px 12px 0;
+
+      // separate / spacing elements in toolbar
+      .icon-1ELUnB {
+        margin-left: 10px;
+        padding-left: 12px!important;
+        border-radius: 12px 0 0 12px;
+      }
+
+      .anchor-1MIwyf {
+        .iconWrapper-2awDjA {
+          padding-right: 12px;
+          border-radius: 0 12px 12px 0;
+        }
+      }
+
+      // toolbar standard items
+      .iconWrapper-2awDjA {
+        background: tc.$background-secondary;
+        margin: 0;
+        padding: 0 8px;
+        height: 2.9rem;
+        display: flex;
+        align-items: center;
+
+        svg {
+          height: 23px;
+          width: 23px;
+        }
+      }
+
+
+      // search bar
+      .search-39IXmY {
+        margin: 0 10px 0 0;
+        order: -1;
+        background: tc.$background-secondary;
+        padding: 10px;
+        border-radius: 0 12px 12px 0;
+        transition: all 0.25s ease;
+        -webkit-transition: all 0.25s ease;
+      }
+      .search-1FM8Qc.open-3y3yI_ .searchBar-zdmu7v {
+        width: 161px;
+
+        .icon-1nNws_ svg {
+          color: tc.$interactive-active;
+        }
+      }
+      .searchBar-zdmu7v {
+        background-color: transparent;
+        width: 30px;
+
+        .icon-1nNws_ svg {
+          color: tc.$interactive-normal;
+        }
+      }
+    }
+  }
+  
 }
