@@ -1,8 +1,9 @@
 @use '../abstracts/theme-colors' as tc;
 @use '../abstracts/general-colors' as gc;
+@use '../abstracts/measurements' as ms;
 
-.title-31SJ6t, .container-ZMc96U.themed-Hp1KC_ {
-  background: transparent;
+.title-31SJ6t, .container-ZMc96U {
+  width: auto;
 
   .searchBar-zdmu7v {
     background-color: unset;
@@ -18,10 +19,43 @@
   }
 }
 
+// for channels bar
+.title-31SJ6t.container-ZMc96U.themed-Hp1KC_ {
+  background: transparent;
+}
+
 // spacing topbar
-.container-ZMc96U {
+.container-ZMc96U.themed-Hp1KC_ {
+  // standard
+  border-radius: 12px;
+  margin: 10px;
+  background: tc.$background-secondary;
+
+  // tab items
+  .children-3xh0VB .tabBar-ra-EuL [role="tab"] {
+    border-radius: ms.$select-border-radius;
+  }
+
+  .children-3xh0VB .tabBar-ra-EuL [role="tab"].selected-g-kMVV {
+    color: tc.$text-alt;
+
+    &:hover {
+      color: tc.$text-normal;
+    }
+  }
+
+  .children-3xh0VB .tabBar-ra-EuL [role="tab"][aria-controls="add_friend-tab"] {
+    color: tc.$text-alt!important;
+    background-color: gc.$color11!important;
+    transition: filter 0.2s;
+
+    &:hover {
+      filter: brightness(0.8);
+    }
+  }
+
   // top-bar in channels
-  &.title-31SJ6t {
+  &.title-31SJ6t[aria-label="Channel header"] {
     position: relative;
     border: none;
     padding: 0;
@@ -36,19 +70,19 @@
 
     .toolbar-3_r2xA {
       background: transparent;
-      margin: 10px 10px 10px 0;
+      margin: 10px 0 10px 0;
       border-radius: 0 12px 12px 0;
 
       // separate / spacing elements in toolbar
       .icon-1ELUnB {
         margin-left: 10px;
-        padding-left: 12px!important;
+        padding-left: 16px!important;
         border-radius: 12px 0 0 12px;
       }
 
       .anchor-1MIwyf {
         .iconWrapper-2awDjA {
-          padding-right: 12px;
+          padding-right: 16px;
           border-radius: 0 12px 12px 0;
         }
       }
@@ -66,6 +100,12 @@
           height: 23px;
           width: 23px;
         }
+
+        // notify icon badge
+        .iconBadge-3Mmg92 {
+          bottom: 8px;
+          background: gc.$color3;
+        }
       }
 
 
@@ -77,22 +117,7 @@
         padding: 10px;
         border-radius: 0 12px 12px 0;
         transition: all 0.25s ease;
-        -webkit-transition: all 0.25s ease;
-      }
-      .search-1FM8Qc.open-3y3yI_ .searchBar-zdmu7v {
-        width: 161px;
-
-        .icon-1nNws_ svg {
-          color: tc.$interactive-active;
-        }
-      }
-      .searchBar-zdmu7v {
-        background-color: transparent;
-        width: 30px;
-
-        .icon-1nNws_ svg {
-          color: tc.$interactive-normal;
-        }
+        -webkit-transition: width 0.25s ease;
       }
     }
   }
