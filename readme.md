@@ -23,5 +23,5 @@ To contribute check the [guide](https://github.com/datsfilipe/smooth-theme/blob/
 ## Preview
 
 <p>
-  <img src="./assets/print03.png" alt="Preview Smooth Theme" width="800" />
+  <img src="https://i.imgur.com/M2i38ee.gif" alt="Preview Smooth Theme" width="800" />
 </p>
