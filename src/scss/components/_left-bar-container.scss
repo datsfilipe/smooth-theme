@@ -6,7 +6,7 @@
 @include anim.ripple-animation-for-channels;
 
 .sidebar-1tnWFu, .sidebar-nqHbhN {
-  margin: 10px 0;
+  margin: 10px 10px 10px 0;
   background-color: transparent;
 
   nav, section {
@@ -162,7 +162,7 @@
     animation-iteration-count: 1;
   }
 
-  .item-3XjbnG:active, .selected-g-kMVV.item-3XjbnG:active, .selected-g-kMVV.item-3XjbnG {
+  .item-3XjbnG:active, .selected-g-kMVV.item-3XjbnG:active, .selected-g-kMVV.item-3XjbnG, .premiumLabel-V52REm.selected-2m-n75 {
     color: tc.$text-alt;
   }
 
@@ -180,4 +180,9 @@
     background-color: gc.$color4;
     color: tc.$text-alt!important;
   }
+}
+
+// active threads item
+.wrapper-NhbLHG:active:active .content-1gYQeQ * {
+  color: tc.$text-alt;
 }

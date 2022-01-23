@@ -1,5 +1,9 @@
 @use './general-colors' as gc;
 
+// special version control variable
+$version: none;
+
+// colors and more
 $header-primary: #ffffff;
 $header-secondary: #e6e6e6;
 $text-normal: #ffffff;
@@ -42,7 +46,8 @@ $scrollbar-auto-track: rgba(230, 230, 230, 0.06);
 $scrollbar-auto-scrollbar-color-thumb: #ffffff;
 $scrollbar-auto-scrollbar-color-track: transparent;
 $elevation-stroke: 0 0 0 1px rgba(230, 230, 230, 0.06);
-$elevation-low: rgba(0, 0, 0, 0.25) 0px 3px 4px 2px;
+$box-shadow: rgba(0, 0, 0, 0.25) 0px 3px 4px 2px;
+$elevation-low: rgba(230, 230, 230, 0.05);
 $elevation-medium: rgba(0, 0, 0, 0.07) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 2px 2px, rgba(0, 0, 0, 0.07) 0px 4px 4px, rgba(0, 0, 0, 0.07) 0px 8px 8px, rgba(0, 0, 0, 0.07) 0px 16px 16px;
 $elevation-high: rgba(0, 0, 0, 0.25) 0px 12px 14px, rgba(0, 0, 0, 0.12) 0px -7px 7px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 5px 3px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 $logo-primary: #ffffff;

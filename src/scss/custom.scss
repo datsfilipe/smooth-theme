@@ -14,8 +14,10 @@
 @forward './components/channel-message-input';
 
 // snippets
-@forward './snippets-from-community/bd-toasts';
-@forward './snippets-from-community/panel-buttons-animated';
+@forward './snippets-from-community';
 
 // fonts
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Source+Sans+Pro:wght@400;600&family=Work+Sans:wght@400;500;600;700&display=swap');
+
+// settings icons
+@import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/SettingsIcons.css);

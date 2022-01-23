@@ -46,6 +46,10 @@
 // user profile
 [role="dialog"][aria-label="User Profile Modal"] .root-8LYsGj {
   border-radius: ms.$big-radius;
+  .connectedAccount-1xKpli {
+    border-radius: ms.$medium-radius;
+    background-color: rgba(230, 230, 230, 0.06);
+  }
 }
 
 // modals
@@ -59,6 +63,33 @@
   border-radius: ms.$medium-radius;
 }
 
+// style of search results group popout
+.resultsGroup-1BPR25 {
+  background-color: tc.$background-secondary-alt;
+  .searchLearnMore-7__o_n a.anchor-1MIwyf {
+    color: gc.$color5!important;
+  }
+
+  .option-2KkUJO {
+    border-radius: ms.$small-radius;
+    .filter-5YbOzJ {
+      color: tc.$text-normal;
+    }
+    .answer-2fBfuP {
+      color: tc.$text-muted;
+    }
+    &:after {
+      background: linear-gradient(90deg,rgba(54,57,63,0),tc.$background-secondary 80%);
+    }
+  }
+}
+
+.queryContainer-ZunrLZ {
+  color: tc.$text-normal!important;
+  background-color: tc.$background-tertiary!important;
+  border-bottom: tc.$dark-border;
+}
+
 // message options
 .menu-1QACrS {
   .item-1OdjEX {
@@ -69,4 +100,22 @@
       color: tc.$text-alt;
     }
   }
+}
+
+// ctrl/command + k menu
+.quickswitcher-pKcM9U {
+  .result-u66Ywh {
+    border-radius: ms.$small-radius;
+  }
+  .result-u66Ywh[aria-selected="true"]  {
+    .name-3qeTY-, .misc-XwBATi, .iconContainer-XRODjt svg {
+      color: tc.$text-alt;
+    }
+  }
+}
+
+// popout footers
+:root .footer-31IekZ {
+  background-color: tc.$background-tertiary;
+  border-top: tc.$dark-border;
 }

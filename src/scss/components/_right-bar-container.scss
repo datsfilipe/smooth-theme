@@ -3,13 +3,13 @@
 @use '../animations/ripple-effect' as anim;
 
 // adding spaces
-.container-2o3qEW {
+.membersWrap-3NUR2t, .container-2o3qEW {
   margin: 0 10px 10px 0;
   border-radius: ms.$big-radius;
   height: auto;
 }
 
-.container-2o3qEW .membersWrap-3NUR2t {
+.container-2o3qEW .membersWrap-3NUR2t, .membersWrap-3NUR2t {
   // to make border radius work, we have to apply here too
   border-radius: ms.$big-radius;
 
@@ -69,6 +69,50 @@
     background-color: transparent;
     .scroller-hE2gWq {
       border: none;
+    }
+  }
+}
+
+// resize handler
+.resizeHandle-PBRzPC {
+  display: none;
+}
+
+// search results container
+.searchResultsWrap-5RVOkx {
+  border-radius: ms.$big-radius;
+  margin: 0 10px 10px 0;
+
+  header .searchHeaderTabList-3CZMQB .item-3XjbnG {
+    border-radius: ms.$small-radius;
+  }
+
+  header .searchHeaderTabList-3CZMQB .item-3XjbnG.selected-g-kMVV {
+    color: tc.$text-alt;
+    &:hover {
+      color: tc.$text-normal;
+    }
+  }
+}
+
+// create thread
+.container-3XgAHv {
+  background: transparent;
+  width: auto!important;
+  max-width: 450px;
+
+  .container-ZMc96U {
+    height: 40px;
+  }
+
+  section.container-1RZJZM[aria-label="Create Thread"] {
+    .container-ZMc96U {
+      margin: 10px 10px 10px 0;
+    }
+    .chat-1rZYgu {
+      background-color: tc.$background-secondary;
+      margin: 0 10px 10px 0;
+      border-radius: ms.$big-radius;
     }
   }
 }

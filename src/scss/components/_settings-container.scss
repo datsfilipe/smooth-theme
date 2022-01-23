@@ -1,3 +1,5 @@
+@use '../abstracts/theme-colors' as tc;
+@use '../abstracts/general-colors' as gc;
 @use '../abstracts/measurements' as ms;
 
 .contentRegion-3HkfJJ {
@@ -29,4 +31,122 @@
   .popout-1KHNAq {
     border-radius: 0 0 ms.$small-radius ms.$small-radius;
   }
+}
+
+// switch/control/slider buttons
+.bd-switch, .control-1fl03- {
+  .bd-switch-body, .container-2nx-BQ {
+    background-color: rgba(230, 230, 230, 0.2)!important;
+    svg, .slider-32CRPX[style="left: -3px;"] {
+      rect {
+        fill: tc.$background-primary!important;
+      }
+      .bd-switch-symbol, svg {
+        path {
+          fill: gc.$color3;
+        }
+      }
+    }
+    .slider-32CRPX {
+      svg {
+        path {
+          fill: gc.$color11;
+        }
+      }
+    }
+  }
+  &.bd-switch-checked {
+    .bd-switch-symbol {
+      path {
+        fill: gc.$color11!important;
+      }
+    }
+  }
+}
+
+// checkbox
+.checkboxWrapper-2fDzaA {
+  &.checked-1pZh2h {
+    .checkbox-f1HnKB {
+      background-color: gc.$color11!important;
+      border-color: gc.$color11!important;
+      svg {
+        path {
+          fill: tc.$text-alt;
+        }
+      }
+    }
+  }
+}
+
+// connections
+.connection-107AGH {
+  .connectionHeader-2rV1ze {
+    border-bottom: 1px solid rgba(230, 230, 230, 0.06);
+  }
+}
+
+// keybind shortcuts
+.keybindShortcut-3zF1P9 span {
+  background-color: tc.$interactive-normal!important;
+  border: tc.$dark-border!important;
+  color: tc.$text-alt!important;
+  border-radius: ms.$small-radius!important;
+  cursor: default;
+
+  svg * {
+    fill: tc.$text-alt;
+  }
+}
+
+// hypedsquad dialog box
+.membershipDialog-2wAdpQ {
+  border-radius: ms.$medium-radius;
+  .membershipDialogContent-2TpsY- {
+    .flex-2S1XBF {
+      .flexChild-3PzYmX {
+        div {
+          color: tc.$text-alt;
+        }
+        h3 {
+          font-family: 'Poppins';
+          letter-spacing: 1px;
+          color: tc.$text-alt;
+        }
+      }
+    }
+    .colorStandard-21JIj7 {
+      border-color: tc.$dark-border;
+      color: tc.$text-alt;
+      span {
+        color: tc.$text-alt;
+        &:hover {
+          filter: brightness(0.9);
+        }
+      }
+    }
+  }
+}
+
+// video bellow that
+.videoWrapper-1_H3B3 {
+  border-radius: ms.$big-radius;
+}
+
+// warning containers
+.warning-RBGtx2 {
+  color: tc.$text-alt;
+  border: none;
+  border-radius: ms.$medium-radius;
+
+  .iconDiv-3ISDKO svg {
+    color: tc.$text-alt;
+  }
+}
+
+.codeRedemptionRedirect-3SBiCp {
+  border-radius: ms.$small-radius;
+  background-color: rgba(230, 230, 230, 0.06)!important;
+  color: tc.$text-normal!important;
+  border: none;
 }

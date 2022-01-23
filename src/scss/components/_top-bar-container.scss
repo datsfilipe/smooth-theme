@@ -28,7 +28,7 @@
 .container-ZMc96U.themed-Hp1KC_ {
   // standard
   border-radius: ms.$big-radius;
-  margin: 10px;
+  margin: 10px 10px 10px 0;
   background: tc.$background-secondary;
 
   // tab items
@@ -59,11 +59,10 @@
     position: relative;
     border: none;
     padding: 0;
-    margin-top: 10px;
 
     .children-3xh0VB {
       background: tc.$background-secondary;
-      padding: 10px;
+      padding: 12px;
       margin: 10px 0 10px 0;
       border-radius: ms.$big-radius 0 0 ms.$big-radius;
     }
@@ -74,8 +73,7 @@
       border-radius: 0 ms.$big-radius ms.$big-radius 0;
 
       // separate / spacing elements in toolbar
-      .icon-1ELUnB {
-        margin-left: 10px;
+      .icon-1ELUnB, .iconWrapper-2awDjA[aria-label="Start Voice Call"] {
         padding-left: 16px!important;
         border-radius: ms.$big-radius 0 0 ms.$big-radius;
       }
@@ -92,18 +90,18 @@
         background: tc.$background-secondary;
         margin: 0;
         padding: 0 7.6px;
-        height: 2.9rem;
+        height: 48px;
         display: flex;
         align-items: center;
 
         svg {
-          width: 22px;
+          width: 24px;
         }
 
         // notify icon badge
         .iconBadge-3Mmg92 {
           bottom: 12px;
-          right: 7.6px;
+          right: 10px;
           background: gc.$color3;
           width: 6px;
           height: 6px;
@@ -116,7 +114,7 @@
         margin: 0 10px 0 0;
         order: -1;
         background: tc.$background-secondary;
-        padding: 10px;
+        padding: 12px;
         border-radius: 0 ms.$big-radius ms.$big-radius 0;
         transition: all 0.25s ease;
         -webkit-transition: width 0.25s ease;

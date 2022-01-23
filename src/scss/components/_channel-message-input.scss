@@ -8,7 +8,6 @@
   flex-direction: column;
   justify-content: space-between;
   padding: 0;
-  margin-right: 10px;
   margin-bottom: 10px;
 
   // some other container types like "follow the channel"
@@ -16,7 +15,6 @@
     border-radius: ms.$big-radius;
     max-width: 100%;
     margin-right: 0;
-    margin-left: 10px;
     margin-top: 10px;
     margin-bottom: auto;
   }
@@ -27,7 +25,6 @@
     background-color: transparent;
     border-radius: ms.$big-radius;
     max-width: calc(100% - 10px);
-    margin-left: 10px;
     margin-top: 10px;
     margin-bottom: auto;
     .attachedBars-2BCP3l {
