@@ -14,7 +14,7 @@ Smooth Theme for BetterDiscord
 
 ## Installation
 
-Download the theme navigating to [here](https://raw.githubusercontent.com/datsfilipe/smooth-theme/main/src/theme/smooth.theme.css) and pressing `ctrl + s` or `cmd + s`.
+Download the theme navigating to [here](https://github.com/datsfilipe/smooth-theme/releases/tag/2.0.0).
 
 ## Contributing
 
