@@ -1,20 +1,33 @@
 @use '../abstracts/theme-colors' as tc;
+@use '../abstracts/measurements' as ms;
 
 .form-3gdLxP {
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: auto auto;
+  grid-template-rows: 1fr minmax(min-content, max-content);
   flex-direction: column;
   justify-content: space-between;
   padding: 0;
   margin-right: 10px;
   margin-bottom: 10px;
 
+  // some other container types like "follow the channel"
+  .wrapper-2SplAX {
+    border-radius: ms.$big-radius;
+    max-width: 100%;
+    margin-right: 0;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: auto;
+  }
+
+
   // spacing channel input
   .channelTextArea-1FufC0.channelTextArea-1VQBuV {
     background-color: transparent;
-    border-radius: 16px;
-    width: 100%;
+    border-radius: ms.$big-radius;
+    max-width: calc(100% - 10px);
+    margin-left: 10px;
     margin-top: 10px;
     margin-bottom: auto;
     .attachedBars-2BCP3l {
@@ -23,9 +36,9 @@
     }
     .scrollableContainer-15eg7h {
       padding: 4px 0 4px 0;
-      border-radius: 16px;
+      border-radius: ms.$big-radius;
       &.hasConnectedBar-1vN2JH {
-        border-radius: 0px 0px 12px 12px;
+        border-radius: 0px 0px ms.$big-radius ms.$big-radius;
       }
     }
   }
@@ -41,10 +54,15 @@
 }
 
 // typing section
-.typing-2GQL18 {
-  grid-row: 1;
+.typing-2J1mQU {
   position: relative;
-  margin: 6px 6px -4px 4px;
-  height: 14px;
+  margin: 6px 0 -4px 4px;
+  height: 1rem;
   left: 0;
+
+  color: tc.$text-muted;
+
+  .dots-1BwzZQ.themed-3T-OPr {
+    color: tc.$text-muted;
+  }
 }

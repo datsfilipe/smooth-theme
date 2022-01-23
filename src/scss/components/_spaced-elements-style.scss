@@ -1,5 +1,54 @@
 @use '../abstracts/theme-colors' as tc;
+@use '../abstracts/measurements' as ms;
+@use '../abstracts/general-colors' as gc;
 
 .content-1SgpWY .container-2cd8Mz {
-  background-color: tc.$background-primary;
+  background-color: tc.$background-spacing;
+}
+
+.content-1jQy2l:before {
+  display: none;
+}
+
+.tabBody-2dgbAs:before  {
+  display: none;
+}
+
+.tabBody-2dgbAs .peopleColumn-1wMU14 {
+  background-color: tc.$background-spacing;
+}
+
+.bg-1QIAus {
+  background-color: tc.$background-spacing;
+}
+
+.peopleListItem-u6dGxF {
+  border-top: tc.$dark-border;
+}
+
+// call
+.videoControls-353CsJ .justifyCenter-rrurWZ .wrapper-3t3Yqv div {
+  border-radius: 100%;
+
+  div:first-of-type {
+    &:hover {
+      border-radius: 100%!important;
+    }
+    div:first-of-type {
+      button {
+        border-radius: 100%!important;
+        &:hover {
+          border-radius: 100%!important;
+        }
+      }
+    }
+  }
+
+  button[aria-label="Disconnect"] {
+    background-color: gc.$color3;
+    color: tc.$text-alt;
+    div svg {
+      color: inherit;
+    }
+  }
 }

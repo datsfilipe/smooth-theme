@@ -7,7 +7,7 @@
 #popout_3642 {
   .menu-1QACrS {
     .item-1OdjEX {
-      border-radius: 4px;
+      border-radius: ms.$really-small-radius;
     }
 
     .colorDanger-3n-KnP.focused-3qFvc8 {
@@ -25,7 +25,7 @@
 // server options popout
 #popout_3529 {
   .item-1OdjEX {
-    border-radius: 4px;
+    border-radius: ms.$really-small-radius;
 
     .newBadge-1bHewI {
       color: tc.$text-alt;
@@ -43,7 +43,30 @@
   background-color: tc.$background-primary;
 }
 
-// // user profile
+// user profile
 [role="dialog"][aria-label="User Profile Modal"] .root-8LYsGj {
-  border-radius: ms.$dialogs-nd-popus-border-radius;
+  border-radius: ms.$big-radius;
+}
+
+// modals
+.modal-3Hrb0S {
+  border-radius: ms.$medium-radius;
+}
+
+// moving search popout to where the search input currently are
+.container-2McqkF[role="listbox"] {
+  transform: translateX(-85px);
+  border-radius: ms.$medium-radius;
+}
+
+// message options
+.menu-1QACrS {
+  .item-1OdjEX {
+    border-radius: ms.$small-radius;
+
+    &.colorDanger-3n-KnP:hover, &.colorDanger-3n-KnP:active {
+      background: gc.$color4;
+      color: tc.$text-alt;
+    }
+  }
 }

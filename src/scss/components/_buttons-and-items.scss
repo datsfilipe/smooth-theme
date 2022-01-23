@@ -3,7 +3,7 @@
 @use '../abstracts/measurements' as ms;
 
 [id="popout_38"] .menu-1QACrS.styleFixed-2_NfVL .item-1OdjEX {
-  border-radius: ms.$select-border-radius;
+  border-radius: ms.$medium-radius;
   
   &.colorDanger-3n-KnP.focused-3qFvc8, &.colorDanger-3n-KnP:active:not(.hideInteraction-2jPGL_) {
     color: tc.$text-alt;
@@ -11,7 +11,7 @@
 }
 
 button {
-  border-radius: ms.$button-border-radius!important;
+  border-radius: ms.$medium-radius!important;
 }
 
 .theme-dark, .theme-light {

@@ -19,14 +19,14 @@
 
 
   .inputDefault-3FGxgL, .select-1Ia3hD, .item-2idW98, .searchContainer-16qhPt .container-2oNtJn {
-    border-radius: ms.$select-border-radius;
+    border-radius: ms.$small-radius;
   }
 
   .select-1Ia3hD.open-1FRZsK {
-    border-radius: ms.$select-border-radius ms.$select-border-radius 0 0;
+    border-radius: ms.$small-radius ms.$small-radius 0 0;
   }
 
   .popout-1KHNAq {
-    border-radius: 0 0 ms.$select-border-radius ms.$select-border-radius;
+    border-radius: 0 0 ms.$small-radius ms.$small-radius;
   }
 }

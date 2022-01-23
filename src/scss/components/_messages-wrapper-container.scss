@@ -3,15 +3,57 @@
 @use '../abstracts/brand-experiment-colors' as bec;
 @use '../abstracts/measurements' as ms;
 
+// important
+.chat-2ZfjoI {
+  background: tc.$background-spacing;
+}
+
+::-webkit-scrollbar {
+  transition: all 0.2s;
+}
+
+::-webkit-scrollbar-track {
+  background-color: transparent!important;
+  &:hover {
+    background-color: tc.$scrollbar-auto-track!important;
+  }
+}
+
+::-webkit-scrollbar-thumb:active {
+  background-color: tc.$interactive-hover;
+}
+
+// space bellow messages
+.scrollerSpacer-3AqkT9 {
+  height: 12px;
+}
+
 .messagesWrapper-RpOMA3 {
+  // adding the spaces
+  margin: 0 10px 10px 10px;
+  border-radius: ms.$big-radius;
+  box-shadow: tc.$elevation-low;
+  background: tc.$background-primary;
+
+  .buttonContainer-1502pf .wrapper-2vIMkT {
+    border-radius: ms.$medium-radius;
+
+    div[aria-expanded="true"] {
+      color: tc.$text-alt;
+    }
+  }
+
+  // general
   ol {
     li .message-2CShn3 {
+      border-radius: 0 ms.$small-radius ms.$small-radius 0;
+
       .repliedMessage-3Z6XBG {
         &::before { border-color: tc.$background-modifier-accent }
       }
 
       .embedWrapper-1MtIDg, .container-2sjPya .wrapper-1HIH0j {
-        border-radius: ms.$embed-border-radius;
+        border-radius: ms.$medium-radius;
       }
 
       .reaction-2A2y9y.reactionMe-3I9gFK .reactionCount-1zkLcN {
@@ -37,5 +79,41 @@
       }
     }
   }
+
+  // message bars
+  [class*="newMessagesBar-"] {
+    margin-top: 6px;
+    border-radius: ms.$medium-radius;
+    padding: 2px;
+    background-color: rgba(230, 230, 230,0.7);
+    &.barBase-1c2Rfb {
+      left: 10px;
+    }
+    button {
+      color: tc.$text-alt!important;
+    }
+  }
+
+  [class*="jumpToPresentBar-"] {
+    margin-bottom: 6px;
+    padding: 2px;
+    bottom: 0;
+    border-radius: ms.$medium-radius;
+    background-color: rgba(230, 230, 230,0.7);
+    &.barBase-1c2Rfb {
+      left: 10px;
+    }
+    &:active {
+      margin-bottom: 6px;
+      padding: 2px;
+    }
+    button {
+      color: tc.$text-alt!important;
+    }
+  }
 }
 
+// divider
+.divider-IqmEqJ {
+  border-top: thin solid rgba(230, 230, 230, 0.06);
+}

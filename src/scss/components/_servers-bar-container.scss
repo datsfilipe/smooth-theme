@@ -1,7 +1,16 @@
 @use '../abstracts/theme-colors' as tc;
 @use '../abstracts/general-colors' as gc;
+@use '../abstracts/measurements' as ms;
 
-.guilds-2JjMmN {
+.guilds-2JjMmN.wrapper-1_HaEi {
+  margin: 10px;
+  background-color: transparent;
+  border-radius: ms.$big-radius;
+
+  ul[role="tree"] .scroller-3X7KbA {
+    background-color: tc.$background-tertiary;
+  }
+
   .lowerBadge-3WTshO div {
     color: tc.$text-alt;
     background-color: gc.$color4!important;
@@ -10,5 +19,15 @@
   // replace standard items color
   .wrapper-3kah-n.selected-1Drb7Z .childWrapper-1j_1ub, .wrapper-3kah-n:hover .childWrapper-1j_1ub {
     color: tc.$text-alt;
+  }
+}
+
+// circle buttons
+.circleIconButton-1VxDrg {
+  color: tc.$interactive-normal;
+
+  &.selected-2r1Hvo {
+    color: tc.$text-alt;
+    background-color: tc.$interactive-hover;
   }
 }

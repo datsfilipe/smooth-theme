@@ -6,6 +6,37 @@
 @include anim.ripple-animation-for-channels;
 
 .sidebar-1tnWFu, .sidebar-nqHbhN {
+  margin: 10px 0;
+  background-color: transparent;
+
+  nav, section {
+    border-radius: ms.$big-radius;
+    background-color: tc.$background-secondary;
+
+    .scroller-1ox3I2 {
+      border-radius: ms.$big-radius;
+    }
+  }
+
+  nav + section {
+    margin-top: 10px;
+  }
+
+  // user panel section
+  section.panels-3wFtMD {
+    .button-12Fmur:hover {
+      color: tc.$text-alt;
+    }
+
+    .subtext-2HDqJ7 {
+      color: tc.$text-muted;
+    }
+
+    .container-1zzFcN {
+      border-bottom: tc.$dark-border;
+    }
+  }
+
   /**----------------
    * channels bar
   -----------------*/
@@ -32,6 +63,11 @@
     animation-iteration-count: 1;
   }
 
+  // voice channel selected
+  .wrapper-NhbLHG.modeSelected-3DmyhH .content-1gYQeQ * {
+    color: tc.$text-alt;
+  }
+
   // channels items select
   .content-2a4AW9 .selected-2TbFuo .content-1gYQeQ a *, .content-2a4AW9 .selected-2TbFuo .content-1gYQeQ .children-1MGS9G * {
     color: tc.$text-alt;
@@ -44,7 +80,7 @@
   }
 
   .content-2a4AW9 .containerDefault-YUSmu3 .wrapper-NhbLHG .content-1gYQeQ {
-    border-radius: ms.$select-border-radius;
+    border-radius: ms.$small-radius;
 
     .children-1MGS9G .mentionsBadge-2ckrKL div {
       color: tc.$text-alt;
@@ -53,7 +89,7 @@
 
   // live badge
   .liveSmall-1Urjcy.textBadge-1fdDPJ {
-    border-radius: 4px;
+    border-radius: ms.$really-small-radius;
     color: tc.$text-alt;
     background-color: gc.$color4!important;
   }
@@ -95,7 +131,7 @@
     }
 
     .layout-1qmrhw {
-      border-radius: ms.$big-select-border-radius;
+      border-radius: ms.$medium-radius;
     }
   }
 
@@ -104,7 +140,7 @@
   -----------------*/  
   // settings items select
   .item-3XjbnG {
-    border-radius: ms.$select-border-radius;
+    border-radius: ms.$small-radius;
     overflow: hidden;
   }
 

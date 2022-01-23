@@ -2,11 +2,26 @@
 @use '../abstracts/theme-colors' as tc;
 @use '../animations/ripple-effect' as anim;
 
+// adding spaces
+.container-2o3qEW {
+  margin: 0 10px 10px 0;
+  border-radius: ms.$big-radius;
+  height: auto;
+}
+
 .container-2o3qEW .membersWrap-3NUR2t {
+  // to make border radius work, we have to apply here too
+  border-radius: ms.$big-radius;
+
+  .members-3WRCEx {
+    border-radius: inherit;
+  }
+
+  // member item
   .layout-1qmrhw {
     position: relative;
     overflow: hidden;
-    border-radius: ms.$big-select-border-radius;
+    border-radius: ms.$medium-radius;
 
     .layout-1qmrhw .content-1U25dZ * {
       transition: color 0.2s;
@@ -40,6 +55,20 @@
   .member-2gU6Ar:active {
     .layout-1qmrhw .content-1U25dZ * {
       color: tc.$text-muted;
+    }
+  }
+}
+
+// now playing column
+.nowPlayingColumn-1eCBCN {
+  background: tc.$background-secondary;
+  border-radius: ms.$big-radius;
+  margin: 0 10px 10px 10px;
+
+  .container-1oAagU {
+    background-color: transparent;
+    .scroller-hE2gWq {
+      border: none;
     }
   }
 }

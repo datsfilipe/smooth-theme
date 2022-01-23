@@ -27,13 +27,13 @@
 // spacing topbar
 .container-ZMc96U.themed-Hp1KC_ {
   // standard
-  border-radius: 12px;
+  border-radius: ms.$big-radius;
   margin: 10px;
   background: tc.$background-secondary;
 
   // tab items
   .children-3xh0VB .tabBar-ra-EuL [role="tab"] {
-    border-radius: ms.$select-border-radius;
+    border-radius: ms.$small-radius;
   }
 
   .children-3xh0VB .tabBar-ra-EuL [role="tab"].selected-g-kMVV {
@@ -65,25 +65,25 @@
       background: tc.$background-secondary;
       padding: 10px;
       margin: 10px 0 10px 0;
-      border-radius: 12px 0 0 12px;
+      border-radius: ms.$big-radius 0 0 ms.$big-radius;
     }
 
     .toolbar-3_r2xA {
       background: transparent;
       margin: 10px 0 10px 0;
-      border-radius: 0 12px 12px 0;
+      border-radius: 0 ms.$big-radius ms.$big-radius 0;
 
       // separate / spacing elements in toolbar
       .icon-1ELUnB {
         margin-left: 10px;
         padding-left: 16px!important;
-        border-radius: 12px 0 0 12px;
+        border-radius: ms.$big-radius 0 0 ms.$big-radius;
       }
 
       .anchor-1MIwyf {
         .iconWrapper-2awDjA {
           padding-right: 16px;
-          border-radius: 0 12px 12px 0;
+          border-radius: 0 ms.$big-radius ms.$big-radius 0;
         }
       }
 
@@ -91,20 +91,22 @@
       .iconWrapper-2awDjA {
         background: tc.$background-secondary;
         margin: 0;
-        padding: 0 8px;
+        padding: 0 7.6px;
         height: 2.9rem;
         display: flex;
         align-items: center;
 
         svg {
-          height: 23px;
-          width: 23px;
+          width: 22px;
         }
 
         // notify icon badge
         .iconBadge-3Mmg92 {
-          bottom: 8px;
+          bottom: 12px;
+          right: 7.6px;
           background: gc.$color3;
+          width: 6px;
+          height: 6px;
         }
       }
 
@@ -115,7 +117,7 @@
         order: -1;
         background: tc.$background-secondary;
         padding: 10px;
-        border-radius: 0 12px 12px 0;
+        border-radius: 0 ms.$big-radius ms.$big-radius 0;
         transition: all 0.25s ease;
         -webkit-transition: width 0.25s ease;
       }

@@ -3,7 +3,7 @@
 @use '../abstracts/general-colors' as gc;
 
 .mention, .px-MnE_OR.botTag-7aX5WZ, .botTagRegular-kpctgU {
-  border-radius: ms.$mention-border-radius;
+  border-radius: ms.$really-small-radius;
 }
 
 .mention {
