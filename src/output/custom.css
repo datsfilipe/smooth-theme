@@ -81,6 +81,7 @@
   --status-warning-background: #faa483;
   --status-danger-background: #fb7c7c;
   --status-danger-text: #e6e6e6;
+  --status-green-600: #4cd9a4;
   --focus-primary: rgba(230, 230, 230, 0.1);
 }
 
@@ -209,8 +210,11 @@
 .sidebar-1tnWFu .wrapper-NhbLHG.modeSelected-3DmyhH .content-1gYQeQ *, .sidebar-nqHbhN .wrapper-NhbLHG.modeSelected-3DmyhH .content-1gYQeQ * {
   color: #151515;
 }
-.sidebar-1tnWFu .content-2a4AW9 .selected-2TbFuo .content-1gYQeQ a *, .sidebar-1tnWFu .content-2a4AW9 .selected-2TbFuo .content-1gYQeQ .children-1MGS9G *, .sidebar-nqHbhN .content-2a4AW9 .selected-2TbFuo .content-1gYQeQ a *, .sidebar-nqHbhN .content-2a4AW9 .selected-2TbFuo .content-1gYQeQ .children-1MGS9G * {
+.sidebar-1tnWFu .content-2a4AW9 .selected-2TbFuo .content-1gYQeQ a *, .sidebar-1tnWFu .content-2a4AW9 .selected-2TbFuo .content-1gYQeQ .children-1MGS9G *, .sidebar-1tnWFu .content-2a4AW9 .selected-3veCBZ, .sidebar-nqHbhN .content-2a4AW9 .selected-2TbFuo .content-1gYQeQ a *, .sidebar-nqHbhN .content-2a4AW9 .selected-2TbFuo .content-1gYQeQ .children-1MGS9G *, .sidebar-nqHbhN .content-2a4AW9 .selected-3veCBZ {
   color: #151515;
+}
+.sidebar-1tnWFu .content-2a4AW9 .selected-3veCBZ, .sidebar-nqHbhN .content-2a4AW9 .selected-3veCBZ {
+  background-color: #ffffff;
 }
 .sidebar-1tnWFu .content-2a4AW9 .containerDefault-YUSmu3 .wrapper-NhbLHG:active .content-1gYQeQ a *, .sidebar-1tnWFu .content-2a4AW9 .containerDefault-YUSmu3 .wrapper-NhbLHG:active .content-1gYQeQ .children-1MGS9G *, .sidebar-nqHbhN .content-2a4AW9 .containerDefault-YUSmu3 .wrapper-NhbLHG:active .content-1gYQeQ a *, .sidebar-nqHbhN .content-2a4AW9 .containerDefault-YUSmu3 .wrapper-NhbLHG:active .content-1gYQeQ .children-1MGS9G * {
   color: #151515;
@@ -295,6 +299,10 @@
 }
 
 .wrapper-NhbLHG:active:active .content-1gYQeQ * {
+  color: #151515;
+}
+
+.voiceUser-3nRK-K.selected-1oxcpH .content-1Tgc42 .username-vAneIW {
   color: #151515;
 }
 
@@ -574,6 +582,7 @@ button {
 }
 .theme-dark .lookOutlined-3yKVGo.colorRed-rQXKgM:hover, .theme-light .lookOutlined-3yKVGo.colorRed-rQXKgM:hover {
   color: #fa4a4a;
+  background-color: transparent;
   border-color: #fa4a4a;
 }
 .theme-dark .lookOutlined-3yKVGo.colorPrimary-2AuQVo, .theme-light .lookOutlined-3yKVGo.colorPrimary-2AuQVo {
@@ -581,6 +590,21 @@ button {
 }
 .theme-dark .lookOutlined-3yKVGo.colorPrimary-2AuQVo:hover, .theme-light .lookOutlined-3yKVGo.colorPrimary-2AuQVo:hover {
   border-color: #191919;
+}
+
+.group-1_ptLP.flex-3BkGQD .item-2OyinQ.selectorButton-3fWZ0_.selectorButtonSelected-3cQUnj * {
+  color: #151515;
+}
+
+.item-2idW98.itemFilled-1cPbtg[aria-checked=true] {
+  color: #151515;
+}
+.item-2idW98.itemFilled-1cPbtg[aria-checked=true] .radioIconForeground-2BMavi {
+  color: #151515;
+}
+
+.item-2idW98.itemFilled-1cPbtg:active:not([aria-checked=true]):not(.disabled-3tqE8r) {
+  color: #151515;
 }
 
 .chat-2ZfjoI {
@@ -782,6 +806,24 @@ button {
 :root .footer-31IekZ {
   background-color: #151515;
   border-top: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+.popout-1KHNAq.scrollerBase-_bVAAt .option-2eIyOn[aria-selected=true]:not(.option-2eIyOn.multi-1HXDiv) {
+  color: #151515;
+}
+
+.focusLock-2tveLW .scrollBackgroundContainer-1gy1Hx * {
+  background-color: #1b1b1b;
+}
+.focusLock-2tveLW .scrollContainer-1C3AzW .scrollSection-HnJkHK {
+  background-color: #1b1b1b;
+}
+
+.tooltipBrand-20XsMA .tooltipContent-Nejnvh {
+  color: #151515;
+}
+.tooltipBrand-20XsMA .tooltipContent-Nejnvh .defaultColor-1EVLSt {
+  color: #151515;
 }
 
 .contentRegion-3HkfJJ .closeButton-PCZcma {
