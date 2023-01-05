@@ -69,8 +69,12 @@
   }
 
   // channels items select
-  .content-2a4AW9 .selected-2TbFuo .content-1gYQeQ a *, .content-2a4AW9 .selected-2TbFuo .content-1gYQeQ .children-1MGS9G * {
+  .content-2a4AW9 .selected-2TbFuo .content-1gYQeQ a *, .content-2a4AW9 .selected-2TbFuo .content-1gYQeQ .children-1MGS9G *, .content-2a4AW9 .selected-3veCBZ {
     color: tc.$text-alt;
+  }
+
+  .content-2a4AW9 .selected-3veCBZ {
+    background-color: tc.$interactive-normal;
   }
 
   .content-2a4AW9 .containerDefault-YUSmu3 .wrapper-NhbLHG:active {
@@ -184,5 +188,9 @@
 
 // active threads item
 .wrapper-NhbLHG:active:active .content-1gYQeQ * {
+  color: tc.$text-alt;
+}
+
+.voiceUser-3nRK-K.selected-1oxcpH .content-1Tgc42 .username-vAneIW {
   color: tc.$text-alt;
 }
