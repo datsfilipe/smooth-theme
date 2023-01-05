@@ -117,6 +117,7 @@ button {
 
   .lookOutlined-3yKVGo.colorRed-rQXKgM:hover {
     color: gc.$color4;
+    background-color: transparent;
     border-color: gc.$color4;
   }
 
@@ -128,4 +129,21 @@ button {
   .lookOutlined-3yKVGo.colorPrimary-2AuQVo:hover {
     border-color: tc.$background-secondary-alt;
   }
+}
+
+.group-1_ptLP.flex-3BkGQD {
+  .item-2OyinQ.selectorButton-3fWZ0_.selectorButtonSelected-3cQUnj * {
+    color: tc.$text-alt;
+  }
+}
+
+.item-2idW98.itemFilled-1cPbtg[aria-checked="true"] {
+  color: tc.$text-alt;
+  .radioIconForeground-2BMavi {
+    color: tc.$text-alt;
+  }
+}
+
+.item-2idW98.itemFilled-1cPbtg:active:not([aria-checked=true]):not(.disabled-3tqE8r) {
+  color: tc.$text-alt;
 }
