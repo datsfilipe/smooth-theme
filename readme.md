@@ -8,10 +8,6 @@ Smooth Theme for BetterDiscord
   </a>
 </p>
 
-## Sponsoring
-
-[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/Y8Y46BUIB)
-
 ## Installation
 
 Download the theme navigating to [here](https://github.com/datsfilipe/smooth-theme/releases/tag/2.0.0).
