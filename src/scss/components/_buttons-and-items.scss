@@ -147,3 +147,8 @@ button {
 .item-2idW98.itemFilled-1cPbtg:active:not([aria-checked=true]):not(.disabled-3tqE8r) {
   color: tc.$text-alt;
 }
+
+// select option
+.popout-1KHNAq.scrollerBase-_bVAAt .option-2eIyOn[aria-selected=true]:not(.option-2eIyOn.multi-1HXDiv) {
+  color: tc.$text-alt;
+}
