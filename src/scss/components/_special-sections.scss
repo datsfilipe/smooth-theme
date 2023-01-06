@@ -1,0 +1,35 @@
+@use '../abstracts/measurements' as ms;
+@use '../abstracts/theme-colors' as tc;
+
+// browse channels section
+.chat-2ZfjoI .container-2IKOsH, .chat-2ZfjoI.container-1um7CU {
+  background-color: tc.$background-primary;
+}
+
+.content-1jQy2l.container-2IKOsH, .content-1jQy2l.container-2IKOsH .chat-2ZfjoI {
+  border-radius: ms.$medium-radius;
+  margin: 10px 10px 10px 0;
+}
+
+// server home section
+.content-1SgpWY {
+  .background-fkKrXt {
+    background-color: unset;
+  
+    .content-1jQy2l {
+      margin: 0 10px 10px 0;
+      border-radius: ms.$medium-radius;
+      background-color: tc.$background-primary;
+
+      .homeContent-2_a0jF {
+        .interactiveCard-2iMtdk.selected-sszUNx {
+          border: 1px solid transparent;
+        }
+
+        .interactiveCard-2iMtdk:active, .interactiveCard-2iMtdk:hover {
+          border: 1px solid var(--background-modifier-accent);
+        }
+      }
+    }
+  }
+}
