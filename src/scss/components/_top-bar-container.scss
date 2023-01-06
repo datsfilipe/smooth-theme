@@ -28,7 +28,7 @@
 .container-ZMc96U.themed-Hp1KC_ {
   // standard
   border-radius: ms.$big-radius;
-  margin: 10px 10px 10px 0;
+  margin: 10px 10px 10px 10px;
   background: tc.$background-secondary;
 
   // tab items
@@ -121,5 +121,9 @@
       }
     }
   }
-  
+}
+
+// coloring background for server home section top bar
+.title-31SJ6t.container-ZMc96U.themed-Hp1KC_ {
+  background: tc.$background-secondary;
 }
