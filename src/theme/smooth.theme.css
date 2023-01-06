@@ -8,3 +8,8 @@
 */
 
 @import "https://datsfilipe.github.io/smooth-theme/src/output/custom.css";
+
+:root {
+  /* theme version */
+  --theme-version: 2.2.0;
+}
