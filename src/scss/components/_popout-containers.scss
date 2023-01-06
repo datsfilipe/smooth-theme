@@ -120,10 +120,19 @@
   border-top: tc.$dark-border;
 }
 
-.popout-1KHNAq.scrollerBase-_bVAAt .option-2eIyOn[aria-selected=true]:not(.option-2eIyOn.multi-1HXDiv) {
-  color: tc.$text-alt;
+// forum tips popout
+#popout_80 {
+  .gridUpsellContainer-2yRge0 {
+    background-color: tc.$background-tertiary;
+  }
+
+  // arrow
+  .upsellTooltipWrapper-1wqikQ.caretTopCenter-1wqGIE::after {
+    border-bottom-color: tc.$background-tertiary;
+  }
 }
 
+// selecting avatar decoration popout
 .focusLock-2tveLW {
   .scrollBackgroundContainer-1gy1Hx * {
     background-color: tc.$background-secondary;
@@ -134,6 +143,7 @@
   }
 }
 
+// emojis popout tooltip
 .tooltipBrand-20XsMA .tooltipContent-Nejnvh {
   color: tc.$text-alt;
 
