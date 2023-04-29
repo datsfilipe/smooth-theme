@@ -1,20 +1,12 @@
-<h1 align="center">
-Smooth Theme for BetterDiscord
-</h1>
-
-<p align="center">
-  <a href="https://github.com/datsfilipe/smooth-theme/blob/main/LICENSE">
-    <img src="https://img.shields.io/github/license/datsfilipe/smooth-theme?color=%237159c1&logo=mit" alt="License">
-  </a>
-</p>
+# Smooth Theme
 
 ## Installation
 
 Download the theme navigating to [here](https://github.com/datsfilipe/smooth-theme/releases/tag/2.0.0).
 
-## Contributing
+## Theme Development
 
-To contribute check the [guide](https://github.com/datsfilipe/smooth-theme/blob/main/contributing.md).
+After trying to add the theme again on BetterDiscord (***because of their platform not updating the theme file version 🥲***) and being refused by the reson of the theme looking the same as others (***it was accepeted and was available before so wtf?***) the development will not continue and the repository will be archived forever. As a side note, my account has not been verified on their platform, but it still appears as a contributor on their website 🫠.
 
 ## Preview
 
