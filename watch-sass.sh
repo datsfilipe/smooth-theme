@@ -1,6 +1,6 @@
 #!/bin/sh
 
-yarn sass --watch src/scss:output --style=compressed &
+yarn sass --watch src/scss:src/output --style=compressed &
 
 compile_and_rename() {
   yarn sass src/scss:/tmp --style=compressed
