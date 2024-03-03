@@ -6,8 +6,38 @@
   border-radius: ms.$medium-radius;
 }
 
-.chatContent__5dca8 {
-  background: transparent;
+// discord warns
+.notice__5fd4c {
+  margin-top: 10px;
+  margin-right: 10px;
+  border-radius: 8px;
+  padding: 2px;
+  background-color: rgba(230, 230, 230, 0.7);
+  color: tc.$text-alt;
+
+  [class*="closeIcon"] path {
+    fill: tc.$text-alt;
+  }
+
+  [class*="button"] {
+    border-color: tc.$text-alt;
+    color: tc.$text-alt;
+  }
+}
+
+.chat__52833 {
+  .chatContent__5dca8 {
+    background: transparent;
+    [class*="banner"] [class*="nextIcon"] path {
+      fill: tc.$text-alt;
+    }
+  }
+
+  [class*="profilePanel"] {
+    margin: 10px 10px 10px 0;
+    border-radius: ms.$medium-radius;
+    overflow: hidden;
+  }
 }
 
 .container__5c7e7 .nowPlayingColumn_f5023f {
