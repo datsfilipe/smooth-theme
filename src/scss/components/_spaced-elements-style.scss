@@ -58,3 +58,42 @@
     }
   }
 }
+
+// call container
+[class*="noChat"][class*="video"] {
+  background-color: transparent;
+}
+
+[class*="callContainer"] {
+  background-color: transparent;
+
+  [class*="container"][class*="transparent"] {
+    padding: 0;
+  }
+
+  // call show chat button
+  [class*="button"][aria-label="Show Chat"] {
+    margin: 10px 20px 0 0;
+  }
+
+  [class*="headerWrapper"] {
+    padding: 0;
+  }
+
+  [class*="videoControls"] {
+    padding: 0;
+
+    [class*="gradient"] {
+        display: none;
+    }
+
+    [class*="bottomControls"] {
+      padding: 10px 15px;
+      margin: 0 10px 10px 10px;
+      max-width: calc(100% - 50px);
+      background-color: tc.$background-secondary;
+      border-radius: ms.$big-radius;
+      border: 1px solid gc.$color10;
+    }
+  }
+}
