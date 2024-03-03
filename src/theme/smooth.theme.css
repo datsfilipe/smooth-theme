@@ -1,6 +1,6 @@
 /**
  * @name Smooth Theme
- * @version 2.0.0
+ * @version 2.2.1
  * @description Dark theme for discord, Simplicity in two colors, the best theme for you.
  * @author @dtsf#3763 (discord) / @datsfilipe (github)
  * @github: https://github.com/datsfilipe
@@ -11,5 +11,5 @@
 
 :root {
   /* theme version */
-  --theme-version: 2.2.0;
+  --theme-version: 2.2.1;
 }
