@@ -2,7 +2,7 @@
 @use '../abstracts/theme-colors' as tc;
 @use '../abstracts/general-colors' as gc;
 
-.mention, .px-MnE_OR.botTag-7aX5WZ, .botTagRegular-kpctgU {
+.mention, .px__97c6b.botTag__4211a .botTagRegular_c89c9a, .botTagVerified_a8fa0b {
   border-radius: ms.$really-small-radius;
 }
 
@@ -15,7 +15,12 @@
   filter: brightness(0.8);
 }
 
-.px-MnE_OR.botTag-7aX5WZ, .botTagRegular-kpctgU {
+.botTagRegular_c89c9a {
   color: tc.$text-alt;
-  background-color: gc.$color3;
+  background-color: gc.$color11;
+}
+
+.botTagVerified_a8fa0b {
+  color: tc.$text-alt;
+  background-color: gc.$color11;
 }

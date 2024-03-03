@@ -1,7 +1,7 @@
 @use '../abstracts/theme-colors' as tc;
 @use '../abstracts/measurements' as ms;
 
-.form-3gdLxP {
+.form-3gdLxP, .form__13a2c {
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 1fr minmax(min-content, max-content);
@@ -12,47 +12,47 @@
   margin-left: 10px;
 
   // some other container types like "follow the channel"
-  .wrapper-2SplAX {
+  .wrapper_fbbb73 {
     border-radius: ms.$big-radius;
-    max-width: 100%;
+    max-width: calc(100% - 10px);
     margin-right: 0;
     margin-top: 10px;
     margin-bottom: auto;
   }
 
-
-  // spacing channel input
-  .channelTextArea-1FufC0.channelTextArea-1VQBuV {
-    background-color: transparent;
-    border-radius: ms.$big-radius;
-    max-width: calc(100% - 10px);
-    margin-top: 10px;
-    margin-bottom: auto;
-    .attachedBars-2BCP3l {
-      background-color: tc.$background-secondary-alt;
-      border-bottom: tc.$dark-border;
-    }
-    .scrollableContainer-15eg7h {
-      padding: 4px 0 4px 0;
-      border-radius: ms.$big-radius;
-      &.hasConnectedBar-1vN2JH {
-        border-radius: 0px 0px ms.$big-radius ms.$big-radius;
-      }
-    }
-  }
-  
   .applicationCommandEducation-1stoia {
     display: none;
   }
 }
 
+// spacing channel input
+.channelTextArea__2e60f, .channelTextArea__56a36 {
+  background-color: transparent;
+  border-radius: ms.$big-radius;
+  max-width: calc(100% - 10px);
+  margin-top: 10px;
+  margin-bottom: auto;
+  .attachedBars-2BCP3l {
+    background-color: tc.$background-secondary-alt;
+    border-bottom: tc.$dark-border;
+  }
+  .scrollableContainer__33e06 {
+    padding: 4px 0 4px 0;
+    border-radius: ms.$big-radius;
+    &.hasConnectedBar-1vN2JH {
+      border-radius: 0px 0px ms.$big-radius ms.$big-radius;
+    }
+  }
+}
+
 // remove tips below channel input message
-.form-3gdLxP::before { 
+.form__13a2c::before { 
   display: none;
 }
 
 // typing section
-.typing-2J1mQU {
+.typing__6fd1d {
+  max-width: calc(100% - 25px);
   position: relative;
   margin: 6px 0 -4px 4px;
   height: 1rem;
@@ -60,7 +60,7 @@
 
   color: tc.$text-muted;
 
-  .dots-1BwzZQ.themed-3T-OPr {
+  .typingDots_d92d42 {
     color: tc.$text-muted;
   }
 }

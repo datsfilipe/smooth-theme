@@ -2,49 +2,52 @@
 @use '../abstracts/general-colors' as gc;
 @use '../abstracts/measurements' as ms;
 
-.title-31SJ6t, .container-ZMc96U {
+.title_b7d661, .container__11d72 {
   width: auto;
 
-  .searchBar-zdmu7v {
+  .searchBar_e0c60b {
     background-color: unset;
   }
 
-  a.anchor-1MIwyf div svg {
+  a.anchor_c8ddc0 div svg, a.anchor_c8ddc0:hover div svg {
     color: gc.$color5;
   }
 
-  .children-3xh0VB::after {
+  .children__32014::after {
     background: -webkit-gradient(linear,left top,right top,from(rgba(54,57,63,0)),to(tc.$background-secondary));
     background: linear-gradient(90deg, rgba(54,57,63,0) 0, tc.$background-secondary);
   }
 }
 
 // for channels bar
-.title-31SJ6t.container-ZMc96U.themed-Hp1KC_ {
-  background: transparent;
-}
+// .title_b7d661.container__11d72 {
+//   background: transparent;
+// }
 
 // spacing topbar
-.container-ZMc96U.themed-Hp1KC_ {
+.container__11d72.themed_b152d4 {
   // standard
   border-radius: ms.$big-radius;
-  margin: 10px 10px 10px 10px;
+  margin: 10px 10px 0 10px;
   background: tc.$background-secondary;
 
   // tab items
-  .children-3xh0VB .tabBar-ra-EuL [role="tab"] {
+  .children__32014 .tabBar__73938  [role="tab"] {
     border-radius: ms.$small-radius;
-  }
+    &[aria-selected="true"] {
+      color: tc.$text-alt;
 
-  .children-3xh0VB .tabBar-ra-EuL [role="tab"].selected-g-kMVV {
-    color: tc.$text-alt;
+      &:focus-within {
+        color: tc.$text-alt;
+      }
 
-    &:hover {
-      color: tc.$text-normal;
+      &:hover {
+        color: tc.$text-normal;
+      }
     }
   }
 
-  .children-3xh0VB .tabBar-ra-EuL [role="tab"][aria-controls="add_friend-tab"] {
+  .children__32014 .tabBar__73938 .addFriend__80542[role="tab"] {
     color: tc.$text-alt!important;
     background-color: gc.$color11!important;
     transition: filter 0.2s;
@@ -55,38 +58,36 @@
   }
 
   // top-bar in channels
-  &.title-31SJ6t[aria-label="Channel header"] {
+  &.title_b7d661[aria-label="Channel header"] {
     position: relative;
     border: none;
     padding: 0;
 
-    .children-3xh0VB {
+    .children__32014 {
       background: tc.$background-secondary;
-      padding: 12px;
-      margin: 10px 0 10px 0;
+      padding: 0 12px;
       border-radius: ms.$big-radius 0 0 ms.$big-radius;
     }
 
-    .toolbar-3_r2xA {
+    .toolbar__88c63 {
       background: transparent;
-      margin: 10px 0 10px 0;
       border-radius: 0 ms.$big-radius ms.$big-radius 0;
 
       // separate / spacing elements in toolbar
-      .icon-1ELUnB, .iconWrapper-2awDjA[aria-label="Start Voice Call"] {
+      .icon__88ea8, .iconWrapper_af9215[aria-label="Start Voice Call"] {
         padding-left: 16px!important;
         border-radius: ms.$big-radius 0 0 ms.$big-radius;
       }
 
-      .anchor-1MIwyf {
-        .iconWrapper-2awDjA {
+      .anchor_c8ddc0 {
+        .iconWrapper_af9215 {
           padding-right: 16px;
           border-radius: 0 ms.$big-radius ms.$big-radius 0;
         }
       }
 
       // toolbar standard items
-      .iconWrapper-2awDjA {
+      .iconWrapper_af9215 {
         background: tc.$background-secondary;
         margin: 0;
         padding: 0 7.6px;
@@ -99,7 +100,7 @@
         }
 
         // notify icon badge
-        .iconBadge-3Mmg92 {
+        .iconBadge_cc5031 {
           bottom: 12px;
           right: 10px;
           background: gc.$color3;
@@ -110,11 +111,10 @@
 
 
       // search bar
-      .search-39IXmY {
+      .searchBar_e0c60b {
         margin: 0 10px 0 0;
         order: -1;
         background: tc.$background-secondary;
-        padding: 12px;
         border-radius: 0 ms.$big-radius ms.$big-radius 0;
         transition: all 0.25s ease;
         -webkit-transition: width 0.25s ease;
@@ -124,6 +124,6 @@
 }
 
 // coloring background for server home section top bar
-.title-31SJ6t.container-ZMc96U.themed-Hp1KC_ {
+.title_b7d661.container__11d72.themed_b152d4 {
   background: tc.$background-secondary;
 }

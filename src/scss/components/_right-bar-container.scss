@@ -3,32 +3,32 @@
 @use '../animations/ripple-effect' as anim;
 
 // adding spaces
-.membersWrap-3NUR2t, .container-2o3qEW {
-  margin: 0 10px 10px 0;
+.membersWrap__90226, .container_b2ce9c {
+  margin: 10px 10px 10px 0;
   border-radius: ms.$big-radius;
   height: auto;
 }
 
-.container-2o3qEW .membersWrap-3NUR2t, .membersWrap-3NUR2t {
+.container_b2ce9c .membersWrap__90226, .membersWrap__90226 {
   // to make border radius work, we have to apply here too
   border-radius: ms.$big-radius;
 
-  .members-3WRCEx {
+  .members__9f47b {
     border-radius: inherit;
   }
 
   // member item
-  .layout-1qmrhw {
+  .layout_bb8e67 {
     position: relative;
     overflow: hidden;
     border-radius: ms.$medium-radius;
 
-    .layout-1qmrhw .content-1U25dZ * {
-      transition: color 0.2s;
+    .botTagRegular_c89c9a {
+      color: tc.$text-alt;
     }
   }
 
-  .layout-1qmrhw::after {
+  .layout_bb8e67::after {
     border-radius: 50%;
     background-color: rgba(55,55,55, 0.6);
     content:'';
@@ -39,35 +39,35 @@
     opacity:0;
   }
 
-  .member-2gU6Ar.selected-1-Z6gm {
-    .layout-1qmrhw::after {
+  .member_aa4760.selected__9800b {
+    .layout_bb8e67::after {
       width:230px;
       height:230px;
       animation: ripple-effect-for-channels 0.350s;
       animation-iteration-count: 1;
     }
 
-    .layout-1qmrhw .content-1U25dZ * {
+    .layout_bb8e67 .content_a6999d * {
       color: tc.$text-alt;
     }
   }
 
-  .member-2gU6Ar:active {
-    .layout-1qmrhw .content-1U25dZ * {
+  .member_aa4760:active {
+    .layout_bb8e67 .content_a6999d * {
       color: tc.$text-muted;
     }
   }
 }
 
 // now playing column
-.nowPlayingColumn-1eCBCN {
+.nowPlayingColumn_f5023f {
   background: tc.$background-secondary;
   border-radius: ms.$big-radius;
   margin: 0 10px 10px 10px;
 
-  .container-1oAagU {
+  .container__0a6a9 {
     background-color: transparent;
-    .scroller-hE2gWq {
+    .scroller__00e7e {
       border: none;
     }
   }

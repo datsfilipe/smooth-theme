@@ -10,24 +10,38 @@
   display: none;
 }
 
-.tabBody-2dgbAs:before  {
+.tabBody_b3d268:before  {
   display: none;
 }
 
-.tabBody-2dgbAs .peopleColumn-1wMU14 {
+.tabBody_b3d268 .peopleColumn__51df3 {
   background-color: tc.$background-spacing;
 }
 
-.bg-1QIAus {
+.bg__12180 {
   background-color: tc.$background-spacing;
 }
 
-.peopleListItem-u6dGxF {
+.peopleListItem_d14722 {
   border-top: tc.$dark-border;
 }
 
 // call
-.videoControls-353CsJ .justifyCenter-rrurWZ .wrapper-3t3Yqv div {
+.videoControls-353CsJ .justifyCenter-rrurWZ .wrapper-3t3Yqv div, .panels__58331 .container_d667ff {
+  button[aria-label="Disconnect"] {
+    background-color: gc.$color3;
+    color: tc.$text-alt;
+    div svg {
+      color: inherit;
+    }
+  }
+}
+
+.panels__58331 .container_d667ff {
+  border-radius: ms.$big-radius ms.$big-radius 0 0;
+}
+
+.videoControls__40f61 .justifyCenter__4080c .wrapper__3f3a7 div {
   border-radius: 100%;
 
   div:first-of-type {
@@ -41,14 +55,6 @@
           border-radius: 100%!important;
         }
       }
-    }
-  }
-
-  button[aria-label="Disconnect"] {
-    background-color: gc.$color3;
-    color: tc.$text-alt;
-    div svg {
-      color: inherit;
     }
   }
 }

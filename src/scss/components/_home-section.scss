@@ -2,21 +2,51 @@
 @use '../abstracts/measurements' as ms;
 
 // discover servers
-.pageWrapper-2PwDoS {
-  background-color: tc.$background-primary!important;
+.pageWrapper_fef757 {
+  background-color: tc.$background-spacing!important;
+}
+
+.sidebar_ded4b5 {
+  .categoryItem_b1be5c {
+    position: relative;
+    overflow: hidden;
+    border-radius: ms.$big-radius;
+  }
+
+  .categoryItem_b1be5c.selected__9800b {
+    color: tc.$text-alt;
+  }
+
+  .categoryItem_b1be5c::before {
+    border-radius: 50%;
+    background-color: rgba(55,55,55, 0.6);
+    content:'';
+    position: absolute;
+    top: 50%; left: 50%;
+    width:0; height:0;
+    transition: all 0.5s ease-out;
+    opacity:0;
+  }
+
+  .categoryItem_b1be5c.selected__9800b::before {
+    width:230px;
+    height:230px;
+    animation: ripple-effect-for-channels 0.350s;
+    animation-iteration-count: 1;
+  }
 }
 
 // server cards
-.card-2TuZPZ {
+.card__86773 {
   padding-top: 40px;
   justify-content: center;
   height: auto;
   min-height: 200px;
   border-radius: ms.$medium-radius;
-  .cardHeader-1kPMOm {
+  .cardHeader__889e1 {
     height: auto;
   }
-  .cardHeader-1kPMOm .splash-1VADA3 {
+  .cardHeader__889e1 .splash_c32fae {
     display: none;
   }
 }

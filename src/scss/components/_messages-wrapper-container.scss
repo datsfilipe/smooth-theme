@@ -4,7 +4,7 @@
 @use '../abstracts/measurements' as ms;
 
 // important
-.chat-2ZfjoI {
+.chat__52833 {
   background: tc.$background-spacing;
 }
 
@@ -23,19 +23,19 @@
   background-color: tc.$interactive-hover;
 }
 
-// space bellow messages
-.scrollerSpacer-3AqkT9 {
+// space below messages
+.scrollerSpacer__9cd32 {
   height: 12px;
 }
 
-.messagesWrapper-RpOMA3 {
+.messagesWrapper_ea2b0b {
   // adding the spaces
   margin: 10px 10px 10px 10px;
   border-radius: ms.$big-radius;
   box-shadow: tc.$box-shadow;
   background: tc.$background-primary;
 
-  .buttonContainer-1502pf .wrapper-2vIMkT {
+  .buttonContainer_dd4b62 .wrapper_c727b6 {
     border-radius: ms.$medium-radius;
 
     div[aria-expanded="true"] {
@@ -62,14 +62,14 @@
     }
 
     // new messages divider
-    div.divider-IqmEqJ[id="---new-messages-bar"] {
+    div.divider__8cf56[id="---new-messages-bar"] {
       border-color: gc.$color3;
 
-      .content-3spvdd, .unreadPillCapStroke-1nE1Q8 {
+      .content_d67847, .unreadPillCapStroke__12c0b {
         color: gc.$color3;
       }
 
-      .unreadPill-3nEWYM {
+      .unreadPill__715fc {
         color: tc.$text-alt;
         background-color: gc.$color3;
 
@@ -81,7 +81,7 @@
   }
 
   // message bars
-  [class*="newMessagesBar-"] {
+  [class*="newMessagesBar"] {
     margin-top: 6px;
     border-radius: ms.$medium-radius;
     padding: 2px;
@@ -94,7 +94,7 @@
     }
   }
 
-  [class*="jumpToPresentBar-"] {
+  [class*="jumpToPresentBar"] {
     margin-bottom: 6px;
     padding: 2px;
     bottom: 0;
@@ -114,6 +114,6 @@
 }
 
 // divider
-.divider-IqmEqJ {
+.divider__8cf56 {
   border-top: thin solid rgba(230, 230, 230, 0.06);
 }
