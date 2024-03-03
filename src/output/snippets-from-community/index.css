@@ -1,4 +1,4 @@
-#app-mount.appMount-2yBXZl::before {
+#app-mount.appMount_fae9dd::before {
   content: "Your version of Smooth Theme is outdated. Please download the newest version from: <https://datsfilipe.github.io/smooth-theme/>";
   display: var(--version2, block);
   background-color: #fb7c7c;
