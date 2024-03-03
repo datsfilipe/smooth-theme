@@ -8,8 +8,7 @@
   ],
   "license": "",
   "scripts": {
-    "dev": "sass --watch src/scss:$HOME/.config/BetterDiscord/data/stable/",
-    "dev:flatpak": "sass --watch src/scss:$HOME/.var/app/com.discordapp.Discord/config/BetterDiscord/data/stable/",
+    "dev": "./watch-sass.sh",
     "build": "sass src/scss:src/output"
   },
   "devDependencies": {},
