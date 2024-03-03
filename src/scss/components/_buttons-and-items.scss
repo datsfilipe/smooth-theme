@@ -28,6 +28,10 @@ button {
     filter: brightness(0.8);
   }
 
+  [class*="lookFilled"][class*="colorBrand"]:not([class*="colorWhite"]) [class*="defaultColor"] {
+    color: tc.$text-alt;
+  }
+
   /* colorGrey */
   [class*="lookFilled"][class*="colorGrey"] {
     color: tc.$text-alt;
@@ -64,6 +68,10 @@ button {
     color: tc.$text-alt;
     background-color: gc.$color7;
     filter: brightness(0.8);
+  }
+
+  [class*="lookFilled"][class*="colorPrimary"] [class*="defaultColor"] {
+    color: tc.$text-alt;
   }
 
   /* colorWhite */
