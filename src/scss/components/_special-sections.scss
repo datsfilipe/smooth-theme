@@ -60,3 +60,8 @@
     box-shadow: tc.$box-shadow;
   }
 }
+
+// image carousel
+.theme-dark [class*="focusLock"] [class*="carouselModal"], .theme-light [class*="focusLock"] [class*="carouselModal"] {
+  background-color: transparent;
+}
