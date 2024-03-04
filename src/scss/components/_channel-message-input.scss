@@ -36,10 +36,10 @@
     background-color: tc.$background-secondary-alt;
     border-bottom: tc.$dark-border;
   }
-  .scrollableContainer__33e06 {
+  [class*="scrollableContainer"] {
     padding: 4px 0 4px 0;
     border-radius: ms.$big-radius;
-    &.hasConnectedBar-1vN2JH {
+    &[class*="hasConnectedBar"] {
       border-radius: 0px 0px ms.$big-radius ms.$big-radius;
     }
   }
