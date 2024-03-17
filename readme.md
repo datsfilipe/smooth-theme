@@ -2,7 +2,7 @@
 
 ## Installation
 
-Download the theme navigating to [here](https://github.com/datsfilipe/smooth-theme/releases/tag/2.0.0).
+Download the theme navigating to [here](https://github.com/datsfilipe/smooth-theme/releases/tag/2.2.2).
 
 ## Preview
 
