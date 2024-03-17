@@ -1,6 +1,6 @@
-#app-mount.appMount_fae9dd::before {
+#app-mount[class*=appMount]::before {
   content: "Your version of Smooth Theme is outdated. Please download the newest version from: <https://datsfilipe.github.io/smooth-theme/>";
-  display: var(--version2, block);
+  display: var(--theme-version, block);
   background-color: #fb7c7c;
   color: #151515;
   font-size: 14px;
@@ -11,47 +11,24 @@
 }
 
 /*Hide "DISCORD" text in top-left corner.*/
-.wordmarkWindows-2dq6rw {
+[class*=wordmarkWindows] {
   display: none;
 }
 
-.role-2TIOKu {
-  background: transparent;
-  border: 1px solid;
-  border-radius: 11px;
-}
-
-.roleCircle-1EgnFN {
-  margin-left: 0;
-}
-
-.addButton-1_dZYu.role-2TIOKu {
-  border-color: #4f545c;
-}
-
-.addButtonIcon-3HZ_2f {
-  width: 10px;
-  height: 10px;
-}
-
-.button-12Fmur:hover .contents-3ca1mk {
+[class*=panels][aria-label="User area"] [class*=button]:hover [class*=contents] {
   animation: UserModalButtons 0.5s normal ease;
 }
-
-.container-YkUktl .noWrap-hBpHBz {
+[class*=panels][aria-label="User area"] [class*=container] [class*=noWrap] {
   width: 100px;
   opacity: 1;
 }
-
-.button-12Fmur {
+[class*=panels][aria-label="User area"] [class*=button] {
   transition: 0.2s;
 }
-
-.button-12Fmur:hover {
+[class*=panels][aria-label="User area"] [class*=button]:hover {
   padding-bottom: 0px;
   transition: 0.2;
 }
-
 @keyframes UserModalButtons {
   0% {
     transform: translateY(0px);
@@ -62,37 +39,6 @@
   100% {
     transform: translateY(0px);
   }
-}
-.bd-toast {
-  /* custom */
-  height: 20px;
-  white-space: nowrap;
-  /* ------ */
-  background-color: var(--background-tertiary) !important;
-  border-radius: 32px;
-  margin-bottom: 12px;
-  line-height: 24px;
-  padding: 16px !important;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  align-items: center;
-  font-size: 14px !important;
-  font-weight: normal !important;
-}
-
-.bd-toast.toast-success.icon {
-  background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjEuMjg0ODUgMy40NjkyNCAyMS44MzYzNTAwMDAwMDAwMDMgMTcuNjUyMTYwMDAwMDAwMDAyIj4KICA8cGF0aCBkPSJNOS4wMDA0MyAxNC4wNDkyTDE5LjU5MDQgMy40NjkyNEwyMy4xMjEyIDcuMDAwMDZMOC45OTk5MyAyMS4xMjE0TDEuMjg0ODUgMTMuNDA2M0w0LjgzMzY3IDkuODgyNDhMOS4wMDA0MyAxNC4wNDkyWiIgZmlsbD0iIzNCQTU1QyIvPgo8L3N2Zz4=") !important;
-}
-
-.bd-toast.icon {
-  padding-left: 30px !important;
-}
-
-.bd-toast.toast-danger.icon,
-.bd-toast.toast-error.icon {
-  background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjcgMTAgNiA2Ij4KICA8cGF0aCBkPSJNIDEyIDEwIEwgMTMgMTEgTCAxMSAxMyBMIDEzIDE1IEwgMTIgMTYgTCAxMCAxNCBMIDggMTYgTCA3IDE1IEwgOSAxMyBMIDcgMTEgTCA4IDEwIEwgMTAgMTIgWiIgZmlsbD0iI2YwNDc0NyIvPgo8L3N2Zz4=") !important;
-  padding-left: 35px !important;
 }
 
 /*disable discord's laggy settings animation*/
