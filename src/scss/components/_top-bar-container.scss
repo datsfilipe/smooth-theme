@@ -2,37 +2,38 @@
 @use '../abstracts/general-colors' as gc;
 @use '../abstracts/measurements' as ms;
 
-.title_b7d661, .container__11d72 {
+[class*="title_"], [class*="container_"] {
   width: auto;
 
-  .searchBar_e0c60b {
+  [class*="searchBar_"] {
     background-color: unset;
   }
 
-  a.anchor_c8ddc0 div svg, a.anchor_c8ddc0:hover div svg {
+  a[class*="anchor_"] div svg, a[class*="anchor_"]:hover div svg {
     color: gc.$color5;
   }
 
-  .children__32014::after {
+  [class*="children_"]::after {
     background: -webkit-gradient(linear,left top,right top,from(rgba(54,57,63,0)),to(tc.$background-secondary));
     background: linear-gradient(90deg, rgba(54,57,63,0) 0, tc.$background-secondary);
   }
 }
 
 // for channels bar
-// .title_b7d661.container__11d72 {
+// [class*="title_"][class*="container_"] {
 //   background: transparent;
 // }
 
 // spacing topbar
-.container__11d72.themed_b152d4, [class*="topControls"] [class*="headerWrapper"] {
+[class*="container_"][class*="themed_"], [class*="topControls"] [class*="headerWrapper"] {
   // standard
   border-radius: ms.$big-radius;
   margin: 10px 10px 0 10px;
   background: tc.$background-secondary;
+  overflow: hidden;
 
   // tab items
-  .children__32014 .tabBar__73938  [role="tab"] {
+  [class*="children_"] [class*="tabBar_"]  [role="tab"] {
     border-radius: ms.$small-radius;
     &[aria-selected="true"] {
       color: tc.$text-alt;
@@ -47,7 +48,7 @@
     }
   }
 
-  .children__32014 .tabBar__73938 .addFriend__80542[role="tab"] {
+  [class*="children_"] [class*="tabBar_"] [class*="addFriend_"][role="tab"] {
     color: tc.$text-alt!important;
     background-color: gc.$color11!important;
     transition: filter 0.2s;
@@ -58,28 +59,28 @@
   }
 
   // top-bar in channels
-  &.title_b7d661[aria-label="Channel header"] {
+  &[class*="title_"][aria-label="Channel header"] {
     position: relative;
     border: none;
     padding: 0;
 
-    .children__32014 {
+    [class*="children_"] {
       background: tc.$background-secondary;
       padding: 0 12px;
       border-radius: ms.$big-radius 0 0 ms.$big-radius;
     }
 
-    .toolbar__88c63 {
+    [class*="toolbar_"] {
       background: transparent;
       border-radius: 0 ms.$big-radius ms.$big-radius 0;
 
       // separate / spacing elements in toolbar
-      .icon__88ea8, .iconWrapper_af9215[aria-label="Start Voice Call"] {
+      [class*="iconWrapper_"][aria-label="Start Voice Call"] /*, [class*="icon_"] */ {
         padding-left: 16px!important;
         border-radius: ms.$big-radius 0 0 ms.$big-radius;
       }
 
-      .anchor_c8ddc0 {
+      [class*="anchor_"] {
         .iconWrapper_af9215 {
           padding-right: 16px;
           border-radius: 0 ms.$big-radius ms.$big-radius 0;
@@ -87,7 +88,7 @@
       }
 
       // toolbar standard items
-      .iconWrapper_af9215 {
+      [class*="iconWrapper_"] {
         background: tc.$background-secondary;
         margin: 0;
         padding: 0 7.6px;
@@ -100,7 +101,7 @@
         }
 
         // notify icon badge
-        .iconBadge_cc5031 {
+        [class*="iconBadge_"] {
           bottom: 12px;
           right: 10px;
           background: gc.$color3;
@@ -111,7 +112,7 @@
 
 
       // search bar
-      .searchBar_e0c60b {
+      [class*="searchBar_"] {
         margin: 0 10px 0 0;
         order: -1;
         background: tc.$background-secondary;
@@ -124,6 +125,6 @@
 }
 
 // coloring background for server home section top bar
-.title_b7d661.container__11d72.themed_b152d4 {
+[class*="title_"][class*="container_"][class*="themed_"] {
   background: tc.$background-secondary;
 }

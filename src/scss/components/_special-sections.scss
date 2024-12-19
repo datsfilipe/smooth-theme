@@ -2,12 +2,12 @@
 @use '../abstracts/theme-colors' as tc;
 
 // browse channels section
-.container__5c7e7 .container__0a6a9, .chatContent__5dca8 {
+[class*="container_"], [class*="chatContent_"] {
   border-radius: ms.$medium-radius;
 }
 
 // discord warns
-.notice__5fd4c {
+[class*="notice_"] {
   margin-top: 10px;
   margin-right: 10px;
   border-radius: 8px;
@@ -25,8 +25,8 @@
   }
 }
 
-.chat__52833 {
-  .chatContent__5dca8 {
+[class*="chat_"] {
+  [class*="chatContent_"] {
     background: transparent;
     [class*="banner"] [class*="nextIcon"] path {
       fill: tc.$text-alt;
@@ -40,20 +40,20 @@
   }
 }
 
-.container__5c7e7 .nowPlayingColumn_f5023f {
+[class*="container_"] [class*="nowPlayingColumn_"] {
   margin: 0 10px 10px 0;
   background-color: unset;
 }
 
-.container__5c7e7 .nowPlayingColumn_f5023f .scroller__00e7e {
+[class*="container_"] [class*="nowPlayingColumn_"] [class*="scroller_"] {
   border-left: unset;
 }
 
 // server home section
-.container__5c7e7 {
+[class*="container_"] {
   background-color: unset;
 
-  .peopleColumn__51df3 {
+  [class*="peopleColumn_"] {
     margin: 10px 10px 10px 10px;
     border-radius: ms.$medium-radius;
     background-color: tc.$background-primary;

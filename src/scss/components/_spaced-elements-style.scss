@@ -2,32 +2,33 @@
 @use '../abstracts/measurements' as ms;
 @use '../abstracts/general-colors' as gc;
 
-.content-1SgpWY .container-2cd8Mz {
-  background-color: tc.$background-spacing;
-}
 
-.content-1jQy2l:before {
+[class*="chat_"] [class*="content_"]::before {
   display: none;
 }
 
-.tabBody_b3d268:before  {
+[class*="content-"] [class*="container-"] {
+  background-color: tc.$background-spacing;
+}
+
+[class*="tabBody_"]:before  {
   display: none;
 }
 
-.tabBody_b3d268 .peopleColumn__51df3 {
+[class*="tabBody_"] [class*="peopleColumn_"] {
   background-color: tc.$background-spacing;
 }
 
-.bg__12180 {
+[class*="bg_"] {
   background-color: tc.$background-spacing;
 }
 
-.peopleListItem_d14722 {
+[class*="peopleListItem_"] {
   border-top: tc.$dark-border;
 }
 
 // call
-.videoControls-353CsJ .justifyCenter-rrurWZ .wrapper-3t3Yqv div, .panels__58331 .container_d667ff {
+[class*="videoControls-"] [class*="justifyCenter-"] [class*="wrapper-"] div, [class*="panels_"] [class*="container_"] {
   button[aria-label="Disconnect"] {
     background-color: gc.$color3;
     color: tc.$text-alt;
@@ -37,11 +38,11 @@
   }
 }
 
-.panels__58331 .container_d667ff {
+[class*="panels_"] [class*="container_"] {
   border-radius: ms.$big-radius ms.$big-radius 0 0;
 }
 
-.videoControls__40f61 .justifyCenter__4080c .wrapper__3f3a7 div {
+[class*="videoControls_"] [class*="justifyCenter_"] [class*="wrapper_"] div {
   border-radius: 100%;
 
   div:first-of-type {

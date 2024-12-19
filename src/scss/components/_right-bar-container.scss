@@ -3,33 +3,33 @@
 @use '../animations/ripple-effect' as anim;
 
 // adding spaces
-.membersWrap__90226, .container_b2ce9c {
+[class*="membersWrap_"], [class*="chat_"] [class*="outer_"] {
   margin: 10px 10px 10px 0;
   border-radius: ms.$big-radius;
   height: auto;
   overflow: hidden;
 }
 
-.container_b2ce9c .membersWrap__90226, .membersWrap__90226 {
+[class*="container_"] [class*="membersWrap_"], [class*="membersWrap_"] {
   // to make border radius work, we have to apply here too
   border-radius: ms.$big-radius;
 
-  .members__9f47b {
+  [class*="members_"] {
     border-radius: inherit;
   }
 
   // member item
-  .layout_bb8e67 {
+  [class*="layout_"] {
     position: relative;
     overflow: hidden;
     border-radius: ms.$medium-radius;
 
-    .botTagRegular_c89c9a {
+    [class*="botTagRegular_"] {
       color: tc.$text-alt;
     }
   }
 
-  .layout_bb8e67::after {
+  [class*="layout_"]::after {
     border-radius: 50%;
     background-color: rgba(55,55,55, 0.6);
     content:'';
@@ -40,55 +40,56 @@
     opacity:0;
   }
 
-  .member_aa4760.selected__9800b {
-    .layout_bb8e67::after {
+  [class*="member_"][class*="selected_"] {
+    [class*="layout_"]::after {
       width:230px;
       height:230px;
       animation: ripple-effect-for-channels 0.350s;
       animation-iteration-count: 1;
     }
 
-    .layout_bb8e67 .content_a6999d * {
+    [class*="layout_"] [class*="content_"] * {
       color: tc.$text-alt;
     }
   }
 
-  .member_aa4760:active {
-    .layout_bb8e67 .content_a6999d * {
+  [class*="member_"]:active {
+    [class*="layout_"] [class*="content_"] * {
       color: tc.$text-muted;
     }
   }
 }
 
 // now playing column
-.nowPlayingColumn_f5023f {
+[class*="nowPlayingColumn_"] {
   background: tc.$background-secondary;
   border-radius: ms.$big-radius;
   margin: 0 10px 10px 10px;
+  max-width: unset;
 
-  .container__0a6a9 {
+  [class*="container_"] {
     background-color: transparent;
-    .scroller__00e7e {
+    [class*="scroller_"] {
       border: none;
     }
   }
 }
 
 // resize handler
-.resizeHandle-PBRzPC {
+[class*="resizeHandle-"] {
   display: none;
 }
 
 // search results container
-.searchResultsWrap-5RVOkx {
+[class*="searchResultsWrap-"] {
   border-radius: ms.$big-radius;
   margin: 0 10px 10px 0;
 
-  header .searchHeaderTabList-3CZMQB .item-3XjbnG {
+  header [class*="searchHeaderTabList-"] [class*="item-"] {
     border-radius: ms.$small-radius;
   }
 
-  header .searchHeaderTabList-3CZMQB .item-3XjbnG.selected-g-kMVV {
+  header [class*="searchHeaderTabList-"] [class*="item-"][class*="selected-"] {
     color: tc.$text-alt;
     &:hover {
       color: tc.$text-normal;
@@ -97,20 +98,20 @@
 }
 
 // create thread
-.container-3XgAHv {
+[class*="container-"] {
   background: transparent;
   width: auto!important;
   max-width: 450px;
 
-  .container-ZMc96U {
+  [class*="container-"] {
     height: 40px;
   }
 
-  section.container-1RZJZM[aria-label="Create Thread"] {
-    .container-ZMc96U {
+  section[class*="container-"][aria-label="Create Thread"] {
+    [class*="container-"] {
       margin: 10px 10px 10px 0;
     }
-    .chat-1rZYgu {
+    [class*="chat-"] {
       background-color: tc.$background-secondary;
       margin: 0 10px 10px 0;
       border-radius: ms.$big-radius;

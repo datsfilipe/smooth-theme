@@ -21,14 +21,14 @@
   }
 }
 
-.colorDanger-3n-KnP.focused-3qFvc8 {
+[class*="colorDanger-"][class*="focused-"] {
   background: gc.$color4;
 }
 
-.colorDanger-3n-KnP:active:not(.hideInteraction-2jPGL_) {
+[class*="colorDanger-"]:active:not([class*="hideInteraction-"]) {
   background: gc.$color4;
 }
 
-.colorDanger-3n-KnP, .colorDanger-3n-KnP .checkbox-hADx5o, .colorDanger-3n-KnP .radioSelection-1UHp0b {
+[class*="colorDanger-"], [class*="colorDanger-"] [class*="checkbox-"], [class*="colorDanger-"] [class*="radioSelection-"] {
   color: gc.$color3;
 }

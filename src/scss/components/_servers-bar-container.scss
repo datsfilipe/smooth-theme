@@ -2,42 +2,43 @@
 @use '../abstracts/general-colors' as gc;
 @use '../abstracts/measurements' as ms;
 
-.guilds__2b93a.wrapper_a7e7a8 {
+[class*="guilds_"][class*="wrapper_"] {
   margin: 10px;
   background-color: transparent;
   border-radius: ms.$big-radius;
 
-  ul[role="tree"] .scroller__3d071 {
+  ul[role="tree"] [class*="scroller_"] {
     background-color: tc.$background-tertiary;
+    height: 100%;
   }
 
-  .lowerBadge-3WTshO div {
+  [class*="lowerBadge-"] div {
     color: tc.$text-alt;
     background-color: gc.$color4!important;
   }
 
   // replace standard items color
-  .wrapper_d281dd.selected_f5ec8e .childWrapper__01b9c, .wrapper_d281dd.selected_f5ec8e .wrapper__3af0b:hover .childWrapper__01b9c {
+  [class*="wrapper_"][class*="selected_"] [class*="childWrapper_"], [class*="wrapper_"][class*="selected_"] [class*="wrapper_"]:hover [class*="childWrapper_"] {
     color: tc.$text-alt;
   }
 
-  .wrapper_d281dd[data-list-item-id="guildsnav___home"] {
-    &.selected_f5ec8e .childWrapper__01b9c {
+  [class*="wrapper_"][data-list-item-id="guildsnav___home"] {
+    &[class*="selected_"] [class*="childWrapper_"] {
       color: tc.$text-alt;
       background-color: tc.$interactive-hover;
     }
 
-    .childWrapper__01b9c {
+    [class*="childWrapper_"] {
       color: tc.$text-normal;
     }
   }
 }
 
 // circle buttons
-.circleIconButton_d8df29 {
+[class*="circleIconButton_"] {
   color: tc.$interactive-normal;
 
-  &.selected__5250e {
+  &[class*="selected_"] {
     color: tc.$text-alt;
     background-color: tc.$interactive-hover;
   }

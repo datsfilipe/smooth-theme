@@ -2,9 +2,9 @@
 @use '../abstracts/general-colors' as gc;
 @use '../abstracts/measurements' as ms;
 
-.contentRegion-3HkfJJ {
+[class*="contentRegion-"] {
   // close button
-  .closeButton-PCZcma {
+  [class*="closeButton-"] {
     border: none;
     position: relative;
     transition: all 0.3s;
@@ -15,29 +15,29 @@
       top: -2px;
     }
   }
-  .keybind-13vtq8 {
+  [class*="keybind-"] {
     display: none;
   }
 
 
-  .inputDefault-3FGxgL, .select-1Ia3hD, .item-2idW98, .searchContainer-16qhPt .container-2oNtJn {
+  [class*="inputDefault-"], [class*="select-"], [class*="item-"], [class*="searchContainer-"] [class*="container-"] {
     border-radius: ms.$small-radius;
   }
 
-  .select-1Ia3hD.open-1FRZsK {
+  [class*="select-"][class*="open-"] {
     border-radius: ms.$small-radius ms.$small-radius 0 0;
   }
 
-  .popout-1KHNAq {
+  [class*="popout-"] {
     border-radius: 0 0 ms.$small-radius ms.$small-radius;
   }
 }
 
 // switch/control/slider buttons
-.bd-switch, .control-1fl03- {
-  .bd-switch-body, .container-2nx-BQ {
+.bd-switch, [class*="control-"] {
+  .bd-switch-body, [class*="container-"] {
     background-color: rgba(230, 230, 230, 0.2)!important;
-    svg, .slider-32CRPX[style="left: -3px;"] {
+    svg, [class*="slider-"][style="left: -3px;"] {
       rect {
         fill: tc.$background-primary!important;
       }
@@ -47,7 +47,7 @@
         }
       }
     }
-    .slider-32CRPX {
+    [class*="slider-"] {
       svg {
         path {
           fill: gc.$color11;
@@ -65,9 +65,9 @@
 }
 
 // checkbox
-.checkboxWrapper-2fDzaA {
-  &.checked-1pZh2h {
-    .checkbox-f1HnKB {
+[class*="checkboxWrapper-"] {
+  &[class*="checked-"] {
+    [class*="checkbox-"] {
       background-color: gc.$color11!important;
       border-color: gc.$color11!important;
       svg {
@@ -80,14 +80,14 @@
 }
 
 // connections
-.connection-107AGH {
-  .connectionHeader-2rV1ze {
+[class*="connection-"] {
+  [class*="connectionHeader-"] {
     border-bottom: 1px solid rgba(230, 230, 230, 0.06);
   }
 }
 
 // keybind shortcuts
-.keybindShortcut-3zF1P9 span {
+[class*="keybindShortcut-"] span {
   background-color: tc.$interactive-normal!important;
   border: tc.$dark-border!important;
   color: tc.$text-alt!important;
@@ -100,11 +100,11 @@
 }
 
 // hypedsquad dialog box
-.membershipDialog-2wAdpQ {
+[class*="membershipDialog-"] {
   border-radius: ms.$medium-radius;
-  .membershipDialogContent-2TpsY- {
-    .flex-2S1XBF {
-      .flexChild-3PzYmX {
+  [class*="membershipDialogContent-"] {
+    [class*="flex-"] {
+      [class*="flexChild-"] {
         div {
           color: tc.$text-alt;
         }
@@ -115,7 +115,7 @@
         }
       }
     }
-    .colorStandard-21JIj7 {
+    [class*="colorStandard-"] {
       border-color: tc.$dark-border;
       color: tc.$text-alt;
       span {
@@ -129,22 +129,22 @@
 }
 
 // video bellow that
-.videoWrapper-1_H3B3 {
+[class*="videoWrapper-"] {
   border-radius: ms.$big-radius;
 }
 
 // warning containers
-.warning-RBGtx2 {
+[class*="warning-"] {
   color: tc.$text-alt;
   border: none;
   border-radius: ms.$medium-radius;
 
-  .iconDiv-3ISDKO svg {
+  [class*="iconDiv-"] svg {
     color: tc.$text-alt;
   }
 }
 
-.codeRedemptionRedirect-3SBiCp {
+[class*="codeRedemptionRedirect-"] {
   border-radius: ms.$small-radius;
   background-color: rgba(230, 230, 230, 0.06)!important;
   color: tc.$text-normal!important;
