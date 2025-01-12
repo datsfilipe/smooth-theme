@@ -166,3 +166,19 @@ button {
     }
   }
 }
+
+[class*="content_"] [class*="navItem_"] {
+  &:active {
+    color: tc.$text-alt;
+    [class*="navItemIcon_"] {
+      color: tc.$text-alt;
+    }
+  }
+  &[class*="selected_"] {
+    color: tc.$text-alt;
+    background-color: gc.$color7;
+    [class*="navItemIcon_"] {
+      color: tc.$text-alt;
+    }
+  }
+}

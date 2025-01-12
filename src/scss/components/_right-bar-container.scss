@@ -75,6 +75,10 @@
   }
 }
 
+[class*="container_"][aria-label="Friends"] {
+  width: 100%;
+}
+
 // resize handler
 [class*="resizeHandle-"] {
   display: none;

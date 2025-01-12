@@ -37,7 +37,7 @@
 }
 
 // server cards
-[class*="card_"] {
+[class*="card_"]:not([class*="activity_"]) {
   padding-top: 40px;
   justify-content: center;
   height: auto;

@@ -39,7 +39,7 @@
 }
 
 // replace standard root background color
-.theme-dark [class*="root_"] {
+.theme-dark [class*="root_"]:not([class*="custom-profile-theme"] [class*="root_"]) {
   background-color: tc.$background-primary;
 
   [class*="bodyWrapper_"] {
@@ -154,4 +154,9 @@
   [class*="defaultColor-"] {
     color: tc.$text-alt;
   }
+}
+
+.custom-profile-theme [class*="inner_"] {
+  --profile-gradient-start: unset;
+  --profile-gradient-end: unset;
 }

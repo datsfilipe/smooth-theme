@@ -42,24 +42,6 @@
   border-radius: ms.$big-radius ms.$big-radius 0 0;
 }
 
-[class*="videoControls_"] [class*="justifyCenter_"] [class*="wrapper_"] div {
-  border-radius: 100%;
-
-  div:first-of-type {
-    &:hover {
-      border-radius: 100%!important;
-    }
-    div:first-of-type {
-      button {
-        border-radius: 100%!important;
-        &:hover {
-          border-radius: 100%!important;
-        }
-      }
-    }
-  }
-}
-
 // call container
 [class*="noChat"][class*="video"] {
   background-color: transparent;
@@ -96,5 +78,20 @@
       border-radius: ms.$big-radius;
       border: 1px solid gc.$color10;
     }
+  }
+}
+
+[class*="content_"] .container_d746e5 {
+  width: 100%;
+  padding: 10px;
+
+  [class*="scroller_"] {
+    border-radius: ms.$medium-radius;
+    overflow: hidden;
+  }
+
+  [class*="headerBar_"] [class*="backdrop_"] {
+    border-radius: ms.$medium-radius ms.$medium-radius 0 0;
+    overflow: hidden;
   }
 }

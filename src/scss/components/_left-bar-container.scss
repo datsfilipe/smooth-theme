@@ -223,3 +223,13 @@
 [class*="listDefault"] [class*="voiceUser"][class*="selected"] [class*="username"] {
   color: tc.$text-alt;
 }
+
+[class*="panels_"][aria-label="User area"] [class*="connection_"] {
+  [class*=voiceButtonsContainer_][class*=noWrap] {
+    width: unset;
+    margin-left: 20px;
+  }
+  [class*="inner_"] {
+    min-width: unset;
+  }
+}
