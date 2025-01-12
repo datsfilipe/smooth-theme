@@ -4,7 +4,7 @@
 // warn theme updates
 #app-mount[class*="appMount"]::before {
   content: "Your version of Smooth Theme is outdated. Please download the newest version from: <https://datsfilipe.github.io/smooth-theme/>";
-  display: var(--theme-version, block);
+  display: var(--theme-version-2-2-2, block);
   background-color: gc.$color3;
   color: tc.$text-alt;
   font-size: 14px;
