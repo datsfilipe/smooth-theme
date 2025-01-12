@@ -4,7 +4,7 @@
 @use '../abstracts/measurements' as ms;
 
 // important
-.chat__52833 {
+[class*="chat_"] {
   background: tc.$background-spacing;
 }
 
@@ -24,11 +24,11 @@
 }
 
 // space below messages
-.scrollerSpacer__9cd32 {
+[class*="scrollerSpacer_"] {
   height: 12px;
 }
 
-.messagesWrapper_ea2b0b {
+[class*="messagesWrapper_"] {
   // adding the spaces
   margin: 10px 10px 10px 10px;
   border-radius: ms.$big-radius;
@@ -36,7 +36,7 @@
   background: tc.$background-primary;
   overflow: hidden;
 
-  .buttonContainer_dd4b62 .wrapper_c727b6 {
+  [class*="buttonContainer_"] [class*="wrapper_"] {
     border-radius: ms.$medium-radius;
 
     div[aria-expanded="true"] {
@@ -46,31 +46,31 @@
 
   // general
   ol {
-    li .message-2CShn3 {
+    li [class*="message-"] {
       border-radius: 0 ms.$small-radius ms.$small-radius 0;
 
-      .repliedMessage-3Z6XBG {
+      [class*="repliedMessage-"] {
         &::before { border-color: tc.$background-modifier-accent }
       }
 
-      .embedWrapper-1MtIDg, .container-2sjPya .wrapper-1HIH0j {
+      [class*="embedWrapper-"], [class*="container-"] [class*="wrapper-"] {
         border-radius: ms.$medium-radius;
       }
 
-      .reaction-2A2y9y.reactionMe-3I9gFK .reactionCount-1zkLcN {
+      [class*="reaction-"][class*="reactionMe-"] [class*="reactionCount-"] {
         color: tc.$text-normal;
       }
     }
 
     // new messages divider
-    div.divider__8cf56[id="---new-messages-bar"] {
+    div[class*="divider_"][id="---new-messages-bar"] {
       border-color: gc.$color3;
 
-      .content_d67847, .unreadPillCapStroke__12c0b {
+      [class*="content_"], [class*="unreadPillCapStroke_"] {
         color: gc.$color3;
       }
 
-      .unreadPill__715fc {
+      [class*="unreadPill_"] {
         color: tc.$text-alt;
         background-color: gc.$color3;
 
@@ -87,7 +87,7 @@
     border-radius: ms.$medium-radius;
     padding: 2px;
     background-color: rgba(230, 230, 230,0.7);
-    &.barBase-1c2Rfb {
+    &[class*="barBase-"] {
       left: 10px;
     }
     button {
@@ -101,7 +101,7 @@
     bottom: 0;
     border-radius: ms.$medium-radius;
     background-color: rgba(230, 230, 230,0.7);
-    &.barBase-1c2Rfb {
+    &[class*="barBase-"] {
       left: 10px;
     }
     &:active {
@@ -115,6 +115,6 @@
 }
 
 // divider
-.divider__8cf56 {
+[class*="divider_"] {
   border-top: thin solid rgba(230, 230, 230, 0.06);
 }

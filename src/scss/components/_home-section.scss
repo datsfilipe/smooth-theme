@@ -2,22 +2,22 @@
 @use '../abstracts/measurements' as ms;
 
 // discover servers
-.pageWrapper_fef757 {
+[class*="pageWrapper_"] {
   background-color: tc.$background-spacing!important;
 }
 
-.sidebar_ded4b5 {
-  .categoryItem_b1be5c {
+[class*="sidebar_"] {
+  [class*="categoryItem_"] {
     position: relative;
     overflow: hidden;
     border-radius: ms.$big-radius;
   }
 
-  .categoryItem_b1be5c.selected__9800b {
+  [class*="categoryItem_"][class*="selected_"] {
     color: tc.$text-alt;
   }
 
-  .categoryItem_b1be5c::before {
+  [class*="categoryItem_"]::before {
     border-radius: 50%;
     background-color: rgba(55,55,55, 0.6);
     content:'';
@@ -28,7 +28,7 @@
     opacity:0;
   }
 
-  .categoryItem_b1be5c.selected__9800b::before {
+  [class*="categoryItem_"][class*="selected_"]::before {
     width:230px;
     height:230px;
     animation: ripple-effect-for-channels 0.350s;
@@ -37,22 +37,22 @@
 }
 
 // server cards
-.card__86773 {
+[class*="card_"]:not([class*="activity_"]) {
   padding-top: 40px;
   justify-content: center;
   height: auto;
   min-height: 200px;
   border-radius: ms.$medium-radius;
-  .cardHeader__889e1 {
+  [class*="cardHeader_"] {
     height: auto;
   }
-  .cardHeader__889e1 .splash_c32fae {
+  [class*="cardHeader_"] [class*="splash_"] {
     display: none;
   }
 }
 
 // nitro section
-.applicationStore-2nk7Lo {
+[class*="applicationStore-"] {
   margin: 10px 10px 10px 0;
   border-radius: ms.$big-radius;
   box-shadow: tc.$box-shadow;

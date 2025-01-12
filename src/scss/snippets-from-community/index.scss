@@ -4,7 +4,7 @@
 // warn theme updates
 #app-mount[class*="appMount"]::before {
   content: "Your version of Smooth Theme is outdated. Please download the newest version from: <https://datsfilipe.github.io/smooth-theme/>";
-  display: var(--theme-version, block);
+  display: var(--theme-version-2-3-0, block);
   background-color: gc.$color3;
   color: tc.$text-alt;
   font-size: 14px;
@@ -38,23 +38,23 @@
 
 /*disable discord's laggy settings animation*/
 // custom change to make it work better in the theme
-.container-YkUktl .noWrap-hBpHBz {
+[class*="container-"] [class*="noWrap-"] {
   width: auto;
 }
-// snippet iteself
-.layer-86YKbF {transform: none !important;opacity: 1 !important;}
-.layers-OrUESM>.layer-86YKbF.animating-1rIrGV *,
-.layers-OrUESM>.layer-86YKbF.animating-1rIrGV {pointer-events: auto !important;will-change: unset;}
-.animating-1rIrGV.stop-animations {z-index: 100 !important;}
+// snippet itself
+[class*="layer-"] {transform: none !important;opacity: 1 !important;}
+[class*="layers-"]>[class*="layer-"][class*="animating-"] *,
+[class*="layers-"]>[class*="layer-"][class*="animating-"] {pointer-events: auto !important;will-change: unset;}
+[class*="animating-"][class*="stop-"] {z-index: 100 !important;}
 
 // hide panel buttons until hover
-.panels-3wFtMD > .container-YkUktl .flex-2S1XBF > :not(:last-child) {
+[class*="panels-"] > [class*="container-"] [class*="flex-"] > :not(:last-child) {
   opacity: 0% !important;
   width: 0px;
   transition: all 0.2s ease-in-out;
 }
 
-.panels-3wFtMD > .container-YkUktl:hover .flex-2S1XBF > :not(:last-child) {
+[class*="panels-"] > [class*="container-"]:hover [class*="flex-"] > :not(:last-child) {
   opacity: 100% !important;
   width: 32px;
 }

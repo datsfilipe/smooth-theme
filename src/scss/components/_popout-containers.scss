@@ -5,17 +5,17 @@
 
 // message options menu
 #popout_3642 {
-  .menu-1QACrS {
-    .item-1OdjEX {
+  [class*="menu-"] {
+    [class*="item-"] {
       border-radius: ms.$really-small-radius;
     }
 
-    .colorDanger-3n-KnP.focused-3qFvc8 {
+    [class*="colorDanger-"][class*="focused-"] {
       background-color: gc.$color4;
       color: tc.$text-alt;
     }
 
-    .colorDanger-3n-KnP:active:not(.hideInteraction-2jPGL_) {
+    [class*="colorDanger-"]:active:not([class*="hideInteraction-"]) {
       background-color: gc.$color4;
       color: tc.$text-alt;
     }
@@ -24,58 +24,62 @@
 
 // server options popout
 #popout_3529 {
-  .item-1OdjEX {
+  [class*="item-"] {
     border-radius: ms.$really-small-radius;
 
-    .newBadge-1bHewI {
+    [class*="newBadge-"] {
       color: tc.$text-alt;
       background-color: gc.$color3!important;
     }
   }
 
-  .item-1OdjEX:active:not(.hideInteraction-2jPGL_) {
+  [class*="item-"]:active:not([class*="hideInteraction-"]) {
     background-color: tc.$background-modifier-accent;
   }
 }
 
 // replace standard root background color
-.theme-dark .root_a28985 {
+.theme-dark [class*="root_"]:not([class*="custom-profile-theme"] [class*="root_"]) {
   background-color: tc.$background-primary;
+
+  [class*="bodyWrapper_"] {
+    background-color: tc.$background-primary;
+  }
 }
 
 // user profile
-[role="dialog"][aria-label="User Profile Modal"] .root-8LYsGj {
+[role="dialog"][aria-label="User Profile Modal"] [class*="root-"] {
   border-radius: ms.$big-radius;
-  .connectedAccount-1xKpli {
+  [class*="connectedAccount-"] {
     border-radius: ms.$medium-radius;
     background-color: rgba(230, 230, 230, 0.06);
   }
 }
 
 // modals
-.modal-3Hrb0S {
+[class*="modal-"] {
   border-radius: ms.$medium-radius;
 }
 
 // moving search popout to where the search input currently are
-.container-2McqkF[role="listbox"] {
+[class*="container-"][role="listbox"] {
   transform: translateX(-85px);
   border-radius: ms.$medium-radius;
 }
 
 // style of search results group popout
-.resultsGroup-1BPR25 {
+[class*="resultsGroup-"] {
   background-color: tc.$background-secondary-alt;
-  .searchLearnMore-7__o_n a.anchor-1MIwyf {
+  [class*="searchLearnMore-"] a[class*="anchor-"] {
     color: gc.$color5!important;
   }
 
-  .option-2KkUJO {
+  [class*="option-"] {
     border-radius: ms.$small-radius;
-    .filter-5YbOzJ {
+    [class*="filter-"] {
       color: tc.$text-normal;
     }
-    .answer-2fBfuP {
+    [class*="answer-"] {
       color: tc.$text-muted;
     }
     &:after {
@@ -84,18 +88,18 @@
   }
 }
 
-.queryContainer-ZunrLZ {
+[class*="queryContainer-"] {
   color: tc.$text-normal!important;
   background-color: tc.$background-tertiary!important;
   border-bottom: tc.$dark-border;
 }
 
 // message options
-.menu-1QACrS {
-  .item-1OdjEX {
+[class*="menu-"] {
+  [class*="item-"] {
     border-radius: ms.$small-radius;
 
-    &.colorDanger-3n-KnP:hover, &.colorDanger-3n-KnP:active {
+    &[class*="colorDanger-"]:hover, &[class*="colorDanger-"]:active {
       background: gc.$color4;
       color: tc.$text-alt;
     }
@@ -103,51 +107,56 @@
 }
 
 // ctrl/command + k menu
-.quickswitcher-pKcM9U {
-  .result-u66Ywh {
+[class*="quickswitcher-"] {
+  [class*="result-"] {
     border-radius: ms.$small-radius;
   }
-  .result-u66Ywh[aria-selected="true"]  {
-    .name-3qeTY-, .misc-XwBATi, .iconContainer-XRODjt svg {
+  [class*="result-"][aria-selected="true"] {
+    [class*="name-"], [class*="misc-"], [class*="iconContainer-"] svg {
       color: tc.$text-alt;
     }
   }
 }
 
 // popout footers
-:root .footer-31IekZ {
+:root [class*="footer-"] {
   background-color: tc.$background-tertiary;
   border-top: tc.$dark-border;
 }
 
 // forum tips popout
 #popout_80 {
-  .gridUpsellContainer-2yRge0 {
+  [class*="gridUpsellContainer-"] {
     background-color: tc.$background-tertiary;
   }
 
   // arrow
-  .upsellTooltipWrapper-1wqikQ.caretTopCenter-1wqGIE::after {
+  [class*="upsellTooltipWrapper-"][class*="caretTopCenter-"]::after {
     border-bottom-color: tc.$background-tertiary;
   }
 }
 
 // selecting avatar decoration popout
-.focusLock-2tveLW {
-  .scrollBackgroundContainer-1gy1Hx * {
+[class*="focusLock-"] {
+  [class*="scrollBackgroundContainer-"] * {
     background-color: tc.$background-secondary;
   }
 
-  .scrollContainer-1C3AzW .scrollSection-HnJkHK {
+  [class*="scrollContainer-"] [class*="scrollSection-"] {
     background-color: tc.$background-secondary;
   }
 }
 
 // emojis popout tooltip
-.tooltipBrand-20XsMA .tooltipContent-Nejnvh {
+[class*="tooltipBrand-"] [class*="tooltipContent-"] {
   color: tc.$text-alt;
 
-  .defaultColor-1EVLSt {
+  [class*="defaultColor-"] {
     color: tc.$text-alt;
   }
+}
+
+.custom-profile-theme [class*="inner_"] {
+  --profile-gradient-start: unset;
+  --profile-gradient-end: unset;
 }
